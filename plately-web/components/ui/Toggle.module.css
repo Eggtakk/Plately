@@ -1,0 +1,7 @@
+.toggle { display: inline-flex; align-items: center; gap: var(--space-2); background: none; border: 0; cursor: pointer; padding: var(--space-1); }
+.toggle .knob { inline-size: 40px; block-size: 24px; border-radius: 999px; background: var(--line); position: relative; transition: background .15s; }
+.toggle .knob::after { content: ""; position: absolute; inset-block-start: 2px; inset-inline-start: 2px; inline-size: 20px; block-size: 20px; border-radius: 999px; background: var(--paper-raised); transition: transform .15s; }
+.toggle[data-on="true"] .knob { background: var(--primary); }
+.toggle[data-on="true"] .knob::after { transform: translateX(16px); }
+[dir="rtl"] .toggle[data-on="true"] .knob::after { transform: translateX(-16px); }
+.label { font-size: 14px; }

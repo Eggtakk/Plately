@@ -1,0 +1,7 @@
+.badge {
+  display: inline-flex; align-items: center; gap: var(--space-1);
+  padding: 2px 8px; border-radius: 999px; font-size: 12px; font-weight: 600;
+  border: 1px solid var(--line); color: var(--ink-soft);
+}
+.badge[data-tone="phone"] { color: var(--primary); border-color: var(--primary); }
+.badge[data-tone="menu"]  { color: var(--accent);  border-color: var(--accent); }
