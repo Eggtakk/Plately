@@ -1,0 +1,2 @@
+.wrap { display: inline-flex; }
+.select { font: inherit; padding: 6px 10px; border-radius: 999px; border: 1px solid var(--line); background: var(--paper-raised); color: var(--ink); }
