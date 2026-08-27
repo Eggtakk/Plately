@@ -1,0 +1,7 @@
+.tabs { display: none; }
+
+@media (width <= 640px) {
+  .tabs { display: flex; position: fixed; inset-block-end: 0; inset-inline: 0; background: var(--paper-raised); border-block-start: 1px solid var(--line); }
+  .tab { flex: 1; text-align: center; padding: var(--space-3); font-size: 12px; text-decoration: none; color: var(--ink-soft); }
+  .tab[data-active="true"] { color: var(--primary); font-weight: 700; }
+}
