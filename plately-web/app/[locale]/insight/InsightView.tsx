@@ -12,6 +12,7 @@ type Layer = 'gap' | 'demand' | 'supply';
 
 export function InsightView() {
   const t = useTranslations('insight');
+  const te = useTranslations('explore');
   const [layer, setLayer] = useState<Layer>('gap');
   const [picked, setPicked] = useState<string | undefined>();
   const regions = getRegions();
@@ -35,7 +36,7 @@ export function InsightView() {
         <RegionList regions={regions} onPick={onPick} selected={picked} />
       </div>
       <div className={styles.mapWrap}>
-        <ChoroplethMap layer={layer} onPick={onPick} />
+        <ChoroplethMap layer={layer} onPick={onPick} label={te('mapLabel')} />
         {picked && <RegionPanel code={picked} onClose={() => setPicked(undefined)} />}
       </div>
     </div>

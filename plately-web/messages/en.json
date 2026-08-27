@@ -20,6 +20,15 @@
     "beefFree": "Beef-free", "seafood": "Seafood", "chicken": "Chicken",
     "korean": "Korean cuisine", "halalCertified": "Halal-certified"
   },
+  "explore": {
+    "placeCount": "{count, plural, one {# place} other {# places}}",
+    "noMatches": "No matches — try removing a filter.",
+    "tagPorkFree": "pork-free",
+    "tagAlcoholFree": "alcohol-free",
+    "tagVeg": "vegetarian",
+    "filtersLabel": "Filters",
+    "mapLabel": "Map"
+  },
   "confidence": { "phone": "Phone-verified", "menu": "Menu-checked", "name": "Name-inferred" },
   "restaurant": {
     "whyListed": "Why it's listed",

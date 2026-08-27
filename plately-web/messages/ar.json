@@ -20,6 +20,15 @@
     "beefFree": "بلا لحم بقر", "seafood": "مأكولات بحرية", "chicken": "دجاج",
     "korean": "مطبخ كوري", "halalCertified": "حاصل على شهادة حلال"
   },
+  "explore": {
+    "placeCount": "{count, plural, zero {لا أماكن} one {مكان واحد} two {مكانان} few {# أماكن} many {# مكانًا} other {# مكان}}",
+    "noMatches": "لا نتائج — جرّب إزالة أحد عوامل التصفية.",
+    "tagPorkFree": "بلا لحم خنزير",
+    "tagAlcoholFree": "بلا كحول",
+    "tagVeg": "نباتي",
+    "filtersLabel": "عوامل التصفية",
+    "mapLabel": "الخريطة"
+  },
   "confidence": { "phone": "مؤكَّد هاتفيًا", "menu": "تم فحص القائمة", "name": "مُستنتَج من الاسم" },
   "restaurant": {
     "whyListed": "سبب الإدراج",

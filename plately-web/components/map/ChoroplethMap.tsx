@@ -11,9 +11,11 @@ type Layer = 'gap' | 'demand' | 'supply';
 const fillColorFor = (prop: string): ExpressionSpecification =>
   ['interpolate', ['linear'], ['get', prop], ...gapInterpolateStops()] as unknown as ExpressionSpecification;
 
-export function ChoroplethMap({ layer = 'gap', onPick }: { layer?: Layer; onPick?: (code: string) => void }) {
+export function ChoroplethMap({ layer = 'gap', onPick, label }: { layer?: Layer; onPick?: (code: string) => void; label?: string }) {
   const mapRef = useRef<MlMap | null>(null);
   const [ready, setReady] = useState(false);
+  const onPickRef = useRef(onPick);
+  useEffect(() => { onPickRef.current = onPick; }, [onPick]);
 
   useEffect(() => {
     const map = mapRef.current;
@@ -41,7 +43,7 @@ export function ChoroplethMap({ layer = 'gap', onPick }: { layer?: Layer; onPick
         });
         map.on('click', 'sigungu-fill', (e) => {
           const code = (e.features?.[0]?.properties as { code?: string } | undefined)?.code;
-          if (code) onPick?.(String(code));
+          if (code) onPickRef.current?.(String(code));
         });
         map.on('mouseenter', 'sigungu-fill', () => { map.getCanvas().style.cursor = 'pointer'; });
         map.on('mouseleave', 'sigungu-fill', () => { map.getCanvas().style.cursor = ''; });
@@ -50,7 +52,9 @@ export function ChoroplethMap({ layer = 'gap', onPick }: { layer?: Layer; onPick
       map.setPaintProperty('sigungu-fill', 'fill-color', fillColorFor(prop));
     })();
     return () => { cancelled = true; };
-  }, [ready, layer, onPick]);
+    // onPick is read via onPickRef so it need not re-run this effect
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [ready, layer]);
 
-  return <BaseMap zoom={6} onReady={(m) => { mapRef.current = m; setReady(true); }} />;
+  return <BaseMap zoom={6} label={label} onReady={(m) => { mapRef.current = m; setReady(true); }} />;
 }

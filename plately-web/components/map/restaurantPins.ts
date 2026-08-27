@@ -25,7 +25,7 @@ export function syncPins(map: MlMap, items: Restaurant[]): void {
       'circle-stroke-color': '#FBF8F3',
       'circle-color': [
         'match', ['get', 'confidence'],
-        'phone', '#1F6E52', 'menu', '#C56B4A', /* name */ '#9A8F79',
+        'phone', '#1F6E52', 'menu', '#B25A38', /* name */ '#9A8F79',
       ],
     },
   });

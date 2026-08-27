@@ -20,6 +20,15 @@
     "beefFree": "गोमांस-रहित", "seafood": "समुद्री भोजन", "chicken": "चिकन",
     "korean": "कोरियाई व्यंजन", "halalCertified": "हलाल-प्रमाणित"
   },
+  "explore": {
+    "placeCount": "{count, plural, one {# स्थान} other {# स्थान}}",
+    "noMatches": "कोई मेल नहीं — कोई फ़िल्टर हटाकर देखें।",
+    "tagPorkFree": "सूअर-रहित",
+    "tagAlcoholFree": "शराब-रहित",
+    "tagVeg": "शाकाहारी",
+    "filtersLabel": "फ़िल्टर",
+    "mapLabel": "नक्शा"
+  },
   "confidence": { "phone": "फ़ोन-सत्यापित", "menu": "मेन्यू-जाँचा", "name": "नाम से अनुमानित" },
   "restaurant": {
     "whyListed": "यह क्यों शामिल है",

@@ -1,5 +1,6 @@
 'use client';
 import { useEffect, useMemo, useRef, useState } from 'react';
+import { useTranslations } from 'next-intl';
 import type { Map as MlMap } from 'maplibre-gl';
 import { useRouter } from '@/i18n/navigation';
 import { BaseMap } from '@/components/map/BaseMap';
@@ -17,9 +18,15 @@ const CHIP_TO_FILTER: Partial<Record<ChipKey, Partial<RestaurantFilter>>> = {
   vegetarian: { vegetarianOnly: true },
   beefFree: { avoidBeef: true },
 };
-const CHIP_CUISINE: Partial<Record<ChipKey, string>> = { seafood: 'seafood', chicken: 'korean-chicken', korean: 'korean' };
+const CHIP_CUISINE: Partial<Record<ChipKey, string>> = {
+  seafood: 'seafood',
+  chicken: 'korean-chicken',
+  korean: 'korean',
+  halalCertified: 'halal',
+};
 
 export function ExploreView() {
+  const t = useTranslations('explore');
   const router = useRouter();
   const { prefs, hydrated } = usePreferences();
   const [chips, setChips] = useState<Set<ChipKey>>(new Set());
@@ -62,11 +69,12 @@ export function ExploreView() {
     <div className={styles.view}>
       <div className={styles.panel}>
         <FilterChips active={chips} onToggle={toggle} />
-        <p className={styles.count}>{results.length} places</p>
-        <RestaurantList items={results} />
+        <p className={styles.count}>{t('placeCount', { count: results.length })}</p>
+        <RestaurantList items={results} emptyLabel={t('noMatches')} />
       </div>
       <div className={styles.mapSlot}>
         <BaseMap
+          label={t('mapLabel')}
           onReady={(m) => {
             mapRef.current = m;
             setReady(true);

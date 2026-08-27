@@ -6,10 +6,10 @@ import { MAP_STYLE_URL, KOREA_CENTER } from './mapStyle';
 import styles from './BaseMap.module.css';
 
 export function BaseMap({
-  center = KOREA_CENTER, zoom = 6, onReady, className,
+  center = KOREA_CENTER, zoom = 6, onReady, className, label = 'Map',
 }: {
   center?: [number, number]; zoom?: number;
-  onReady?: (map: MlMap) => void; className?: string;
+  onReady?: (map: MlMap) => void; className?: string; label?: string;
 }) {
   const ref = useRef<HTMLDivElement>(null);
   const mapRef = useRef<MlMap | null>(null);
@@ -30,5 +30,5 @@ export function BaseMap({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  return <div ref={ref} className={`${styles.map} ${className ?? ''}`} role="application" aria-label="Map" />;
+  return <div ref={ref} className={`${styles.map} ${className ?? ''}`} role="application" aria-label={label} />;
 }

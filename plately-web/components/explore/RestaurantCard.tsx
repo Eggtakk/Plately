@@ -8,6 +8,7 @@ import styles from './RestaurantCard.module.css';
 export function RestaurantCard({ r }: { r: Restaurant }) {
   const locale = useLocale() as Locale;
   const t = useTranslations('confidence');
+  const te = useTranslations('explore');
   const name = r.name[locale] ?? r.name.en;
   const area = r.area[locale] ?? r.area.en;
   return (
@@ -18,9 +19,9 @@ export function RestaurantCard({ r }: { r: Restaurant }) {
       </div>
       <div className={styles.meta}>{area} · {r.cuisine}</div>
       <div className={styles.tags}>
-        {!r.attributes.containsPork && <span className={styles.tag}>pork-free</span>}
-        {r.attributes.servesAlcohol === false && <span className={styles.tag}>alcohol-free</span>}
-        {r.attributes.vegetarianFriendly && <span className={styles.tag}>veg</span>}
+        {!r.attributes.containsPork && <span className={styles.tag}>{te('tagPorkFree')}</span>}
+        {r.attributes.servesAlcohol === false && <span className={styles.tag}>{te('tagAlcoholFree')}</span>}
+        {r.attributes.vegetarianFriendly && <span className={styles.tag}>{te('tagVeg')}</span>}
       </div>
     </Link>
   );

@@ -6,9 +6,10 @@ export type ChipKey = 'porkFree' | 'alcoholFree' | 'vegetarian' | 'beefFree' | '
 
 export function FilterChips({ active, onToggle }: { active: Set<ChipKey>; onToggle: (k: ChipKey) => void }) {
   const t = useTranslations('filters');
+  const te = useTranslations('explore');
   const keys: ChipKey[] = ['porkFree', 'alcoholFree', 'vegetarian', 'beefFree', 'seafood', 'chicken', 'korean', 'halalCertified'];
   return (
-    <div className={styles.row} role="group" aria-label="Filters">
+    <div className={styles.row} role="group" aria-label={te('filtersLabel')}>
       {keys.map((k) => (
         <button key={k} type="button" className={styles.chip} data-on={active.has(k)} aria-pressed={active.has(k)} onClick={() => onToggle(k)}>
           {t(k)}
