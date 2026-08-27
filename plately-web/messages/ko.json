@@ -1,1 +1,44 @@
-{ "meta": { "appName": "Plately" } }
+{
+  "meta": { "appName": "Plately", "tagline": "먹을 수 있는 곳을 지도에." },
+  "nav": { "explore": "탐색", "insight": "인사이트", "restart": "다시 시작", "about": "소개" },
+  "theme": { "light": "라이트", "dark": "다크", "system": "시스템" },
+  "language": { "label": "언어" },
+  "onboarding": {
+    "step1Title": "무엇을 피하시나요?",
+    "muslim": "무슬림", "muslimDesc": "돼지고기 제외",
+    "hindu": "힌두", "hinduDesc": "소고기 제외",
+    "porkfree": "돼지고기만 제외",
+    "custom": "직접 설정",
+    "alcoholToggle": "매장 내 주류 제공도 피하기",
+    "vegToggle": "채식만",
+    "step2Title": "어디에 계신가요?",
+    "nearMe": "내 주변",
+    "skip": "건너뛰기", "next": "다음", "done": "식당 보기"
+  },
+  "filters": {
+    "porkFree": "돼지고기 없음", "alcoholFree": "주류 없음", "vegetarian": "채식",
+    "beefFree": "소고기 없음", "seafood": "해산물", "chicken": "닭고기",
+    "korean": "한식", "halalCertified": "할랄 인증"
+  },
+  "confidence": { "phone": "전화 확인", "menu": "메뉴 확인", "name": "상호 추정" },
+  "restaurant": {
+    "whyListed": "선정 이유",
+    "matchedTokens": "상호 신호", "menuChecked": "메뉴 문구 확인", "phoneVerified": "{date} 전화 확인",
+    "attributes": "포함 정보", "containsPork": "돼지고기 포함", "servesAlcohol": "주류 제공",
+    "containsBeef": "소고기 포함", "vegetarianFriendly": "채식 메뉴 있음",
+    "repMenu": "대표 메뉴", "directions": "길찾기", "call": "전화", "copyAddress": "주소 복사",
+    "disclaimer": "이용 전 식당에 꼭 확인하세요. 메뉴 이름에 표시가 없어도 육수나 양념에 돼지고기가 들어갈 수 있습니다.",
+    "yes": "예", "no": "아니오", "unknown": "알 수 없음"
+  },
+  "insight": {
+    "gapMap": "격차 지도", "rankings": "순위", "compare": "세 지역 비교", "about": "데이터와 방법",
+    "demand": "수요", "supply": "공급", "gapIndex": "격차 지수", "trend": "2019년 대비 추이",
+    "layerGap": "격차 지수", "layerDemand": "수요", "layerSupply": "공급", "layerCandidates": "후보 밀도",
+    "regionListLabel": "격차 지수 순 지역",
+    "topCandidates": "상위 후보 식당",
+    "compareIntro": "같은 나라, 서로 다른 세 가지 처방.",
+    "saturated": "포화", "growing": "성장 중, 공급 부족", "empty": "공백",
+    "prescription": "처방"
+  },
+  "common": { "back": "뒤로", "close": "닫기", "loading": "불러오는 중", "of229": "229개 시군구 중" }
+}

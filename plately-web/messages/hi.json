@@ -1,1 +1,44 @@
-{ "meta": { "appName": "Plately" } }
+{
+  "meta": { "appName": "Plately", "tagline": "जहाँ आप खा सकते हैं, नक्शे पर।" },
+  "nav": { "explore": "खोजें", "insight": "इनसाइट", "restart": "फिर से शुरू करें", "about": "परिचय" },
+  "theme": { "light": "लाइट", "dark": "डार्क", "system": "सिस्टम" },
+  "language": { "label": "भाषा" },
+  "onboarding": {
+    "step1Title": "आप किससे परहेज़ करते हैं?",
+    "muslim": "मुस्लिम", "muslimDesc": "सूअर का मांस नहीं",
+    "hindu": "हिंदू", "hinduDesc": "गोमांस नहीं",
+    "porkfree": "सिर्फ़ सूअर-रहित",
+    "custom": "कस्टम",
+    "alcoholToggle": "परिसर में परोसी जाने वाली शराब से भी परहेज़",
+    "vegToggle": "केवल शाकाहारी",
+    "step2Title": "आप कहाँ हैं?",
+    "nearMe": "मेरे आस-पास",
+    "skip": "छोड़ें", "next": "आगे", "done": "रेस्तराँ देखें"
+  },
+  "filters": {
+    "porkFree": "सूअर-रहित", "alcoholFree": "शराब-रहित", "vegetarian": "शाकाहारी",
+    "beefFree": "गोमांस-रहित", "seafood": "समुद्री भोजन", "chicken": "चिकन",
+    "korean": "कोरियाई व्यंजन", "halalCertified": "हलाल-प्रमाणित"
+  },
+  "confidence": { "phone": "फ़ोन-सत्यापित", "menu": "मेन्यू-जाँचा", "name": "नाम से अनुमानित" },
+  "restaurant": {
+    "whyListed": "यह क्यों शामिल है",
+    "matchedTokens": "नाम के संकेत", "menuChecked": "मेन्यू का पाठ जाँचा गया", "phoneVerified": "{date} को फ़ोन-सत्यापित",
+    "attributes": "इसमें क्या है", "containsPork": "सूअर का मांस है", "servesAlcohol": "शराब परोसता है",
+    "containsBeef": "गोमांस है", "vegetarianFriendly": "शाकाहारी विकल्प",
+    "repMenu": "खास व्यंजन", "directions": "रास्ता", "call": "कॉल करें", "copyAddress": "पता कॉपी करें",
+    "disclaimer": "हमेशा रेस्तराँ से पुष्टि करें। मेन्यू के नाम में उल्लेख न होने पर भी शोरबे और मसाले में सूअर का मांस हो सकता है।",
+    "yes": "हाँ", "no": "नहीं", "unknown": "अज्ञात"
+  },
+  "insight": {
+    "gapMap": "अंतर का नक्शा", "rankings": "रैंकिंग", "compare": "तीन क्षेत्र", "about": "डेटा और पद्धति",
+    "demand": "माँग", "supply": "आपूर्ति", "gapIndex": "अंतर सूचकांक", "trend": "2019 की तुलना में रुझान",
+    "layerGap": "अंतर सूचकांक", "layerDemand": "माँग", "layerSupply": "आपूर्ति", "layerCandidates": "संभावित घनत्व",
+    "regionListLabel": "अंतर सूचकांक के अनुसार क्षेत्र",
+    "topCandidates": "शीर्ष संभावित रेस्तराँ",
+    "compareIntro": "एक ही देश, तीन अलग-अलग नुस्खे।",
+    "saturated": "संतृप्त", "growing": "बढ़ता हुआ, कम सेवा वाला", "empty": "खाली",
+    "prescription": "नुस्खा"
+  },
+  "common": { "back": "वापस", "close": "बंद करें", "loading": "लोड हो रहा है", "of229": "229 ज़िलों में से" }
+}

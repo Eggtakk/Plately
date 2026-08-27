@@ -1,1 +1,44 @@
-{ "meta": { "appName": "Plately" } }
+{
+  "meta": { "appName": "Plately", "tagline": "Places you can eat, mapped." },
+  "nav": { "explore": "Explore", "insight": "Insight", "restart": "Restart", "about": "About" },
+  "theme": { "light": "Light", "dark": "Dark", "system": "System" },
+  "language": { "label": "Language" },
+  "onboarding": {
+    "step1Title": "What do you avoid?",
+    "muslim": "Muslim", "muslimDesc": "No pork",
+    "hindu": "Hindu", "hinduDesc": "No beef",
+    "porkfree": "Just pork-free",
+    "custom": "Custom",
+    "alcoholToggle": "Also avoid alcohol served on-site",
+    "vegToggle": "Vegetarian only",
+    "step2Title": "Where are you?",
+    "nearMe": "Near me",
+    "skip": "Skip", "next": "Next", "done": "See restaurants"
+  },
+  "filters": {
+    "porkFree": "Pork-free", "alcoholFree": "Alcohol-free", "vegetarian": "Vegetarian",
+    "beefFree": "Beef-free", "seafood": "Seafood", "chicken": "Chicken",
+    "korean": "Korean cuisine", "halalCertified": "Halal-certified"
+  },
+  "confidence": { "phone": "Phone-verified", "menu": "Menu-checked", "name": "Name-inferred" },
+  "restaurant": {
+    "whyListed": "Why it's listed",
+    "matchedTokens": "Name signals", "menuChecked": "Menu text checked", "phoneVerified": "Phone-verified on {date}",
+    "attributes": "What's inside", "containsPork": "Contains pork", "servesAlcohol": "Serves alcohol",
+    "containsBeef": "Contains beef", "vegetarianFriendly": "Vegetarian options",
+    "repMenu": "Signature menu", "directions": "Directions", "call": "Call", "copyAddress": "Copy address",
+    "disclaimer": "Always confirm with the restaurant. Broth and seasoning may contain pork even when the menu name doesn't say so.",
+    "yes": "Yes", "no": "No", "unknown": "Unknown"
+  },
+  "insight": {
+    "gapMap": "Gap map", "rankings": "Rankings", "compare": "Three regions", "about": "Data & method",
+    "demand": "Demand", "supply": "Supply", "gapIndex": "Gap index", "trend": "Trend vs 2019",
+    "layerGap": "Gap index", "layerDemand": "Demand", "layerSupply": "Supply", "layerCandidates": "Candidate density",
+    "regionListLabel": "Regions by gap index",
+    "topCandidates": "Top candidate restaurants",
+    "compareIntro": "Same country, three different prescriptions.",
+    "saturated": "Saturated", "growing": "Growing, underserved", "empty": "Empty",
+    "prescription": "Prescription"
+  },
+  "common": { "back": "Back", "close": "Close", "loading": "Loading", "of229": "of 229 시군구" }
+}

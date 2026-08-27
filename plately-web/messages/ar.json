@@ -1,1 +1,44 @@
-{ "meta": { "appName": "Plately" } }
+{
+  "meta": { "appName": "Plately", "tagline": "أماكن يمكنك الأكل فيها، على الخريطة." },
+  "nav": { "explore": "استكشاف", "insight": "تحليلات", "restart": "إعادة البدء", "about": "حول" },
+  "theme": { "light": "فاتح", "dark": "داكن", "system": "النظام" },
+  "language": { "label": "اللغة" },
+  "onboarding": {
+    "step1Title": "ما الذي تتجنبه؟",
+    "muslim": "مسلم", "muslimDesc": "بلا لحم خنزير",
+    "hindu": "هندوسي", "hinduDesc": "بلا لحم بقر",
+    "porkfree": "بلا لحم خنزير فقط",
+    "custom": "مخصص",
+    "alcoholToggle": "تجنّب أيضًا الكحول المُقدَّم في المكان",
+    "vegToggle": "نباتي فقط",
+    "step2Title": "أين أنت؟",
+    "nearMe": "بالقرب مني",
+    "skip": "تخطٍّ", "next": "التالي", "done": "عرض المطاعم"
+  },
+  "filters": {
+    "porkFree": "بلا لحم خنزير", "alcoholFree": "بلا كحول", "vegetarian": "نباتي",
+    "beefFree": "بلا لحم بقر", "seafood": "مأكولات بحرية", "chicken": "دجاج",
+    "korean": "مطبخ كوري", "halalCertified": "حاصل على شهادة حلال"
+  },
+  "confidence": { "phone": "مؤكَّد هاتفيًا", "menu": "تم فحص القائمة", "name": "مُستنتَج من الاسم" },
+  "restaurant": {
+    "whyListed": "سبب الإدراج",
+    "matchedTokens": "دلائل الاسم", "menuChecked": "تم فحص نص القائمة", "phoneVerified": "مؤكَّد هاتفيًا في {date}",
+    "attributes": "المكونات", "containsPork": "يحتوي على لحم خنزير", "servesAlcohol": "يقدّم الكحول",
+    "containsBeef": "يحتوي على لحم بقر", "vegetarianFriendly": "خيارات نباتية",
+    "repMenu": "الطبق المميّز", "directions": "الاتجاهات", "call": "اتصال", "copyAddress": "نسخ العنوان",
+    "disclaimer": "تأكّد دائمًا من المطعم. قد يحتوي المرق والتوابل على لحم الخنزير حتى لو لم يذكر اسم الطبق ذلك.",
+    "yes": "نعم", "no": "لا", "unknown": "غير معروف"
+  },
+  "insight": {
+    "gapMap": "خريطة الفجوة", "rankings": "الترتيب", "compare": "ثلاث مناطق", "about": "البيانات والمنهجية",
+    "demand": "الطلب", "supply": "العرض", "gapIndex": "مؤشر الفجوة", "trend": "الاتجاه مقارنةً بـ 2019",
+    "layerGap": "مؤشر الفجوة", "layerDemand": "الطلب", "layerSupply": "العرض", "layerCandidates": "كثافة المرشحين",
+    "regionListLabel": "المناطق حسب مؤشر الفجوة",
+    "topCandidates": "أبرز المطاعم المرشحة",
+    "compareIntro": "البلد نفسه، وثلاث وصفات مختلفة.",
+    "saturated": "مُشبَع", "growing": "ينمو مع نقص في الخدمة", "empty": "فارغ",
+    "prescription": "الوصفة"
+  },
+  "common": { "back": "رجوع", "close": "إغلاق", "loading": "جارٍ التحميل", "of229": "من 229 منطقة" }
+}
