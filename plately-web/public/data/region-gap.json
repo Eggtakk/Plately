@@ -1,0 +1,3502 @@
+[
+  {
+    "code": "11010",
+    "gwangyeok": "Seoul",
+    "name": {
+      "en": "종로구",
+      "ko": "종로구",
+      "ar": "종로구",
+      "hi": "종로구"
+    },
+    "demandScore": 70,
+    "supplyCount": 14,
+    "gapIndex": 10,
+    "trendVs2019": -6
+  },
+  {
+    "code": "11020",
+    "gwangyeok": "Seoul",
+    "name": {
+      "en": "중구",
+      "ko": "중구",
+      "ar": "중구",
+      "hi": "중구"
+    },
+    "demandScore": 92,
+    "supplyCount": 21,
+    "gapIndex": 24,
+    "trendVs2019": 8
+  },
+  {
+    "code": "11030",
+    "gwangyeok": "Seoul",
+    "name": {
+      "en": "용산구",
+      "ko": "용산구",
+      "ar": "용산구",
+      "hi": "용산구"
+    },
+    "demandScore": 70,
+    "supplyCount": 12,
+    "gapIndex": 19,
+    "trendVs2019": -11
+  },
+  {
+    "code": "11040",
+    "gwangyeok": "Seoul",
+    "name": {
+      "en": "성동구",
+      "ko": "성동구",
+      "ar": "성동구",
+      "hi": "성동구"
+    },
+    "demandScore": 61,
+    "supplyCount": 10,
+    "gapIndex": 12,
+    "trendVs2019": -14
+  },
+  {
+    "code": "11050",
+    "gwangyeok": "Seoul",
+    "name": {
+      "en": "광진구",
+      "ko": "광진구",
+      "ar": "광진구",
+      "hi": "광진구"
+    },
+    "demandScore": 83,
+    "supplyCount": 20,
+    "gapIndex": 11,
+    "trendVs2019": 6
+  },
+  {
+    "code": "11060",
+    "gwangyeok": "Seoul",
+    "name": {
+      "en": "동대문구",
+      "ko": "동대문구",
+      "ar": "동대문구",
+      "hi": "동대문구"
+    },
+    "demandScore": 60,
+    "supplyCount": 7,
+    "gapIndex": 25,
+    "trendVs2019": -20
+  },
+  {
+    "code": "11070",
+    "gwangyeok": "Seoul",
+    "name": {
+      "en": "중랑구",
+      "ko": "중랑구",
+      "ar": "중랑구",
+      "hi": "중랑구"
+    },
+    "demandScore": 83,
+    "supplyCount": 17,
+    "gapIndex": 22,
+    "trendVs2019": 1
+  },
+  {
+    "code": "11080",
+    "gwangyeok": "Seoul",
+    "name": {
+      "en": "성북구",
+      "ko": "성북구",
+      "ar": "성북구",
+      "hi": "성북구"
+    },
+    "demandScore": 68,
+    "supplyCount": 11,
+    "gapIndex": 19,
+    "trendVs2019": -13
+  },
+  {
+    "code": "11090",
+    "gwangyeok": "Seoul",
+    "name": {
+      "en": "강북구",
+      "ko": "강북구",
+      "ar": "강북구",
+      "hi": "강북구"
+    },
+    "demandScore": 91,
+    "supplyCount": 24,
+    "gapIndex": 12,
+    "trendVs2019": 13
+  },
+  {
+    "code": "11100",
+    "gwangyeok": "Seoul",
+    "name": {
+      "en": "도봉구",
+      "ko": "도봉구",
+      "ar": "도봉구",
+      "hi": "도봉구"
+    },
+    "demandScore": 85,
+    "supplyCount": 20,
+    "gapIndex": 14,
+    "trendVs2019": 7
+  },
+  {
+    "code": "11110",
+    "gwangyeok": "Seoul",
+    "name": {
+      "en": "노원구",
+      "ko": "노원구",
+      "ar": "노원구",
+      "hi": "노원구"
+    },
+    "demandScore": 62,
+    "supplyCount": 10,
+    "gapIndex": 14,
+    "trendVs2019": -13
+  },
+  {
+    "code": "11120",
+    "gwangyeok": "Seoul",
+    "name": {
+      "en": "은평구",
+      "ko": "은평구",
+      "ar": "은평구",
+      "hi": "은평구"
+    },
+    "demandScore": 96,
+    "supplyCount": 23,
+    "gapIndex": 24,
+    "trendVs2019": 12
+  },
+  {
+    "code": "11130",
+    "gwangyeok": "Seoul",
+    "name": {
+      "en": "서대문구",
+      "ko": "서대문구",
+      "ar": "서대문구",
+      "hi": "서대문구"
+    },
+    "demandScore": 74,
+    "supplyCount": 13,
+    "gapIndex": 21,
+    "trendVs2019": -8
+  },
+  {
+    "code": "11140",
+    "gwangyeok": "Seoul",
+    "name": {
+      "en": "마포구",
+      "ko": "마포구",
+      "ar": "마포구",
+      "hi": "마포구"
+    },
+    "demandScore": 71,
+    "supplyCount": 15,
+    "gapIndex": 8,
+    "trendVs2019": -5
+  },
+  {
+    "code": "11150",
+    "gwangyeok": "Seoul",
+    "name": {
+      "en": "양천구",
+      "ko": "양천구",
+      "ar": "양천구",
+      "hi": "양천구"
+    },
+    "demandScore": 94,
+    "supplyCount": 24,
+    "gapIndex": 17,
+    "trendVs2019": 15
+  },
+  {
+    "code": "11160",
+    "gwangyeok": "Seoul",
+    "name": {
+      "en": "강서구",
+      "ko": "강서구",
+      "ar": "강서구",
+      "hi": "강서구"
+    },
+    "demandScore": 83,
+    "supplyCount": 18,
+    "gapIndex": 18,
+    "trendVs2019": 0
+  },
+  {
+    "code": "11170",
+    "gwangyeok": "Seoul",
+    "name": {
+      "en": "구로구",
+      "ko": "구로구",
+      "ar": "구로구",
+      "hi": "구로구"
+    },
+    "demandScore": 60,
+    "supplyCount": 7,
+    "gapIndex": 25,
+    "trendVs2019": -20
+  },
+  {
+    "code": "11180",
+    "gwangyeok": "Seoul",
+    "name": {
+      "en": "금천구",
+      "ko": "금천구",
+      "ar": "금천구",
+      "hi": "금천구"
+    },
+    "demandScore": 61,
+    "supplyCount": 9,
+    "gapIndex": 17,
+    "trendVs2019": -14
+  },
+  {
+    "code": "11190",
+    "gwangyeok": "Seoul",
+    "name": {
+      "en": "영등포구",
+      "ko": "영등포구",
+      "ar": "영등포구",
+      "hi": "영등포구"
+    },
+    "demandScore": 83,
+    "supplyCount": 17,
+    "gapIndex": 22,
+    "trendVs2019": 0
+  },
+  {
+    "code": "11200",
+    "gwangyeok": "Seoul",
+    "name": {
+      "en": "동작구",
+      "ko": "동작구",
+      "ar": "동작구",
+      "hi": "동작구"
+    },
+    "demandScore": 93,
+    "supplyCount": 22,
+    "gapIndex": 22,
+    "trendVs2019": 9
+  },
+  {
+    "code": "11210",
+    "gwangyeok": "Seoul",
+    "name": {
+      "en": "관악구",
+      "ko": "관악구",
+      "ar": "관악구",
+      "hi": "관악구"
+    },
+    "demandScore": 71,
+    "supplyCount": 14,
+    "gapIndex": 12,
+    "trendVs2019": -6
+  },
+  {
+    "code": "11220",
+    "gwangyeok": "Seoul",
+    "name": {
+      "en": "서초구",
+      "ko": "서초구",
+      "ar": "서초구",
+      "hi": "서초구"
+    },
+    "demandScore": 93,
+    "supplyCount": 25,
+    "gapIndex": 12,
+    "trendVs2019": 14
+  },
+  {
+    "code": "11230",
+    "gwangyeok": "Seoul",
+    "name": {
+      "en": "강남구",
+      "ko": "강남구",
+      "ar": "강남구",
+      "hi": "강남구"
+    },
+    "demandScore": 82,
+    "supplyCount": 17,
+    "gapIndex": 20,
+    "trendVs2019": 0
+  },
+  {
+    "code": "11240",
+    "gwangyeok": "Seoul",
+    "name": {
+      "en": "송파구",
+      "ko": "송파구",
+      "ar": "송파구",
+      "hi": "송파구"
+    },
+    "demandScore": 61,
+    "supplyCount": 7,
+    "gapIndex": 27,
+    "trendVs2019": -19
+  },
+  {
+    "code": "11250",
+    "gwangyeok": "Seoul",
+    "name": {
+      "en": "강동구",
+      "ko": "강동구",
+      "ar": "강동구",
+      "hi": "강동구"
+    },
+    "demandScore": 84,
+    "supplyCount": 20,
+    "gapIndex": 13,
+    "trendVs2019": 6
+  },
+  {
+    "code": "21010",
+    "gwangyeok": "Busan",
+    "name": {
+      "en": "중구",
+      "ko": "중구",
+      "ar": "중구",
+      "hi": "중구"
+    },
+    "demandScore": 92,
+    "supplyCount": 22,
+    "gapIndex": 20,
+    "trendVs2019": 8
+  },
+  {
+    "code": "21020",
+    "gwangyeok": "Busan",
+    "name": {
+      "en": "서구",
+      "ko": "서구",
+      "ar": "서구",
+      "hi": "서구"
+    },
+    "demandScore": 58,
+    "supplyCount": 9,
+    "gapIndex": 11,
+    "trendVs2019": -17
+  },
+  {
+    "code": "21030",
+    "gwangyeok": "Busan",
+    "name": {
+      "en": "동구",
+      "ko": "동구",
+      "ar": "동구",
+      "hi": "동구"
+    },
+    "demandScore": 80,
+    "supplyCount": 19,
+    "gapIndex": 9,
+    "trendVs2019": 3
+  },
+  {
+    "code": "21040",
+    "gwangyeok": "Busan",
+    "name": {
+      "en": "영도구",
+      "ko": "영도구",
+      "ar": "영도구",
+      "hi": "영도구"
+    },
+    "demandScore": 83,
+    "supplyCount": 17,
+    "gapIndex": 22,
+    "trendVs2019": 0
+  },
+  {
+    "code": "21050",
+    "gwangyeok": "Busan",
+    "name": {
+      "en": "부산진구",
+      "ko": "부산진구",
+      "ar": "부산진구",
+      "hi": "부산진구"
+    },
+    "demandScore": 60,
+    "supplyCount": 7,
+    "gapIndex": 25,
+    "trendVs2019": -20
+  },
+  {
+    "code": "21060",
+    "gwangyeok": "Busan",
+    "name": {
+      "en": "동래구",
+      "ko": "동래구",
+      "ar": "동래구",
+      "hi": "동래구"
+    },
+    "demandScore": 72,
+    "supplyCount": 14,
+    "gapIndex": 14,
+    "trendVs2019": -5
+  },
+  {
+    "code": "21070",
+    "gwangyeok": "Busan",
+    "name": {
+      "en": "남구",
+      "ko": "남구",
+      "ar": "남구",
+      "hi": "남구"
+    },
+    "demandScore": 94,
+    "supplyCount": 24,
+    "gapIndex": 17,
+    "trendVs2019": 15
+  },
+  {
+    "code": "21080",
+    "gwangyeok": "Busan",
+    "name": {
+      "en": "북구",
+      "ko": "북구",
+      "ar": "북구",
+      "hi": "북구"
+    },
+    "demandScore": 91,
+    "supplyCount": 21,
+    "gapIndex": 22,
+    "trendVs2019": 7
+  },
+  {
+    "code": "21090",
+    "gwangyeok": "Busan",
+    "name": {
+      "en": "해운대구",
+      "ko": "해운대구",
+      "ar": "해운대구",
+      "hi": "해운대구"
+    },
+    "demandScore": 57,
+    "supplyCount": 8,
+    "gapIndex": 15,
+    "trendVs2019": -18
+  },
+  {
+    "code": "21100",
+    "gwangyeok": "Busan",
+    "name": {
+      "en": "사하구",
+      "ko": "사하구",
+      "ar": "사하구",
+      "hi": "사하구"
+    },
+    "demandScore": 79,
+    "supplyCount": 15,
+    "gapIndex": 22,
+    "trendVs2019": -3
+  },
+  {
+    "code": "21110",
+    "gwangyeok": "Busan",
+    "name": {
+      "en": "금정구",
+      "ko": "금정구",
+      "ar": "금정구",
+      "hi": "금정구"
+    },
+    "demandScore": 56,
+    "supplyCount": 26,
+    "gapIndex": 0,
+    "trendVs2019": 17
+  },
+  {
+    "code": "21120",
+    "gwangyeok": "Busan",
+    "name": {
+      "en": "강서구",
+      "ko": "강서구",
+      "ar": "강서구",
+      "hi": "강서구"
+    },
+    "demandScore": 79,
+    "supplyCount": 18,
+    "gapIndex": 11,
+    "trendVs2019": 2
+  },
+  {
+    "code": "21130",
+    "gwangyeok": "Busan",
+    "name": {
+      "en": "연제구",
+      "ko": "연제구",
+      "ar": "연제구",
+      "hi": "연제구"
+    },
+    "demandScore": 57,
+    "supplyCount": 9,
+    "gapIndex": 10,
+    "trendVs2019": -18
+  },
+  {
+    "code": "21140",
+    "gwangyeok": "Busan",
+    "name": {
+      "en": "수영구",
+      "ko": "수영구",
+      "ar": "수영구",
+      "hi": "수영구"
+    },
+    "demandScore": 92,
+    "supplyCount": 21,
+    "gapIndex": 24,
+    "trendVs2019": 9
+  },
+  {
+    "code": "21150",
+    "gwangyeok": "Busan",
+    "name": {
+      "en": "사상구",
+      "ko": "사상구",
+      "ar": "사상구",
+      "hi": "사상구"
+    },
+    "demandScore": 70,
+    "supplyCount": 11,
+    "gapIndex": 23,
+    "trendVs2019": -11
+  },
+  {
+    "code": "21310",
+    "gwangyeok": "Busan",
+    "name": {
+      "en": "기장군",
+      "ko": "기장군",
+      "ar": "기장군",
+      "hi": "기장군"
+    },
+    "demandScore": 83,
+    "supplyCount": 20,
+    "gapIndex": 11,
+    "trendVs2019": 6
+  },
+  {
+    "code": "22010",
+    "gwangyeok": "Daegu",
+    "name": {
+      "en": "중구",
+      "ko": "중구",
+      "ar": "중구",
+      "hi": "중구"
+    },
+    "demandScore": 16,
+    "supplyCount": 4,
+    "gapIndex": 0,
+    "trendVs2019": 16
+  },
+  {
+    "code": "22020",
+    "gwangyeok": "Daegu",
+    "name": {
+      "en": "동구",
+      "ko": "동구",
+      "ar": "동구",
+      "hi": "동구"
+    },
+    "demandScore": 39,
+    "supplyCount": 2,
+    "gapIndex": 24,
+    "trendVs2019": -3
+  },
+  {
+    "code": "22030",
+    "gwangyeok": "Daegu",
+    "name": {
+      "en": "서구",
+      "ko": "서구",
+      "ar": "서구",
+      "hi": "서구"
+    },
+    "demandScore": 16,
+    "supplyCount": 0,
+    "gapIndex": 16,
+    "trendVs2019": -18
+  },
+  {
+    "code": "22040",
+    "gwangyeok": "Daegu",
+    "name": {
+      "en": "남구",
+      "ko": "남구",
+      "ar": "남구",
+      "hi": "남구"
+    },
+    "demandScore": 40,
+    "supplyCount": 2,
+    "gapIndex": 25,
+    "trendVs2019": 3
+  },
+  {
+    "code": "22050",
+    "gwangyeok": "Daegu",
+    "name": {
+      "en": "북구",
+      "ko": "북구",
+      "ar": "북구",
+      "hi": "북구"
+    },
+    "demandScore": 29,
+    "supplyCount": 1,
+    "gapIndex": 19,
+    "trendVs2019": -12
+  },
+  {
+    "code": "22060",
+    "gwangyeok": "Daegu",
+    "name": {
+      "en": "수성구",
+      "ko": "수성구",
+      "ar": "수성구",
+      "hi": "수성구"
+    },
+    "demandScore": 52,
+    "supplyCount": 3,
+    "gapIndex": 35,
+    "trendVs2019": 8
+  },
+  {
+    "code": "22070",
+    "gwangyeok": "Daegu",
+    "name": {
+      "en": "달서구",
+      "ko": "달서구",
+      "ar": "달서구",
+      "hi": "달서구"
+    },
+    "demandScore": 30,
+    "supplyCount": 2,
+    "gapIndex": 10,
+    "trendVs2019": -6
+  },
+  {
+    "code": "22310",
+    "gwangyeok": "Daegu",
+    "name": {
+      "en": "달성군",
+      "ko": "달성군",
+      "ar": "달성군",
+      "hi": "달성군"
+    },
+    "demandScore": 32,
+    "supplyCount": 1,
+    "gapIndex": 23,
+    "trendVs2019": -9
+  },
+  {
+    "code": "23010",
+    "gwangyeok": "Incheon",
+    "name": {
+      "en": "중구",
+      "ko": "중구",
+      "ar": "중구",
+      "hi": "중구"
+    },
+    "demandScore": 15,
+    "supplyCount": 4,
+    "gapIndex": 0,
+    "trendVs2019": 16
+  },
+  {
+    "code": "23020",
+    "gwangyeok": "Incheon",
+    "name": {
+      "en": "동구",
+      "ko": "동구",
+      "ar": "동구",
+      "hi": "동구"
+    },
+    "demandScore": 39,
+    "supplyCount": 2,
+    "gapIndex": 24,
+    "trendVs2019": 1
+  },
+  {
+    "code": "23030",
+    "gwangyeok": "Incheon",
+    "name": {
+      "en": "남구",
+      "ko": "남구",
+      "ar": "남구",
+      "hi": "남구"
+    },
+    "demandScore": 16,
+    "supplyCount": 0,
+    "gapIndex": 16,
+    "trendVs2019": -19
+  },
+  {
+    "code": "23040",
+    "gwangyeok": "Incheon",
+    "name": {
+      "en": "연수구",
+      "ko": "연수구",
+      "ar": "연수구",
+      "hi": "연수구"
+    },
+    "demandScore": 51,
+    "supplyCount": 3,
+    "gapIndex": 33,
+    "trendVs2019": 8
+  },
+  {
+    "code": "23050",
+    "gwangyeok": "Incheon",
+    "name": {
+      "en": "남동구",
+      "ko": "남동구",
+      "ar": "남동구",
+      "hi": "남동구"
+    },
+    "demandScore": 29,
+    "supplyCount": 1,
+    "gapIndex": 19,
+    "trendVs2019": -12
+  },
+  {
+    "code": "23060",
+    "gwangyeok": "Incheon",
+    "name": {
+      "en": "부평구",
+      "ko": "부평구",
+      "ar": "부평구",
+      "hi": "부평구"
+    },
+    "demandScore": 52,
+    "supplyCount": 4,
+    "gapIndex": 29,
+    "trendVs2019": 13
+  },
+  {
+    "code": "23070",
+    "gwangyeok": "Incheon",
+    "name": {
+      "en": "계양구",
+      "ko": "계양구",
+      "ar": "계양구",
+      "hi": "계양구"
+    },
+    "demandScore": 29,
+    "supplyCount": 1,
+    "gapIndex": 19,
+    "trendVs2019": -7
+  },
+  {
+    "code": "23080",
+    "gwangyeok": "Incheon",
+    "name": {
+      "en": "서구",
+      "ko": "서구",
+      "ar": "서구",
+      "hi": "서구"
+    },
+    "demandScore": 59,
+    "supplyCount": 4,
+    "gapIndex": 39,
+    "trendVs2019": 15
+  },
+  {
+    "code": "23310",
+    "gwangyeok": "Incheon",
+    "name": {
+      "en": "강화군",
+      "ko": "강화군",
+      "ar": "강화군",
+      "hi": "강화군"
+    },
+    "demandScore": 33,
+    "supplyCount": 2,
+    "gapIndex": 15,
+    "trendVs2019": -4
+  },
+  {
+    "code": "23320",
+    "gwangyeok": "Incheon",
+    "name": {
+      "en": "옹진군",
+      "ko": "옹진군",
+      "ar": "옹진군",
+      "hi": "옹진군"
+    },
+    "demandScore": 22,
+    "supplyCount": 0,
+    "gapIndex": 22,
+    "trendVs2019": -18
+  },
+  {
+    "code": "24010",
+    "gwangyeok": "Gwangju",
+    "name": {
+      "en": "동구",
+      "ko": "동구",
+      "ar": "동구",
+      "hi": "동구"
+    },
+    "demandScore": 17,
+    "supplyCount": 4,
+    "gapIndex": 0,
+    "trendVs2019": 17
+  },
+  {
+    "code": "24020",
+    "gwangyeok": "Gwangju",
+    "name": {
+      "en": "서구",
+      "ko": "서구",
+      "ar": "서구",
+      "hi": "서구"
+    },
+    "demandScore": 27,
+    "supplyCount": 1,
+    "gapIndex": 16,
+    "trendVs2019": -13
+  },
+  {
+    "code": "24030",
+    "gwangyeok": "Gwangju",
+    "name": {
+      "en": "남구",
+      "ko": "남구",
+      "ar": "남구",
+      "hi": "남구"
+    },
+    "demandScore": 50,
+    "supplyCount": 3,
+    "gapIndex": 32,
+    "trendVs2019": 12
+  },
+  {
+    "code": "24040",
+    "gwangyeok": "Gwangju",
+    "name": {
+      "en": "북구",
+      "ko": "북구",
+      "ar": "북구",
+      "hi": "북구"
+    },
+    "demandScore": 59,
+    "supplyCount": 0,
+    "gapIndex": 59,
+    "trendVs2019": -20
+  },
+  {
+    "code": "24050",
+    "gwangyeok": "Gwangju",
+    "name": {
+      "en": "광산구",
+      "ko": "광산구",
+      "ar": "광산구",
+      "hi": "광산구"
+    },
+    "demandScore": 48,
+    "supplyCount": 3,
+    "gapIndex": 29,
+    "trendVs2019": 5
+  },
+  {
+    "code": "25010",
+    "gwangyeok": "Daejeon",
+    "name": {
+      "en": "동구",
+      "ko": "동구",
+      "ar": "동구",
+      "hi": "동구"
+    },
+    "demandScore": 16,
+    "supplyCount": 4,
+    "gapIndex": 0,
+    "trendVs2019": 17
+  },
+  {
+    "code": "25020",
+    "gwangyeok": "Daejeon",
+    "name": {
+      "en": "중구",
+      "ko": "중구",
+      "ar": "중구",
+      "hi": "중구"
+    },
+    "demandScore": 27,
+    "supplyCount": 1,
+    "gapIndex": 16,
+    "trendVs2019": -9
+  },
+  {
+    "code": "25030",
+    "gwangyeok": "Daejeon",
+    "name": {
+      "en": "서구",
+      "ko": "서구",
+      "ar": "서구",
+      "hi": "서구"
+    },
+    "demandScore": 49,
+    "supplyCount": 3,
+    "gapIndex": 31,
+    "trendVs2019": 11
+  },
+  {
+    "code": "25040",
+    "gwangyeok": "Daejeon",
+    "name": {
+      "en": "유성구",
+      "ko": "유성구",
+      "ar": "유성구",
+      "hi": "유성구"
+    },
+    "demandScore": 25,
+    "supplyCount": 1,
+    "gapIndex": 13,
+    "trendVs2019": -15
+  },
+  {
+    "code": "25050",
+    "gwangyeok": "Daejeon",
+    "name": {
+      "en": "대덕구",
+      "ko": "대덕구",
+      "ar": "대덕구",
+      "hi": "대덕구"
+    },
+    "demandScore": 48,
+    "supplyCount": 3,
+    "gapIndex": 29,
+    "trendVs2019": 5
+  },
+  {
+    "code": "26010",
+    "gwangyeok": "Ulsan",
+    "name": {
+      "en": "중구",
+      "ko": "중구",
+      "ar": "중구",
+      "hi": "중구"
+    },
+    "demandScore": 48,
+    "supplyCount": 3,
+    "gapIndex": 29,
+    "trendVs2019": 4
+  },
+  {
+    "code": "26020",
+    "gwangyeok": "Ulsan",
+    "name": {
+      "en": "남구",
+      "ko": "남구",
+      "ar": "남구",
+      "hi": "남구"
+    },
+    "demandScore": 25,
+    "supplyCount": 1,
+    "gapIndex": 13,
+    "trendVs2019": -16
+  },
+  {
+    "code": "26030",
+    "gwangyeok": "Ulsan",
+    "name": {
+      "en": "동구",
+      "ko": "동구",
+      "ar": "동구",
+      "hi": "동구"
+    },
+    "demandScore": 48,
+    "supplyCount": 3,
+    "gapIndex": 29,
+    "trendVs2019": 10
+  },
+  {
+    "code": "26040",
+    "gwangyeok": "Ulsan",
+    "name": {
+      "en": "북구",
+      "ko": "북구",
+      "ar": "북구",
+      "hi": "북구"
+    },
+    "demandScore": 45,
+    "supplyCount": 3,
+    "gapIndex": 25,
+    "trendVs2019": 7
+  },
+  {
+    "code": "26310",
+    "gwangyeok": "Ulsan",
+    "name": {
+      "en": "울주군",
+      "ko": "울주군",
+      "ar": "울주군",
+      "hi": "울주군"
+    },
+    "demandScore": 43,
+    "supplyCount": 2,
+    "gapIndex": 29,
+    "trendVs2019": 1
+  },
+  {
+    "code": "29010",
+    "gwangyeok": "Sejong",
+    "name": {
+      "en": "세종시",
+      "ko": "세종시",
+      "ar": "세종시",
+      "hi": "세종시"
+    },
+    "demandScore": 30,
+    "supplyCount": 2,
+    "gapIndex": 10,
+    "trendVs2019": -7
+  },
+  {
+    "code": "31011",
+    "gwangyeok": "Gyeonggi",
+    "name": {
+      "en": "수원시장안구",
+      "ko": "수원시장안구",
+      "ar": "수원시장안구",
+      "hi": "수원시장안구"
+    },
+    "demandScore": 46,
+    "supplyCount": 3,
+    "gapIndex": 26,
+    "trendVs2019": 3
+  },
+  {
+    "code": "31012",
+    "gwangyeok": "Gyeonggi",
+    "name": {
+      "en": "수원시권선구",
+      "ko": "수원시권선구",
+      "ar": "수원시권선구",
+      "hi": "수원시권선구"
+    },
+    "demandScore": 37,
+    "supplyCount": 2,
+    "gapIndex": 21,
+    "trendVs2019": 0
+  },
+  {
+    "code": "31013",
+    "gwangyeok": "Gyeonggi",
+    "name": {
+      "en": "수원시팔달구",
+      "ko": "수원시팔달구",
+      "ar": "수원시팔달구",
+      "hi": "수원시팔달구"
+    },
+    "demandScore": 44,
+    "supplyCount": 2,
+    "gapIndex": 30,
+    "trendVs2019": 1
+  },
+  {
+    "code": "31014",
+    "gwangyeok": "Gyeonggi",
+    "name": {
+      "en": "수원시영통구",
+      "ko": "수원시영통구",
+      "ar": "수원시영통구",
+      "hi": "수원시영통구"
+    },
+    "demandScore": 47,
+    "supplyCount": 3,
+    "gapIndex": 28,
+    "trendVs2019": 4
+  },
+  {
+    "code": "31021",
+    "gwangyeok": "Gyeonggi",
+    "name": {
+      "en": "성남시수정구",
+      "ko": "성남시수정구",
+      "ar": "성남시수정구",
+      "hi": "성남시수정구"
+    },
+    "demandScore": 22,
+    "supplyCount": 1,
+    "gapIndex": 8,
+    "trendVs2019": -13
+  },
+  {
+    "code": "31022",
+    "gwangyeok": "Gyeonggi",
+    "name": {
+      "en": "성남시중원구",
+      "ko": "성남시중원구",
+      "ar": "성남시중원구",
+      "hi": "성남시중원구"
+    },
+    "demandScore": 28,
+    "supplyCount": 1,
+    "gapIndex": 17,
+    "trendVs2019": -13
+  },
+  {
+    "code": "31023",
+    "gwangyeok": "Gyeonggi",
+    "name": {
+      "en": "성남시분당구",
+      "ko": "성남시분당구",
+      "ar": "성남시분당구",
+      "hi": "성남시분당구"
+    },
+    "demandScore": 21,
+    "supplyCount": 1,
+    "gapIndex": 7,
+    "trendVs2019": -14
+  },
+  {
+    "code": "31030",
+    "gwangyeok": "Gyeonggi",
+    "name": {
+      "en": "의정부시",
+      "ko": "의정부시",
+      "ar": "의정부시",
+      "hi": "의정부시"
+    },
+    "demandScore": 53,
+    "supplyCount": 3,
+    "gapIndex": 36,
+    "trendVs2019": 9
+  },
+  {
+    "code": "31041",
+    "gwangyeok": "Gyeonggi",
+    "name": {
+      "en": "안양시만안구",
+      "ko": "안양시만안구",
+      "ar": "안양시만안구",
+      "hi": "안양시만안구"
+    },
+    "demandScore": 43,
+    "supplyCount": 3,
+    "gapIndex": 22,
+    "trendVs2019": 6
+  },
+  {
+    "code": "31042",
+    "gwangyeok": "Gyeonggi",
+    "name": {
+      "en": "안양시동안구",
+      "ko": "안양시동안구",
+      "ar": "안양시동안구",
+      "hi": "안양시동안구"
+    },
+    "demandScore": 52,
+    "supplyCount": 3,
+    "gapIndex": 35,
+    "trendVs2019": 8
+  },
+  {
+    "code": "31050",
+    "gwangyeok": "Gyeonggi",
+    "name": {
+      "en": "부천시",
+      "ko": "부천시",
+      "ar": "부천시",
+      "hi": "부천시"
+    },
+    "demandScore": 28,
+    "supplyCount": 1,
+    "gapIndex": 17,
+    "trendVs2019": -8
+  },
+  {
+    "code": "31060",
+    "gwangyeok": "Gyeonggi",
+    "name": {
+      "en": "광명시",
+      "ko": "광명시",
+      "ar": "광명시",
+      "hi": "광명시"
+    },
+    "demandScore": 50,
+    "supplyCount": 3,
+    "gapIndex": 32,
+    "trendVs2019": 12
+  },
+  {
+    "code": "31070",
+    "gwangyeok": "Gyeonggi",
+    "name": {
+      "en": "평택시",
+      "ko": "평택시",
+      "ar": "평택시",
+      "hi": "평택시"
+    },
+    "demandScore": 39,
+    "supplyCount": 2,
+    "gapIndex": 24,
+    "trendVs2019": -3
+  },
+  {
+    "code": "31080",
+    "gwangyeok": "Gyeonggi",
+    "name": {
+      "en": "동두천시",
+      "ko": "동두천시",
+      "ar": "동두천시",
+      "hi": "동두천시"
+    },
+    "demandScore": 42,
+    "supplyCount": 3,
+    "gapIndex": 21,
+    "trendVs2019": 5
+  },
+  {
+    "code": "31091",
+    "gwangyeok": "Gyeonggi",
+    "name": {
+      "en": "안산시상록구",
+      "ko": "안산시상록구",
+      "ar": "안산시상록구",
+      "hi": "안산시상록구"
+    },
+    "demandScore": 25,
+    "supplyCount": 1,
+    "gapIndex": 13,
+    "trendVs2019": -15
+  },
+  {
+    "code": "31092",
+    "gwangyeok": "Gyeonggi",
+    "name": {
+      "en": "안산시단원구",
+      "ko": "안산시단원구",
+      "ar": "안산시단원구",
+      "hi": "안산시단원구"
+    },
+    "demandScore": 28,
+    "supplyCount": 1,
+    "gapIndex": 17,
+    "trendVs2019": -13
+  },
+  {
+    "code": "31101",
+    "gwangyeok": "Gyeonggi",
+    "name": {
+      "en": "고양시덕양구",
+      "ko": "고양시덕양구",
+      "ar": "고양시덕양구",
+      "hi": "고양시덕양구"
+    },
+    "demandScore": 16,
+    "supplyCount": 4,
+    "gapIndex": 0,
+    "trendVs2019": 16
+  },
+  {
+    "code": "31103",
+    "gwangyeok": "Gyeonggi",
+    "name": {
+      "en": "고양시일산동구",
+      "ko": "고양시일산동구",
+      "ar": "고양시일산동구",
+      "hi": "고양시일산동구"
+    },
+    "demandScore": 52,
+    "supplyCount": 3,
+    "gapIndex": 35,
+    "trendVs2019": 13
+  },
+  {
+    "code": "31104",
+    "gwangyeok": "Gyeonggi",
+    "name": {
+      "en": "고양시일산서구",
+      "ko": "고양시일산서구",
+      "ar": "고양시일산서구",
+      "hi": "고양시일산서구"
+    },
+    "demandScore": 57,
+    "supplyCount": 4,
+    "gapIndex": 36,
+    "trendVs2019": 13
+  },
+  {
+    "code": "31110",
+    "gwangyeok": "Gyeonggi",
+    "name": {
+      "en": "과천시",
+      "ko": "과천시",
+      "ar": "과천시",
+      "hi": "과천시"
+    },
+    "demandScore": 32,
+    "supplyCount": 1,
+    "gapIndex": 23,
+    "trendVs2019": -10
+  },
+  {
+    "code": "31120",
+    "gwangyeok": "Gyeonggi",
+    "name": {
+      "en": "구리시",
+      "ko": "구리시",
+      "ar": "구리시",
+      "hi": "구리시"
+    },
+    "demandScore": 54,
+    "supplyCount": 3,
+    "gapIndex": 37,
+    "trendVs2019": 10
+  },
+  {
+    "code": "31130",
+    "gwangyeok": "Gyeonggi",
+    "name": {
+      "en": "남양주시",
+      "ko": "남양주시",
+      "ar": "남양주시",
+      "hi": "남양주시"
+    },
+    "demandScore": 20,
+    "supplyCount": 1,
+    "gapIndex": 5,
+    "trendVs2019": -15
+  },
+  {
+    "code": "31140",
+    "gwangyeok": "Gyeonggi",
+    "name": {
+      "en": "오산시",
+      "ko": "오산시",
+      "ar": "오산시",
+      "hi": "오산시"
+    },
+    "demandScore": 41,
+    "supplyCount": 3,
+    "gapIndex": 19,
+    "trendVs2019": 4
+  },
+  {
+    "code": "31150",
+    "gwangyeok": "Gyeonggi",
+    "name": {
+      "en": "시흥시",
+      "ko": "시흥시",
+      "ar": "시흥시",
+      "hi": "시흥시"
+    },
+    "demandScore": 18,
+    "supplyCount": 0,
+    "gapIndex": 18,
+    "trendVs2019": -22
+  },
+  {
+    "code": "31160",
+    "gwangyeok": "Gyeonggi",
+    "name": {
+      "en": "군포시",
+      "ko": "군포시",
+      "ar": "군포시",
+      "hi": "군포시"
+    },
+    "demandScore": 40,
+    "supplyCount": 2,
+    "gapIndex": 25,
+    "trendVs2019": -2
+  },
+  {
+    "code": "31170",
+    "gwangyeok": "Gyeonggi",
+    "name": {
+      "en": "의왕시",
+      "ko": "의왕시",
+      "ar": "의왕시",
+      "hi": "의왕시"
+    },
+    "demandScore": 52,
+    "supplyCount": 4,
+    "gapIndex": 29,
+    "trendVs2019": 13
+  },
+  {
+    "code": "31180",
+    "gwangyeok": "Gyeonggi",
+    "name": {
+      "en": "하남시",
+      "ko": "하남시",
+      "ar": "하남시",
+      "hi": "하남시"
+    },
+    "demandScore": 33,
+    "supplyCount": 2,
+    "gapIndex": 15,
+    "trendVs2019": -3
+  },
+  {
+    "code": "31191",
+    "gwangyeok": "Gyeonggi",
+    "name": {
+      "en": "용인시처인구",
+      "ko": "용인시처인구",
+      "ar": "용인시처인구",
+      "hi": "용인시처인구"
+    },
+    "demandScore": 59,
+    "supplyCount": 4,
+    "gapIndex": 39,
+    "trendVs2019": 15
+  },
+  {
+    "code": "31192",
+    "gwangyeok": "Gyeonggi",
+    "name": {
+      "en": "용인시기흥구",
+      "ko": "용인시기흥구",
+      "ar": "용인시기흥구",
+      "hi": "용인시기흥구"
+    },
+    "demandScore": 54,
+    "supplyCount": 4,
+    "gapIndex": 32,
+    "trendVs2019": 15
+  },
+  {
+    "code": "31193",
+    "gwangyeok": "Gyeonggi",
+    "name": {
+      "en": "용인시수지구",
+      "ko": "용인시수지구",
+      "ar": "용인시수지구",
+      "hi": "용인시수지구"
+    },
+    "demandScore": 58,
+    "supplyCount": 4,
+    "gapIndex": 37,
+    "trendVs2019": 14
+  },
+  {
+    "code": "31200",
+    "gwangyeok": "Gyeonggi",
+    "name": {
+      "en": "파주시",
+      "ko": "파주시",
+      "ar": "파주시",
+      "hi": "파주시"
+    },
+    "demandScore": 18,
+    "supplyCount": 0,
+    "gapIndex": 18,
+    "trendVs2019": -17
+  },
+  {
+    "code": "31210",
+    "gwangyeok": "Gyeonggi",
+    "name": {
+      "en": "이천시",
+      "ko": "이천시",
+      "ar": "이천시",
+      "hi": "이천시"
+    },
+    "demandScore": 40,
+    "supplyCount": 2,
+    "gapIndex": 25,
+    "trendVs2019": 3
+  },
+  {
+    "code": "31220",
+    "gwangyeok": "Gyeonggi",
+    "name": {
+      "en": "안성시",
+      "ko": "안성시",
+      "ar": "안성시",
+      "hi": "안성시"
+    },
+    "demandScore": 17,
+    "supplyCount": 4,
+    "gapIndex": 0,
+    "trendVs2019": 18
+  },
+  {
+    "code": "31230",
+    "gwangyeok": "Gyeonggi",
+    "name": {
+      "en": "김포시",
+      "ko": "김포시",
+      "ar": "김포시",
+      "hi": "김포시"
+    },
+    "demandScore": 40,
+    "supplyCount": 2,
+    "gapIndex": 25,
+    "trendVs2019": -2
+  },
+  {
+    "code": "31240",
+    "gwangyeok": "Gyeonggi",
+    "name": {
+      "en": "화성시",
+      "ko": "화성시",
+      "ar": "화성시",
+      "hi": "화성시"
+    },
+    "demandScore": 49,
+    "supplyCount": 3,
+    "gapIndex": 31,
+    "trendVs2019": 11
+  },
+  {
+    "code": "31250",
+    "gwangyeok": "Gyeonggi",
+    "name": {
+      "en": "광주시",
+      "ko": "광주시",
+      "ar": "광주시",
+      "hi": "광주시"
+    },
+    "demandScore": 27,
+    "supplyCount": 1,
+    "gapIndex": 16,
+    "trendVs2019": -9
+  },
+  {
+    "code": "31260",
+    "gwangyeok": "Gyeonggi",
+    "name": {
+      "en": "양주시",
+      "ko": "양주시",
+      "ar": "양주시",
+      "hi": "양주시"
+    },
+    "demandScore": 49,
+    "supplyCount": 3,
+    "gapIndex": 31,
+    "trendVs2019": 6
+  },
+  {
+    "code": "31270",
+    "gwangyeok": "Gyeonggi",
+    "name": {
+      "en": "포천시",
+      "ko": "포천시",
+      "ar": "포천시",
+      "hi": "포천시"
+    },
+    "demandScore": 27,
+    "supplyCount": 1,
+    "gapIndex": 16,
+    "trendVs2019": -14
+  },
+  {
+    "code": "31280",
+    "gwangyeok": "Gyeonggi",
+    "name": {
+      "en": "여주시",
+      "ko": "여주시",
+      "ar": "여주시",
+      "hi": "여주시"
+    },
+    "demandScore": 39,
+    "supplyCount": 2,
+    "gapIndex": 24,
+    "trendVs2019": -3
+  },
+  {
+    "code": "31350",
+    "gwangyeok": "Gyeonggi",
+    "name": {
+      "en": "연천군",
+      "ko": "연천군",
+      "ar": "연천군",
+      "hi": "연천군"
+    },
+    "demandScore": 26,
+    "supplyCount": 1,
+    "gapIndex": 14,
+    "trendVs2019": -10
+  },
+  {
+    "code": "31370",
+    "gwangyeok": "Gyeonggi",
+    "name": {
+      "en": "가평군",
+      "ko": "가평군",
+      "ar": "가평군",
+      "hi": "가평군"
+    },
+    "demandScore": 37,
+    "supplyCount": 2,
+    "gapIndex": 21,
+    "trendVs2019": -5
+  },
+  {
+    "code": "31380",
+    "gwangyeok": "Gyeonggi",
+    "name": {
+      "en": "양평군",
+      "ko": "양평군",
+      "ar": "양평군",
+      "hi": "양평군"
+    },
+    "demandScore": 25,
+    "supplyCount": 1,
+    "gapIndex": 13,
+    "trendVs2019": -15
+  },
+  {
+    "code": "32010",
+    "gwangyeok": "Gangwon",
+    "name": {
+      "en": "춘천시",
+      "ko": "춘천시",
+      "ar": "춘천시",
+      "hi": "춘천시"
+    },
+    "demandScore": 30,
+    "supplyCount": 2,
+    "gapIndex": 10,
+    "trendVs2019": -6
+  },
+  {
+    "code": "32020",
+    "gwangyeok": "Gangwon",
+    "name": {
+      "en": "원주시",
+      "ko": "원주시",
+      "ar": "원주시",
+      "hi": "원주시"
+    },
+    "demandScore": 52,
+    "supplyCount": 3,
+    "gapIndex": 35,
+    "trendVs2019": 9
+  },
+  {
+    "code": "32030",
+    "gwangyeok": "Gangwon",
+    "name": {
+      "en": "강릉시",
+      "ko": "강릉시",
+      "ar": "강릉시",
+      "hi": "강릉시"
+    },
+    "demandScore": 30,
+    "supplyCount": 1,
+    "gapIndex": 20,
+    "trendVs2019": -12
+  },
+  {
+    "code": "32040",
+    "gwangyeok": "Gangwon",
+    "name": {
+      "en": "동해시",
+      "ko": "동해시",
+      "ar": "동해시",
+      "hi": "동해시"
+    },
+    "demandScore": 39,
+    "supplyCount": 3,
+    "gapIndex": 16,
+    "trendVs2019": 2
+  },
+  {
+    "code": "32050",
+    "gwangyeok": "Gangwon",
+    "name": {
+      "en": "태백시",
+      "ko": "태백시",
+      "ar": "태백시",
+      "hi": "태백시"
+    },
+    "demandScore": 17,
+    "supplyCount": 0,
+    "gapIndex": 17,
+    "trendVs2019": -18
+  },
+  {
+    "code": "32060",
+    "gwangyeok": "Gangwon",
+    "name": {
+      "en": "속초시",
+      "ko": "속초시",
+      "ar": "속초시",
+      "hi": "속초시"
+    },
+    "demandScore": 39,
+    "supplyCount": 2,
+    "gapIndex": 24,
+    "trendVs2019": -3
+  },
+  {
+    "code": "32070",
+    "gwangyeok": "Gangwon",
+    "name": {
+      "en": "삼척시",
+      "ko": "삼척시",
+      "ar": "삼척시",
+      "hi": "삼척시"
+    },
+    "demandScore": 16,
+    "supplyCount": 4,
+    "gapIndex": 0,
+    "trendVs2019": 16
+  },
+  {
+    "code": "32310",
+    "gwangyeok": "Gangwon",
+    "name": {
+      "en": "홍천군",
+      "ko": "홍천군",
+      "ar": "홍천군",
+      "hi": "홍천군"
+    },
+    "demandScore": 33,
+    "supplyCount": 1,
+    "gapIndex": 24,
+    "trendVs2019": -9
+  },
+  {
+    "code": "32320",
+    "gwangyeok": "Gangwon",
+    "name": {
+      "en": "횡성군",
+      "ko": "횡성군",
+      "ar": "횡성군",
+      "hi": "횡성군"
+    },
+    "demandScore": 43,
+    "supplyCount": 2,
+    "gapIndex": 29,
+    "trendVs2019": 1
+  },
+  {
+    "code": "32330",
+    "gwangyeok": "Gangwon",
+    "name": {
+      "en": "영월군",
+      "ko": "영월군",
+      "ar": "영월군",
+      "hi": "영월군"
+    },
+    "demandScore": 21,
+    "supplyCount": 1,
+    "gapIndex": 7,
+    "trendVs2019": -14
+  },
+  {
+    "code": "32340",
+    "gwangyeok": "Gangwon",
+    "name": {
+      "en": "평창군",
+      "ko": "평창군",
+      "ar": "평창군",
+      "hi": "평창군"
+    },
+    "demandScore": 30,
+    "supplyCount": 2,
+    "gapIndex": 10,
+    "trendVs2019": -6
+  },
+  {
+    "code": "32350",
+    "gwangyeok": "Gangwon",
+    "name": {
+      "en": "정선군",
+      "ko": "정선군",
+      "ar": "정선군",
+      "hi": "정선군"
+    },
+    "demandScore": 19,
+    "supplyCount": 0,
+    "gapIndex": 19,
+    "trendVs2019": -21
+  },
+  {
+    "code": "32360",
+    "gwangyeok": "Gangwon",
+    "name": {
+      "en": "철원군",
+      "ko": "철원군",
+      "ar": "철원군",
+      "hi": "철원군"
+    },
+    "demandScore": 30,
+    "supplyCount": 1,
+    "gapIndex": 20,
+    "trendVs2019": -11
+  },
+  {
+    "code": "32370",
+    "gwangyeok": "Gangwon",
+    "name": {
+      "en": "화천군",
+      "ko": "화천군",
+      "ar": "화천군",
+      "hi": "화천군"
+    },
+    "demandScore": 53,
+    "supplyCount": 4,
+    "gapIndex": 30,
+    "trendVs2019": 14
+  },
+  {
+    "code": "32380",
+    "gwangyeok": "Gangwon",
+    "name": {
+      "en": "양구군",
+      "ko": "양구군",
+      "ar": "양구군",
+      "hi": "양구군"
+    },
+    "demandScore": 34,
+    "supplyCount": 1,
+    "gapIndex": 25,
+    "trendVs2019": -8
+  },
+  {
+    "code": "32390",
+    "gwangyeok": "Gangwon",
+    "name": {
+      "en": "인제군",
+      "ko": "인제군",
+      "ar": "인제군",
+      "hi": "인제군"
+    },
+    "demandScore": 57,
+    "supplyCount": 3,
+    "gapIndex": 41,
+    "trendVs2019": 13
+  },
+  {
+    "code": "32400",
+    "gwangyeok": "Gangwon",
+    "name": {
+      "en": "고성군",
+      "ko": "고성군",
+      "ar": "고성군",
+      "hi": "고성군"
+    },
+    "demandScore": 51,
+    "supplyCount": 4,
+    "gapIndex": 27,
+    "trendVs2019": 13
+  },
+  {
+    "code": "32410",
+    "gwangyeok": "Gangwon",
+    "name": {
+      "en": "양양군",
+      "ko": "양양군",
+      "ar": "양양군",
+      "hi": "양양군"
+    },
+    "demandScore": 29,
+    "supplyCount": 1,
+    "gapIndex": 19,
+    "trendVs2019": -12
+  },
+  {
+    "code": "33020",
+    "gwangyeok": "Chungbuk",
+    "name": {
+      "en": "충주시",
+      "ko": "충주시",
+      "ar": "충주시",
+      "hi": "충주시"
+    },
+    "demandScore": 41,
+    "supplyCount": 2,
+    "gapIndex": 26,
+    "trendVs2019": 4
+  },
+  {
+    "code": "33030",
+    "gwangyeok": "Chungbuk",
+    "name": {
+      "en": "제천시",
+      "ko": "제천시",
+      "ar": "제천시",
+      "hi": "제천시"
+    },
+    "demandScore": 30,
+    "supplyCount": 1,
+    "gapIndex": 20,
+    "trendVs2019": -11
+  },
+  {
+    "code": "33041",
+    "gwangyeok": "Chungbuk",
+    "name": {
+      "en": "청주시상당구",
+      "ko": "청주시상당구",
+      "ar": "청주시상당구",
+      "hi": "청주시상당구"
+    },
+    "demandScore": 34,
+    "supplyCount": 2,
+    "gapIndex": 16,
+    "trendVs2019": -2
+  },
+  {
+    "code": "33042",
+    "gwangyeok": "Chungbuk",
+    "name": {
+      "en": "청주시서원구",
+      "ko": "청주시서원구",
+      "ar": "청주시서원구",
+      "hi": "청주시서원구"
+    },
+    "demandScore": 37,
+    "supplyCount": 2,
+    "gapIndex": 21,
+    "trendVs2019": 0
+  },
+  {
+    "code": "33043",
+    "gwangyeok": "Chungbuk",
+    "name": {
+      "en": "청주시흥덕구",
+      "ko": "청주시흥덕구",
+      "ar": "청주시흥덕구",
+      "hi": "청주시흥덕구"
+    },
+    "demandScore": 42,
+    "supplyCount": 2,
+    "gapIndex": 28,
+    "trendVs2019": -1
+  },
+  {
+    "code": "33044",
+    "gwangyeok": "Chungbuk",
+    "name": {
+      "en": "청주시청원구",
+      "ko": "청주시청원구",
+      "ar": "청주시청원구",
+      "hi": "청주시청원구"
+    },
+    "demandScore": 37,
+    "supplyCount": 2,
+    "gapIndex": 21,
+    "trendVs2019": 0
+  },
+  {
+    "code": "33320",
+    "gwangyeok": "Chungbuk",
+    "name": {
+      "en": "보은군",
+      "ko": "보은군",
+      "ar": "보은군",
+      "hi": "보은군"
+    },
+    "demandScore": 50,
+    "supplyCount": 3,
+    "gapIndex": 32,
+    "trendVs2019": 12
+  },
+  {
+    "code": "33330",
+    "gwangyeok": "Chungbuk",
+    "name": {
+      "en": "옥천군",
+      "ko": "옥천군",
+      "ar": "옥천군",
+      "hi": "옥천군"
+    },
+    "demandScore": 27,
+    "supplyCount": 1,
+    "gapIndex": 16,
+    "trendVs2019": -9
+  },
+  {
+    "code": "33340",
+    "gwangyeok": "Chungbuk",
+    "name": {
+      "en": "영동군",
+      "ko": "영동군",
+      "ar": "영동군",
+      "hi": "영동군"
+    },
+    "demandScore": 48,
+    "supplyCount": 3,
+    "gapIndex": 29,
+    "trendVs2019": 5
+  },
+  {
+    "code": "33350",
+    "gwangyeok": "Chungbuk",
+    "name": {
+      "en": "진천군",
+      "ko": "진천군",
+      "ar": "진천군",
+      "hi": "진천군"
+    },
+    "demandScore": 26,
+    "supplyCount": 1,
+    "gapIndex": 14,
+    "trendVs2019": -15
+  },
+  {
+    "code": "33360",
+    "gwangyeok": "Chungbuk",
+    "name": {
+      "en": "괴산군",
+      "ko": "괴산군",
+      "ar": "괴산군",
+      "hi": "괴산군"
+    },
+    "demandScore": 37,
+    "supplyCount": 2,
+    "gapIndex": 21,
+    "trendVs2019": 0
+  },
+  {
+    "code": "33370",
+    "gwangyeok": "Chungbuk",
+    "name": {
+      "en": "음성군",
+      "ko": "음성군",
+      "ar": "음성군",
+      "hi": "음성군"
+    },
+    "demandScore": 59,
+    "supplyCount": 0,
+    "gapIndex": 59,
+    "trendVs2019": -20
+  },
+  {
+    "code": "33380",
+    "gwangyeok": "Chungbuk",
+    "name": {
+      "en": "단양군",
+      "ko": "단양군",
+      "ar": "단양군",
+      "hi": "단양군"
+    },
+    "demandScore": 38,
+    "supplyCount": 2,
+    "gapIndex": 22,
+    "trendVs2019": -4
+  },
+  {
+    "code": "33390",
+    "gwangyeok": "Chungbuk",
+    "name": {
+      "en": "증평군",
+      "ko": "증평군",
+      "ar": "증평군",
+      "hi": "증평군"
+    },
+    "demandScore": 49,
+    "supplyCount": 3,
+    "gapIndex": 31,
+    "trendVs2019": 11
+  },
+  {
+    "code": "34011",
+    "gwangyeok": "Chungnam",
+    "name": {
+      "en": "천안시동남구",
+      "ko": "천안시동남구",
+      "ar": "천안시동남구",
+      "hi": "천안시동남구"
+    },
+    "demandScore": 59,
+    "supplyCount": 4,
+    "gapIndex": 39,
+    "trendVs2019": 14
+  },
+  {
+    "code": "34012",
+    "gwangyeok": "Chungnam",
+    "name": {
+      "en": "천안시서북구",
+      "ko": "천안시서북구",
+      "ar": "천안시서북구",
+      "hi": "천안시서북구"
+    },
+    "demandScore": 56,
+    "supplyCount": 3,
+    "gapIndex": 40,
+    "trendVs2019": 12
+  },
+  {
+    "code": "34020",
+    "gwangyeok": "Chungnam",
+    "name": {
+      "en": "공주시",
+      "ko": "공주시",
+      "ar": "공주시",
+      "hi": "공주시"
+    },
+    "demandScore": 43,
+    "supplyCount": 2,
+    "gapIndex": 29,
+    "trendVs2019": 1
+  },
+  {
+    "code": "34030",
+    "gwangyeok": "Chungnam",
+    "name": {
+      "en": "보령시",
+      "ko": "보령시",
+      "ar": "보령시",
+      "hi": "보령시"
+    },
+    "demandScore": 21,
+    "supplyCount": 0,
+    "gapIndex": 21,
+    "trendVs2019": -19
+  },
+  {
+    "code": "34040",
+    "gwangyeok": "Chungnam",
+    "name": {
+      "en": "아산시",
+      "ko": "아산시",
+      "ar": "아산시",
+      "hi": "아산시"
+    },
+    "demandScore": 45,
+    "supplyCount": 3,
+    "gapIndex": 25,
+    "trendVs2019": 7
+  },
+  {
+    "code": "34050",
+    "gwangyeok": "Chungnam",
+    "name": {
+      "en": "서산시",
+      "ko": "서산시",
+      "ar": "서산시",
+      "hi": "서산시"
+    },
+    "demandScore": 22,
+    "supplyCount": 1,
+    "gapIndex": 8,
+    "trendVs2019": -13
+  },
+  {
+    "code": "34060",
+    "gwangyeok": "Chungnam",
+    "name": {
+      "en": "논산시",
+      "ko": "논산시",
+      "ar": "논산시",
+      "hi": "논산시"
+    },
+    "demandScore": 57,
+    "supplyCount": 3,
+    "gapIndex": 41,
+    "trendVs2019": 13
+  },
+  {
+    "code": "34070",
+    "gwangyeok": "Chungnam",
+    "name": {
+      "en": "계룡시",
+      "ko": "계룡시",
+      "ar": "계룡시",
+      "hi": "계룡시"
+    },
+    "demandScore": 34,
+    "supplyCount": 1,
+    "gapIndex": 25,
+    "trendVs2019": -8
+  },
+  {
+    "code": "34080",
+    "gwangyeok": "Chungnam",
+    "name": {
+      "en": "당진시",
+      "ko": "당진시",
+      "ar": "당진시",
+      "hi": "당진시"
+    },
+    "demandScore": 53,
+    "supplyCount": 4,
+    "gapIndex": 30,
+    "trendVs2019": 14
+  },
+  {
+    "code": "34310",
+    "gwangyeok": "Chungnam",
+    "name": {
+      "en": "금산군",
+      "ko": "금산군",
+      "ar": "금산군",
+      "hi": "금산군"
+    },
+    "demandScore": 58,
+    "supplyCount": 3,
+    "gapIndex": 42,
+    "trendVs2019": 14
+  },
+  {
+    "code": "34330",
+    "gwangyeok": "Chungnam",
+    "name": {
+      "en": "부여군",
+      "ko": "부여군",
+      "ar": "부여군",
+      "hi": "부여군"
+    },
+    "demandScore": 58,
+    "supplyCount": 0,
+    "gapIndex": 58,
+    "trendVs2019": -21
+  },
+  {
+    "code": "34340",
+    "gwangyeok": "Chungnam",
+    "name": {
+      "en": "서천군",
+      "ko": "서천군",
+      "ar": "서천군",
+      "hi": "서천군"
+    },
+    "demandScore": 22,
+    "supplyCount": 0,
+    "gapIndex": 22,
+    "trendVs2019": -18
+  },
+  {
+    "code": "34350",
+    "gwangyeok": "Chungnam",
+    "name": {
+      "en": "청양군",
+      "ko": "청양군",
+      "ar": "청양군",
+      "hi": "청양군"
+    },
+    "demandScore": 45,
+    "supplyCount": 2,
+    "gapIndex": 32,
+    "trendVs2019": 2
+  },
+  {
+    "code": "34360",
+    "gwangyeok": "Chungnam",
+    "name": {
+      "en": "홍성군",
+      "ko": "홍성군",
+      "ar": "홍성군",
+      "hi": "홍성군"
+    },
+    "demandScore": 22,
+    "supplyCount": 1,
+    "gapIndex": 8,
+    "trendVs2019": -13
+  },
+  {
+    "code": "34370",
+    "gwangyeok": "Chungnam",
+    "name": {
+      "en": "예산군",
+      "ko": "예산군",
+      "ar": "예산군",
+      "hi": "예산군"
+    },
+    "demandScore": 45,
+    "supplyCount": 3,
+    "gapIndex": 25,
+    "trendVs2019": 7
+  },
+  {
+    "code": "34380",
+    "gwangyeok": "Chungnam",
+    "name": {
+      "en": "태안군",
+      "ko": "태안군",
+      "ar": "태안군",
+      "hi": "태안군"
+    },
+    "demandScore": 45,
+    "supplyCount": 3,
+    "gapIndex": 25,
+    "trendVs2019": 7
+  },
+  {
+    "code": "35011",
+    "gwangyeok": "Jeonbuk",
+    "name": {
+      "en": "전주시완산구",
+      "ko": "전주시완산구",
+      "ar": "전주시완산구",
+      "hi": "전주시완산구"
+    },
+    "demandScore": 51,
+    "supplyCount": 3,
+    "gapIndex": 33,
+    "trendVs2019": 13
+  },
+  {
+    "code": "35012",
+    "gwangyeok": "Jeonbuk",
+    "name": {
+      "en": "전주시덕진구",
+      "ko": "전주시덕진구",
+      "ar": "전주시덕진구",
+      "hi": "전주시덕진구"
+    },
+    "demandScore": 54,
+    "supplyCount": 4,
+    "gapIndex": 32,
+    "trendVs2019": 15
+  },
+  {
+    "code": "35020",
+    "gwangyeok": "Jeonbuk",
+    "name": {
+      "en": "군산시",
+      "ko": "군산시",
+      "ar": "군산시",
+      "hi": "군산시"
+    },
+    "demandScore": 32,
+    "supplyCount": 2,
+    "gapIndex": 13,
+    "trendVs2019": -4
+  },
+  {
+    "code": "35030",
+    "gwangyeok": "Jeonbuk",
+    "name": {
+      "en": "익산시",
+      "ko": "익산시",
+      "ar": "익산시",
+      "hi": "익산시"
+    },
+    "demandScore": 21,
+    "supplyCount": 0,
+    "gapIndex": 21,
+    "trendVs2019": -19
+  },
+  {
+    "code": "35040",
+    "gwangyeok": "Jeonbuk",
+    "name": {
+      "en": "정읍시",
+      "ko": "정읍시",
+      "ar": "정읍시",
+      "hi": "정읍시"
+    },
+    "demandScore": 45,
+    "supplyCount": 2,
+    "gapIndex": 32,
+    "trendVs2019": 2
+  },
+  {
+    "code": "35050",
+    "gwangyeok": "Jeonbuk",
+    "name": {
+      "en": "남원시",
+      "ko": "남원시",
+      "ar": "남원시",
+      "hi": "남원시"
+    },
+    "demandScore": 23,
+    "supplyCount": 1,
+    "gapIndex": 10,
+    "trendVs2019": -12
+  },
+  {
+    "code": "35060",
+    "gwangyeok": "Jeonbuk",
+    "name": {
+      "en": "김제시",
+      "ko": "김제시",
+      "ar": "김제시",
+      "hi": "김제시"
+    },
+    "demandScore": 46,
+    "supplyCount": 3,
+    "gapIndex": 26,
+    "trendVs2019": 8
+  },
+  {
+    "code": "35310",
+    "gwangyeok": "Jeonbuk",
+    "name": {
+      "en": "완주군",
+      "ko": "완주군",
+      "ar": "완주군",
+      "hi": "완주군"
+    },
+    "demandScore": 46,
+    "supplyCount": 3,
+    "gapIndex": 26,
+    "trendVs2019": 8
+  },
+  {
+    "code": "35320",
+    "gwangyeok": "Jeonbuk",
+    "name": {
+      "en": "진안군",
+      "ko": "진안군",
+      "ar": "진안군",
+      "hi": "진안군"
+    },
+    "demandScore": 35,
+    "supplyCount": 2,
+    "gapIndex": 18,
+    "trendVs2019": -6
+  },
+  {
+    "code": "35330",
+    "gwangyeok": "Jeonbuk",
+    "name": {
+      "en": "무주군",
+      "ko": "무주군",
+      "ar": "무주군",
+      "hi": "무주군"
+    },
+    "demandScore": 58,
+    "supplyCount": 3,
+    "gapIndex": 42,
+    "trendVs2019": 13
+  },
+  {
+    "code": "35340",
+    "gwangyeok": "Jeonbuk",
+    "name": {
+      "en": "장수군",
+      "ko": "장수군",
+      "ar": "장수군",
+      "hi": "장수군"
+    },
+    "demandScore": 55,
+    "supplyCount": 4,
+    "gapIndex": 33,
+    "trendVs2019": 16
+  },
+  {
+    "code": "35350",
+    "gwangyeok": "Jeonbuk",
+    "name": {
+      "en": "임실군",
+      "ko": "임실군",
+      "ar": "임실군",
+      "hi": "임실군"
+    },
+    "demandScore": 33,
+    "supplyCount": 2,
+    "gapIndex": 15,
+    "trendVs2019": -4
+  },
+  {
+    "code": "35360",
+    "gwangyeok": "Jeonbuk",
+    "name": {
+      "en": "순창군",
+      "ko": "순창군",
+      "ar": "순창군",
+      "hi": "순창군"
+    },
+    "demandScore": 22,
+    "supplyCount": 0,
+    "gapIndex": 22,
+    "trendVs2019": -18
+  },
+  {
+    "code": "35370",
+    "gwangyeok": "Jeonbuk",
+    "name": {
+      "en": "고창군",
+      "ko": "고창군",
+      "ar": "고창군",
+      "hi": "고창군"
+    },
+    "demandScore": 44,
+    "supplyCount": 2,
+    "gapIndex": 30,
+    "trendVs2019": 1
+  },
+  {
+    "code": "35380",
+    "gwangyeok": "Jeonbuk",
+    "name": {
+      "en": "부안군",
+      "ko": "부안군",
+      "ar": "부안군",
+      "hi": "부안군"
+    },
+    "demandScore": 45,
+    "supplyCount": 3,
+    "gapIndex": 25,
+    "trendVs2019": 7
+  },
+  {
+    "code": "36010",
+    "gwangyeok": "Jeonnam",
+    "name": {
+      "en": "목포시",
+      "ko": "목포시",
+      "ar": "목포시",
+      "hi": "목포시"
+    },
+    "demandScore": 21,
+    "supplyCount": 1,
+    "gapIndex": 7,
+    "trendVs2019": -14
+  },
+  {
+    "code": "36020",
+    "gwangyeok": "Jeonnam",
+    "name": {
+      "en": "여수시",
+      "ko": "여수시",
+      "ar": "여수시",
+      "hi": "여수시"
+    },
+    "demandScore": 43,
+    "supplyCount": 2,
+    "gapIndex": 29,
+    "trendVs2019": 1
+  },
+  {
+    "code": "36030",
+    "gwangyeok": "Jeonnam",
+    "name": {
+      "en": "순천시",
+      "ko": "순천시",
+      "ar": "순천시",
+      "hi": "순천시"
+    },
+    "demandScore": 21,
+    "supplyCount": 0,
+    "gapIndex": 21,
+    "trendVs2019": -20
+  },
+  {
+    "code": "36040",
+    "gwangyeok": "Jeonnam",
+    "name": {
+      "en": "나주시",
+      "ko": "나주시",
+      "ar": "나주시",
+      "hi": "나주시"
+    },
+    "demandScore": 57,
+    "supplyCount": 4,
+    "gapIndex": 36,
+    "trendVs2019": 18
+  },
+  {
+    "code": "36060",
+    "gwangyeok": "Jeonnam",
+    "name": {
+      "en": "광양시",
+      "ko": "광양시",
+      "ar": "광양시",
+      "hi": "광양시"
+    },
+    "demandScore": 57,
+    "supplyCount": 3,
+    "gapIndex": 41,
+    "trendVs2019": 12
+  },
+  {
+    "code": "36310",
+    "gwangyeok": "Jeonnam",
+    "name": {
+      "en": "담양군",
+      "ko": "담양군",
+      "ar": "담양군",
+      "hi": "담양군"
+    },
+    "demandScore": 48,
+    "supplyCount": 3,
+    "gapIndex": 29,
+    "trendVs2019": 5
+  },
+  {
+    "code": "36320",
+    "gwangyeok": "Jeonnam",
+    "name": {
+      "en": "곡성군",
+      "ko": "곡성군",
+      "ar": "곡성군",
+      "hi": "곡성군"
+    },
+    "demandScore": 59,
+    "supplyCount": 4,
+    "gapIndex": 39,
+    "trendVs2019": 15
+  },
+  {
+    "code": "36330",
+    "gwangyeok": "Jeonnam",
+    "name": {
+      "en": "구례군",
+      "ko": "구례군",
+      "ar": "구례군",
+      "hi": "구례군"
+    },
+    "demandScore": 37,
+    "supplyCount": 2,
+    "gapIndex": 21,
+    "trendVs2019": 0
+  },
+  {
+    "code": "36350",
+    "gwangyeok": "Jeonnam",
+    "name": {
+      "en": "고흥군",
+      "ko": "고흥군",
+      "ar": "고흥군",
+      "hi": "고흥군"
+    },
+    "demandScore": 17,
+    "supplyCount": 4,
+    "gapIndex": 0,
+    "trendVs2019": 17
+  },
+  {
+    "code": "36360",
+    "gwangyeok": "Jeonnam",
+    "name": {
+      "en": "보성군",
+      "ko": "보성군",
+      "ar": "보성군",
+      "hi": "보성군"
+    },
+    "demandScore": 27,
+    "supplyCount": 1,
+    "gapIndex": 16,
+    "trendVs2019": -13
+  },
+  {
+    "code": "36370",
+    "gwangyeok": "Jeonnam",
+    "name": {
+      "en": "화순군",
+      "ko": "화순군",
+      "ar": "화순군",
+      "hi": "화순군"
+    },
+    "demandScore": 50,
+    "supplyCount": 3,
+    "gapIndex": 32,
+    "trendVs2019": 12
+  },
+  {
+    "code": "36380",
+    "gwangyeok": "Jeonnam",
+    "name": {
+      "en": "장흥군",
+      "ko": "장흥군",
+      "ar": "장흥군",
+      "hi": "장흥군"
+    },
+    "demandScore": 50,
+    "supplyCount": 3,
+    "gapIndex": 32,
+    "trendVs2019": 6
+  },
+  {
+    "code": "36390",
+    "gwangyeok": "Jeonnam",
+    "name": {
+      "en": "강진군",
+      "ko": "강진군",
+      "ar": "강진군",
+      "hi": "강진군"
+    },
+    "demandScore": 27,
+    "supplyCount": 1,
+    "gapIndex": 16,
+    "trendVs2019": -13
+  },
+  {
+    "code": "36400",
+    "gwangyeok": "Jeonnam",
+    "name": {
+      "en": "해남군",
+      "ko": "해남군",
+      "ar": "해남군",
+      "hi": "해남군"
+    },
+    "demandScore": 18,
+    "supplyCount": 0,
+    "gapIndex": 18,
+    "trendVs2019": -21
+  },
+  {
+    "code": "36410",
+    "gwangyeok": "Jeonnam",
+    "name": {
+      "en": "영암군",
+      "ko": "영암군",
+      "ar": "영암군",
+      "hi": "영암군"
+    },
+    "demandScore": 29,
+    "supplyCount": 1,
+    "gapIndex": 19,
+    "trendVs2019": -7
+  },
+  {
+    "code": "36420",
+    "gwangyeok": "Jeonnam",
+    "name": {
+      "en": "무안군",
+      "ko": "무안군",
+      "ar": "무안군",
+      "hi": "무안군"
+    },
+    "demandScore": 52,
+    "supplyCount": 3,
+    "gapIndex": 35,
+    "trendVs2019": 13
+  },
+  {
+    "code": "36430",
+    "gwangyeok": "Jeonnam",
+    "name": {
+      "en": "함평군",
+      "ko": "함평군",
+      "ar": "함평군",
+      "hi": "함평군"
+    },
+    "demandScore": 29,
+    "supplyCount": 1,
+    "gapIndex": 19,
+    "trendVs2019": -12
+  },
+  {
+    "code": "36440",
+    "gwangyeok": "Jeonnam",
+    "name": {
+      "en": "영광군",
+      "ko": "영광군",
+      "ar": "영광군",
+      "hi": "영광군"
+    },
+    "demandScore": 50,
+    "supplyCount": 3,
+    "gapIndex": 32,
+    "trendVs2019": 7
+  },
+  {
+    "code": "36450",
+    "gwangyeok": "Jeonnam",
+    "name": {
+      "en": "장성군",
+      "ko": "장성군",
+      "ar": "장성군",
+      "hi": "장성군"
+    },
+    "demandScore": 16,
+    "supplyCount": 0,
+    "gapIndex": 16,
+    "trendVs2019": -19
+  },
+  {
+    "code": "36460",
+    "gwangyeok": "Jeonnam",
+    "name": {
+      "en": "완도군",
+      "ko": "완도군",
+      "ar": "완도군",
+      "hi": "완도군"
+    },
+    "demandScore": 38,
+    "supplyCount": 2,
+    "gapIndex": 22,
+    "trendVs2019": 1
+  },
+  {
+    "code": "36470",
+    "gwangyeok": "Jeonnam",
+    "name": {
+      "en": "진도군",
+      "ko": "진도군",
+      "ar": "진도군",
+      "hi": "진도군"
+    },
+    "demandScore": 16,
+    "supplyCount": 4,
+    "gapIndex": 0,
+    "trendVs2019": 16
+  },
+  {
+    "code": "36480",
+    "gwangyeok": "Jeonnam",
+    "name": {
+      "en": "신안군",
+      "ko": "신안군",
+      "ar": "신안군",
+      "hi": "신안군"
+    },
+    "demandScore": 43,
+    "supplyCount": 2,
+    "gapIndex": 29,
+    "trendVs2019": 0
+  },
+  {
+    "code": "37011",
+    "gwangyeok": "Gyeongbuk",
+    "name": {
+      "en": "포항시남구",
+      "ko": "포항시남구",
+      "ar": "포항시남구",
+      "hi": "포항시남구"
+    },
+    "demandScore": 28,
+    "supplyCount": 1,
+    "gapIndex": 17,
+    "trendVs2019": -13
+  },
+  {
+    "code": "37012",
+    "gwangyeok": "Gyeongbuk",
+    "name": {
+      "en": "포항시북구",
+      "ko": "포항시북구",
+      "ar": "포항시북구",
+      "hi": "포항시북구"
+    },
+    "demandScore": 25,
+    "supplyCount": 1,
+    "gapIndex": 13,
+    "trendVs2019": -16
+  },
+  {
+    "code": "37020",
+    "gwangyeok": "Gyeongbuk",
+    "name": {
+      "en": "경주시",
+      "ko": "경주시",
+      "ar": "경주시",
+      "hi": "경주시"
+    },
+    "demandScore": 32,
+    "supplyCount": 2,
+    "gapIndex": 13,
+    "trendVs2019": -4
+  },
+  {
+    "code": "37030",
+    "gwangyeok": "Gyeongbuk",
+    "name": {
+      "en": "김천시",
+      "ko": "김천시",
+      "ar": "김천시",
+      "hi": "김천시"
+    },
+    "demandScore": 21,
+    "supplyCount": 0,
+    "gapIndex": 21,
+    "trendVs2019": -19
+  },
+  {
+    "code": "37040",
+    "gwangyeok": "Gyeongbuk",
+    "name": {
+      "en": "안동시",
+      "ko": "안동시",
+      "ar": "안동시",
+      "hi": "안동시"
+    },
+    "demandScore": 57,
+    "supplyCount": 3,
+    "gapIndex": 41,
+    "trendVs2019": 13
+  },
+  {
+    "code": "37050",
+    "gwangyeok": "Gyeongbuk",
+    "name": {
+      "en": "구미시",
+      "ko": "구미시",
+      "ar": "구미시",
+      "hi": "구미시"
+    },
+    "demandScore": 35,
+    "supplyCount": 2,
+    "gapIndex": 18,
+    "trendVs2019": -2
+  },
+  {
+    "code": "37060",
+    "gwangyeok": "Gyeongbuk",
+    "name": {
+      "en": "영주시",
+      "ko": "영주시",
+      "ar": "영주시",
+      "hi": "영주시"
+    },
+    "demandScore": 46,
+    "supplyCount": 3,
+    "gapIndex": 26,
+    "trendVs2019": 8
+  },
+  {
+    "code": "37070",
+    "gwangyeok": "Gyeongbuk",
+    "name": {
+      "en": "영천시",
+      "ko": "영천시",
+      "ar": "영천시",
+      "hi": "영천시"
+    },
+    "demandScore": 35,
+    "supplyCount": 1,
+    "gapIndex": 26,
+    "trendVs2019": -7
+  },
+  {
+    "code": "37080",
+    "gwangyeok": "Gyeongbuk",
+    "name": {
+      "en": "상주시",
+      "ko": "상주시",
+      "ar": "상주시",
+      "hi": "상주시"
+    },
+    "demandScore": 23,
+    "supplyCount": 1,
+    "gapIndex": 10,
+    "trendVs2019": -13
+  },
+  {
+    "code": "37090",
+    "gwangyeok": "Gyeongbuk",
+    "name": {
+      "en": "문경시",
+      "ko": "문경시",
+      "ar": "문경시",
+      "hi": "문경시"
+    },
+    "demandScore": 46,
+    "supplyCount": 3,
+    "gapIndex": 26,
+    "trendVs2019": 8
+  },
+  {
+    "code": "37100",
+    "gwangyeok": "Gyeongbuk",
+    "name": {
+      "en": "경산시",
+      "ko": "경산시",
+      "ar": "경산시",
+      "hi": "경산시"
+    },
+    "demandScore": 16,
+    "supplyCount": 0,
+    "gapIndex": 16,
+    "trendVs2019": -19
+  },
+  {
+    "code": "37310",
+    "gwangyeok": "Gyeongbuk",
+    "name": {
+      "en": "군위군",
+      "ko": "군위군",
+      "ar": "군위군",
+      "hi": "군위군"
+    },
+    "demandScore": 30,
+    "supplyCount": 1,
+    "gapIndex": 20,
+    "trendVs2019": -11
+  },
+  {
+    "code": "37320",
+    "gwangyeok": "Gyeongbuk",
+    "name": {
+      "en": "의성군",
+      "ko": "의성군",
+      "ar": "의성군",
+      "hi": "의성군"
+    },
+    "demandScore": 41,
+    "supplyCount": 3,
+    "gapIndex": 19,
+    "trendVs2019": 4
+  },
+  {
+    "code": "37330",
+    "gwangyeok": "Gyeongbuk",
+    "name": {
+      "en": "청송군",
+      "ko": "청송군",
+      "ar": "청송군",
+      "hi": "청송군"
+    },
+    "demandScore": 18,
+    "supplyCount": 1,
+    "gapIndex": 1,
+    "trendVs2019": -17
+  },
+  {
+    "code": "37340",
+    "gwangyeok": "Gyeongbuk",
+    "name": {
+      "en": "영양군",
+      "ko": "영양군",
+      "ar": "영양군",
+      "hi": "영양군"
+    },
+    "demandScore": 21,
+    "supplyCount": 0,
+    "gapIndex": 21,
+    "trendVs2019": -19
+  },
+  {
+    "code": "37350",
+    "gwangyeok": "Gyeongbuk",
+    "name": {
+      "en": "영덕군",
+      "ko": "영덕군",
+      "ar": "영덕군",
+      "hi": "영덕군"
+    },
+    "demandScore": 43,
+    "supplyCount": 2,
+    "gapIndex": 29,
+    "trendVs2019": 1
+  },
+  {
+    "code": "37360",
+    "gwangyeok": "Gyeongbuk",
+    "name": {
+      "en": "청도군",
+      "ko": "청도군",
+      "ar": "청도군",
+      "hi": "청도군"
+    },
+    "demandScore": 55,
+    "supplyCount": 4,
+    "gapIndex": 33,
+    "trendVs2019": 16
+  },
+  {
+    "code": "37370",
+    "gwangyeok": "Gyeongbuk",
+    "name": {
+      "en": "고령군",
+      "ko": "고령군",
+      "ar": "고령군",
+      "hi": "고령군"
+    },
+    "demandScore": 32,
+    "supplyCount": 2,
+    "gapIndex": 13,
+    "trendVs2019": -5
+  },
+  {
+    "code": "37380",
+    "gwangyeok": "Gyeongbuk",
+    "name": {
+      "en": "성주군",
+      "ko": "성주군",
+      "ar": "성주군",
+      "hi": "성주군"
+    },
+    "demandScore": 29,
+    "supplyCount": 1,
+    "gapIndex": 19,
+    "trendVs2019": -12
+  },
+  {
+    "code": "37390",
+    "gwangyeok": "Gyeongbuk",
+    "name": {
+      "en": "칠곡군",
+      "ko": "칠곡군",
+      "ar": "칠곡군",
+      "hi": "칠곡군"
+    },
+    "demandScore": 40,
+    "supplyCount": 3,
+    "gapIndex": 18,
+    "trendVs2019": 2
+  },
+  {
+    "code": "37400",
+    "gwangyeok": "Gyeongbuk",
+    "name": {
+      "en": "예천군",
+      "ko": "예천군",
+      "ar": "예천군",
+      "hi": "예천군"
+    },
+    "demandScore": 45,
+    "supplyCount": 3,
+    "gapIndex": 25,
+    "trendVs2019": 7
+  },
+  {
+    "code": "37410",
+    "gwangyeok": "Gyeongbuk",
+    "name": {
+      "en": "봉화군",
+      "ko": "봉화군",
+      "ar": "봉화군",
+      "hi": "봉화군"
+    },
+    "demandScore": 23,
+    "supplyCount": 1,
+    "gapIndex": 10,
+    "trendVs2019": -13
+  },
+  {
+    "code": "37420",
+    "gwangyeok": "Gyeongbuk",
+    "name": {
+      "en": "울진군",
+      "ko": "울진군",
+      "ar": "울진군",
+      "hi": "울진군"
+    },
+    "demandScore": 45,
+    "supplyCount": 2,
+    "gapIndex": 32,
+    "trendVs2019": 2
+  },
+  {
+    "code": "37430",
+    "gwangyeok": "Gyeongbuk",
+    "name": {
+      "en": "울릉군",
+      "ko": "울릉군",
+      "ar": "울릉군",
+      "hi": "울릉군"
+    },
+    "demandScore": 22,
+    "supplyCount": 0,
+    "gapIndex": 22,
+    "trendVs2019": -18
+  },
+  {
+    "code": "38030",
+    "gwangyeok": "Gyeongnam",
+    "name": {
+      "en": "진주시",
+      "ko": "진주시",
+      "ar": "진주시",
+      "hi": "진주시"
+    },
+    "demandScore": 48,
+    "supplyCount": 3,
+    "gapIndex": 29,
+    "trendVs2019": 10
+  },
+  {
+    "code": "38050",
+    "gwangyeok": "Gyeongnam",
+    "name": {
+      "en": "통영시",
+      "ko": "통영시",
+      "ar": "통영시",
+      "hi": "통영시"
+    },
+    "demandScore": 34,
+    "supplyCount": 1,
+    "gapIndex": 25,
+    "trendVs2019": -7
+  },
+  {
+    "code": "38060",
+    "gwangyeok": "Gyeongnam",
+    "name": {
+      "en": "사천시",
+      "ko": "사천시",
+      "ar": "사천시",
+      "hi": "사천시"
+    },
+    "demandScore": 24,
+    "supplyCount": 1,
+    "gapIndex": 12,
+    "trendVs2019": -17
+  },
+  {
+    "code": "38070",
+    "gwangyeok": "Gyeongnam",
+    "name": {
+      "en": "김해시",
+      "ko": "김해시",
+      "ar": "김해시",
+      "hi": "김해시"
+    },
+    "demandScore": 35,
+    "supplyCount": 2,
+    "gapIndex": 18,
+    "trendVs2019": -2
+  },
+  {
+    "code": "38080",
+    "gwangyeok": "Gyeongnam",
+    "name": {
+      "en": "밀양시",
+      "ko": "밀양시",
+      "ar": "밀양시",
+      "hi": "밀양시"
+    },
+    "demandScore": 50,
+    "supplyCount": 3,
+    "gapIndex": 32,
+    "trendVs2019": 11
+  },
+  {
+    "code": "38090",
+    "gwangyeok": "Gyeongnam",
+    "name": {
+      "en": "거제시",
+      "ko": "거제시",
+      "ar": "거제시",
+      "hi": "거제시"
+    },
+    "demandScore": 27,
+    "supplyCount": 1,
+    "gapIndex": 16,
+    "trendVs2019": -9
+  },
+  {
+    "code": "38100",
+    "gwangyeok": "Gyeongnam",
+    "name": {
+      "en": "양산시",
+      "ko": "양산시",
+      "ar": "양산시",
+      "hi": "양산시"
+    },
+    "demandScore": 33,
+    "supplyCount": 1,
+    "gapIndex": 24,
+    "trendVs2019": -8
+  },
+  {
+    "code": "38111",
+    "gwangyeok": "Gyeongnam",
+    "name": {
+      "en": "창원시의창구",
+      "ko": "창원시의창구",
+      "ar": "창원시의창구",
+      "hi": "창원시의창구"
+    },
+    "demandScore": 17,
+    "supplyCount": 4,
+    "gapIndex": 0,
+    "trendVs2019": 18
+  },
+  {
+    "code": "38112",
+    "gwangyeok": "Gyeongnam",
+    "name": {
+      "en": "창원시성산구",
+      "ko": "창원시성산구",
+      "ar": "창원시성산구",
+      "hi": "창원시성산구"
+    },
+    "demandScore": 59,
+    "supplyCount": 4,
+    "gapIndex": 39,
+    "trendVs2019": 15
+  },
+  {
+    "code": "38113",
+    "gwangyeok": "Gyeongnam",
+    "name": {
+      "en": "창원시마산합포구",
+      "ko": "창원시마산합포구",
+      "ar": "창원시마산합포구",
+      "hi": "창원시마산합포구"
+    },
+    "demandScore": 53,
+    "supplyCount": 4,
+    "gapIndex": 30,
+    "trendVs2019": 15
+  },
+  {
+    "code": "38114",
+    "gwangyeok": "Gyeongnam",
+    "name": {
+      "en": "창원시마산회원구",
+      "ko": "창원시마산회원구",
+      "ar": "창원시마산회원구",
+      "hi": "창원시마산회원구"
+    },
+    "demandScore": 53,
+    "supplyCount": 4,
+    "gapIndex": 30,
+    "trendVs2019": 14
+  },
+  {
+    "code": "38115",
+    "gwangyeok": "Gyeongnam",
+    "name": {
+      "en": "창원시진해구",
+      "ko": "창원시진해구",
+      "ar": "창원시진해구",
+      "hi": "창원시진해구"
+    },
+    "demandScore": 60,
+    "supplyCount": 4,
+    "gapIndex": 40,
+    "trendVs2019": 15
+  },
+  {
+    "code": "38310",
+    "gwangyeok": "Gyeongnam",
+    "name": {
+      "en": "의령군",
+      "ko": "의령군",
+      "ar": "의령군",
+      "hi": "의령군"
+    },
+    "demandScore": 49,
+    "supplyCount": 3,
+    "gapIndex": 31,
+    "trendVs2019": 6
+  },
+  {
+    "code": "38320",
+    "gwangyeok": "Gyeongnam",
+    "name": {
+      "en": "함안군",
+      "ko": "함안군",
+      "ar": "함안군",
+      "hi": "함안군"
+    },
+    "demandScore": 27,
+    "supplyCount": 1,
+    "gapIndex": 16,
+    "trendVs2019": -9
+  },
+  {
+    "code": "38330",
+    "gwangyeok": "Gyeongnam",
+    "name": {
+      "en": "창녕군",
+      "ko": "창녕군",
+      "ar": "창녕군",
+      "hi": "창녕군"
+    },
+    "demandScore": 49,
+    "supplyCount": 3,
+    "gapIndex": 31,
+    "trendVs2019": 11
+  },
+  {
+    "code": "38340",
+    "gwangyeok": "Gyeongnam",
+    "name": {
+      "en": "고성군",
+      "ko": "고성군",
+      "ar": "고성군",
+      "hi": "고성군"
+    },
+    "demandScore": 40,
+    "supplyCount": 2,
+    "gapIndex": 25,
+    "trendVs2019": -3
+  },
+  {
+    "code": "38350",
+    "gwangyeok": "Gyeongnam",
+    "name": {
+      "en": "남해군",
+      "ko": "남해군",
+      "ar": "남해군",
+      "hi": "남해군"
+    },
+    "demandScore": 17,
+    "supplyCount": 4,
+    "gapIndex": 0,
+    "trendVs2019": 18
+  },
+  {
+    "code": "38360",
+    "gwangyeok": "Gyeongnam",
+    "name": {
+      "en": "하동군",
+      "ko": "하동군",
+      "ar": "하동군",
+      "hi": "하동군"
+    },
+    "demandScore": 40,
+    "supplyCount": 2,
+    "gapIndex": 25,
+    "trendVs2019": 3
+  },
+  {
+    "code": "38370",
+    "gwangyeok": "Gyeongnam",
+    "name": {
+      "en": "산청군",
+      "ko": "산청군",
+      "ar": "산청군",
+      "hi": "산청군"
+    },
+    "demandScore": 18,
+    "supplyCount": 0,
+    "gapIndex": 18,
+    "trendVs2019": -17
+  },
+  {
+    "code": "38380",
+    "gwangyeok": "Gyeongnam",
+    "name": {
+      "en": "함양군",
+      "ko": "함양군",
+      "ar": "함양군",
+      "hi": "함양군"
+    },
+    "demandScore": 36,
+    "supplyCount": 2,
+    "gapIndex": 19,
+    "trendVs2019": -1
+  },
+  {
+    "code": "38390",
+    "gwangyeok": "Gyeongnam",
+    "name": {
+      "en": "거창군",
+      "ko": "거창군",
+      "ar": "거창군",
+      "hi": "거창군"
+    },
+    "demandScore": 25,
+    "supplyCount": 1,
+    "gapIndex": 13,
+    "trendVs2019": -16
+  },
+  {
+    "code": "38400",
+    "gwangyeok": "Gyeongnam",
+    "name": {
+      "en": "합천군",
+      "ko": "합천군",
+      "ar": "합천군",
+      "hi": "합천군"
+    },
+    "demandScore": 18,
+    "supplyCount": 0,
+    "gapIndex": 18,
+    "trendVs2019": 18
+  },
+  {
+    "code": "39010",
+    "gwangyeok": "Jeju",
+    "name": {
+      "en": "제주시",
+      "ko": "제주시",
+      "ar": "제주시",
+      "hi": "제주시"
+    },
+    "demandScore": 59,
+    "supplyCount": 26,
+    "gapIndex": 0,
+    "trendVs2019": -21
+  },
+  {
+    "code": "39020",
+    "gwangyeok": "Jeju",
+    "name": {
+      "en": "서귀포시",
+      "ko": "서귀포시",
+      "ar": "서귀포시",
+      "hi": "서귀포시"
+    },
+    "demandScore": 81,
+    "supplyCount": 19,
+    "gapIndex": 11,
+    "trendVs2019": 4
+  }
+]
