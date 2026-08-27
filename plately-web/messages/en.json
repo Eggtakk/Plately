@@ -38,7 +38,8 @@
     "topCandidates": "Top candidate restaurants",
     "compareIntro": "Same country, three different prescriptions.",
     "saturated": "Saturated", "growing": "Growing, underserved", "empty": "Empty",
-    "prescription": "Prescription"
+    "prescription": "Prescription",
+    "legendTitle": "Gap index", "gapLow": "Low", "gapMedium": "Medium", "gapHigh": "High"
   },
   "common": { "back": "Back", "close": "Close", "loading": "Loading", "of229": "of 229 시군구" }
 }

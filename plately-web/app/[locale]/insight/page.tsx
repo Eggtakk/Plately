@@ -1,7 +1,8 @@
 import { setRequestLocale } from 'next-intl/server';
+import { InsightView } from './InsightView';
 
-export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
+export default async function InsightPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  return <p style={{ padding: 24 }}>placeholder</p>;
+  return <InsightView />;
 }

@@ -38,7 +38,8 @@
     "topCandidates": "상위 후보 식당",
     "compareIntro": "같은 나라, 서로 다른 세 가지 처방.",
     "saturated": "포화", "growing": "성장 중, 공급 부족", "empty": "공백",
-    "prescription": "처방"
+    "prescription": "처방",
+    "legendTitle": "갭 지수", "gapLow": "낮음", "gapMedium": "보통", "gapHigh": "높음"
   },
   "common": { "back": "뒤로", "close": "닫기", "loading": "불러오는 중", "of229": "229개 시군구 중" }
 }

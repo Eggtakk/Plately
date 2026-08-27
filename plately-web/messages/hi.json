@@ -38,7 +38,8 @@
     "topCandidates": "शीर्ष संभावित रेस्तराँ",
     "compareIntro": "एक ही देश, तीन अलग-अलग नुस्खे।",
     "saturated": "संतृप्त", "growing": "बढ़ता हुआ, कम सेवा वाला", "empty": "खाली",
-    "prescription": "नुस्खा"
+    "prescription": "नुस्खा",
+    "legendTitle": "गैप सूचकांक", "gapLow": "कम", "gapMedium": "मध्यम", "gapHigh": "उच्च"
   },
   "common": { "back": "वापस", "close": "बंद करें", "loading": "लोड हो रहा है", "of229": "229 ज़िलों में से" }
 }

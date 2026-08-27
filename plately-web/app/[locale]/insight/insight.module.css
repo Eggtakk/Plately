@@ -1,0 +1,11 @@
+.view { display: grid; grid-template-columns: 300px 1fr; gap: var(--space-4); block-size: calc(100dvh - 64px); padding: var(--space-4) var(--space-6); }
+.side { display: flex; flex-direction: column; min-block-size: 0; }
+.layers { display: flex; gap: var(--space-1); margin-block-end: var(--space-2); }
+.layers button { flex: 1; padding: 6px; font-size: 12px; border: 1px solid var(--line); background: var(--paper-raised); border-radius: var(--radius-sm); cursor: pointer; color: var(--ink-soft); }
+.layers button[data-on="true"] { color: var(--primary); border-color: var(--primary); font-weight: 700; }
+.legend { display: flex; align-items: center; gap: var(--space-1); font-size: 11px; color: var(--ink-soft); margin-block-end: var(--space-3); flex-wrap: wrap; }
+.swatch { inline-size: 12px; block-size: 12px; border-radius: 3px; display: inline-block; }
+
+.mapWrap { position: relative; }
+
+@media (width <= 900px) { .view { grid-template-columns: 1fr; } }

@@ -38,7 +38,8 @@
     "topCandidates": "أبرز المطاعم المرشحة",
     "compareIntro": "البلد نفسه، وثلاث وصفات مختلفة.",
     "saturated": "مُشبَع", "growing": "ينمو مع نقص في الخدمة", "empty": "فارغ",
-    "prescription": "الوصفة"
+    "prescription": "الوصفة",
+    "legendTitle": "مؤشر الفجوة", "gapLow": "منخفض", "gapMedium": "متوسط", "gapHigh": "مرتفع"
   },
   "common": { "back": "رجوع", "close": "إغلاق", "loading": "جارٍ التحميل", "of229": "من 229 منطقة" }
 }

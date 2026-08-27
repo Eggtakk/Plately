@@ -1,0 +1,6 @@
+.panel { position: absolute; inset-block: var(--space-4); inset-inline-end: var(--space-4); inline-size: min(340px, 90vw); background: var(--paper-raised); border: 1px solid var(--line); border-radius: var(--radius-md); padding: var(--space-4); overflow-y: auto; box-shadow: var(--shadow-1); }
+.head { display: flex; justify-content: space-between; align-items: start; }
+.head button { background: none; border: 0; font-size: 20px; cursor: pointer; color: var(--ink); }
+.stats { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-3); margin-block: var(--space-4); }
+.stats dt { font-size: 12px; color: var(--ink-soft); }
+.stats dd { margin: 0; font-size: 20px; font-weight: 700; }
