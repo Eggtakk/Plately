@@ -9,14 +9,13 @@ import { FilterChips, type ChipKey } from '@/components/explore/FilterChips';
 import { RestaurantList } from '@/components/explore/RestaurantList';
 import { getRestaurants } from '@/lib/mockData';
 import { usePreferences } from '@/lib/usePreferences';
-import type { RestaurantFilter } from '@/lib/types';
+import type { RestaurantFilter, RestrictionKey } from '@/lib/types';
 import styles from './explore.module.css';
 
-const CHIP_TO_FILTER: Partial<Record<ChipKey, Partial<RestaurantFilter>>> = {
-  porkFree: { avoidPork: true },
-  alcoholFree: { avoidAlcohol: true },
-  vegetarian: { vegetarianOnly: true },
-  beefFree: { avoidBeef: true },
+const CHIP_TO_RESTRICTIONS: Partial<Record<ChipKey, RestrictionKey[]>> = {
+  porkFree: ['pork'],
+  alcoholFree: ['alcohol'],
+  beefFree: ['beef'],
 };
 const CHIP_CUISINE: Partial<Record<ChipKey, string>> = {
   seafood: 'seafood',
@@ -36,20 +35,24 @@ export function ExploreView() {
   useEffect(() => {
     if (!hydrated) return;
     const next = new Set<ChipKey>();
-    if (prefs.avoidPork) next.add('porkFree');
-    if (prefs.avoidAlcohol) next.add('alcoholFree');
-    if (prefs.avoidBeef) next.add('beefFree');
-    if (prefs.vegetarianOnly) next.add('vegetarian');
+    if (prefs.restrictions.pork) next.add('porkFree');
+    if (prefs.restrictions.alcohol) next.add('alcoholFree');
+    if (prefs.restrictions.beef) next.add('beefFree');
+    if (prefs.profile === 'hindu' && prefs.tier === 'vegetarian') next.add('vegetarian');
     setChips(next);
   }, [hydrated, prefs]);
 
   const filter = useMemo<RestaurantFilter>(() => {
-    const f: RestaurantFilter = {};
+    const restrictions: Partial<Record<RestrictionKey, boolean>> = {};
     const cuisines: string[] = [];
+    let requireVegetarian = false;
     for (const c of chips) {
-      Object.assign(f, CHIP_TO_FILTER[c]);
+      for (const k of CHIP_TO_RESTRICTIONS[c] ?? []) restrictions[k] = true;
+      if (c === 'vegetarian') requireVegetarian = true;
       if (CHIP_CUISINE[c]) cuisines.push(CHIP_CUISINE[c]!);
     }
+    const f: RestaurantFilter = { restrictions };
+    if (requireVegetarian) f.requireVegetarian = true;
     if (cuisines.length) f.cuisines = cuisines;
     return f;
   }, [chips]);
