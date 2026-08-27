@@ -1,0 +1,5 @@
+.wrap { padding: var(--space-8) var(--space-6); max-inline-size: 1100px; margin-inline: auto; }
+.intro { font-size: 20px; font-weight: 700; margin-block-end: var(--space-6); }
+.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-4); }
+
+@media (width <= 900px) { .grid { grid-template-columns: 1fr; } }
