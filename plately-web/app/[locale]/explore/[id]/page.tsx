@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { getRestaurant } from '@/lib/mockData';
 import { AttributeList } from '@/components/explore/AttributeList';
+import { YourRestrictionsSlot } from './YourRestrictionsSlot';
 import { Callout } from '@/components/ui/Callout';
 import { Badge } from '@/components/ui/Badge';
 import { formatDate } from '@/lib/format';
@@ -38,6 +39,8 @@ export default async function DetailPage({ params }: { params: Promise<{ locale:
         <h2>{t('attributes')}</h2>
         <AttributeList a={r.attributes} />
       </section>
+
+      <YourRestrictionsSlot attributes={r.attributes} />
 
       {r.repMenu.length > 0 && (
         <section>
