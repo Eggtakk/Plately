@@ -1,0 +1,2 @@
+.map { inline-size: 100%; block-size: 100%; min-block-size: 320px; border-radius: var(--radius-md); overflow: hidden; }
+:global(.maplibregl-ctrl-top-right) { inset-inline: auto 8px; }

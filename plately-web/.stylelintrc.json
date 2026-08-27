@@ -4,6 +4,7 @@
   "rules": {
     "csstools/use-logical": "always",
     "selector-class-pattern": null,
+    "selector-pseudo-class-no-unknown": [true, { "ignorePseudoClasses": ["global"] }],
     "custom-property-empty-line-before": null,
     "alpha-value-notation": null,
     "color-function-alias-notation": null,
