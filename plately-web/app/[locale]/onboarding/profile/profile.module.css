@@ -1,0 +1,2 @@
+.grid { display: grid; gap: var(--space-3); }
+.back { background: none; border: 1px solid var(--line); border-radius: 999px; padding: 10px 22px; cursor: pointer; color: var(--ink); }
