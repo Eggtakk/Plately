@@ -1,8 +1,8 @@
 import { describe, it, expect, beforeEach } from 'vitest';
 import { renderHook, act } from '@testing-library/react';
-import { usePreferences, DEFAULT_PREFERENCES } from './usePreferences';
+import { usePreferences, DEFAULT_PREFERENCES, prefsStore } from './usePreferences';
 
-beforeEach(() => localStorage.clear());
+beforeEach(() => { localStorage.clear(); prefsStore._reset(); });
 
 describe('usePreferences', () => {
   it('starts from defaults', () => {

@@ -9,8 +9,16 @@ vi.mock('@/i18n/navigation', () => ({
 }));
 
 import { OnboardingGate } from './OnboardingGate';
+import { sessionStore } from '@/lib/useSession';
+import { prefsStore } from '@/lib/usePreferences';
 
-beforeEach(() => { localStorage.clear(); replace.mockClear(); pathname = '/explore'; });
+beforeEach(() => {
+  localStorage.clear();
+  sessionStore._reset();
+  prefsStore._reset();
+  replace.mockClear();
+  pathname = '/explore';
+});
 
 describe('OnboardingGate', () => {
   it('redirects to /login when no session', async () => {

@@ -1,8 +1,8 @@
 import { describe, it, expect, beforeEach } from 'vitest';
 import { renderHook, act } from '@testing-library/react';
-import { useSession } from './useSession';
+import { useSession, sessionStore } from './useSession';
 
-beforeEach(() => localStorage.clear());
+beforeEach(() => { localStorage.clear(); sessionStore._reset(); });
 
 describe('useSession', () => {
   it('has no session initially', () => {

@@ -1,36 +1,25 @@
 'use client';
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useSyncExternalStore } from 'react';
 import type { Session } from './types';
+import { createClientStore } from './clientStore';
 
 const KEY = 'plately.session';
 
-function read(): Session | null {
-  try {
-    const raw = localStorage.getItem(KEY);
-    return raw ? (JSON.parse(raw) as Session) : null;
-  } catch {
-    return null;
-  }
-}
+export const sessionStore = createClientStore<Session | null>(
+  KEY,
+  null,
+  (raw) => JSON.parse(raw) as Session,
+);
 
 export function useSession() {
-  const [session, setSession] = useState<Session | null>(null);
-  const [hydrated, setHydrated] = useState(false);
-
-  useEffect(() => {
-    setSession(read());
-    setHydrated(true);
-  }, []);
+  const session = useSyncExternalStore(sessionStore.subscribe, sessionStore.get, () => null);
+  const hydrated = useSyncExternalStore(sessionStore.subscribe, () => true, () => false);
 
   const signIn = useCallback((email: string | null) => {
-    const next: Session = { email, signedInAt: new Date().toISOString() };
-    try { localStorage.setItem(KEY, JSON.stringify(next)); } catch { /* private mode */ }
-    setSession(next);
+    sessionStore.set({ email, signedInAt: new Date().toISOString() });
   }, []);
-
   const signOut = useCallback(() => {
-    try { localStorage.removeItem(KEY); } catch { /* ignore */ }
-    setSession(null);
+    sessionStore.set(null);
   }, []);
 
   return { session, hydrated, signIn, signOut };
