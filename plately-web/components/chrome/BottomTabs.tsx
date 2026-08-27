@@ -8,7 +8,7 @@ export function BottomTabs() {
   const path = usePathname();
   const items = [
     { href: '/explore', label: t('explore') },
-    { href: '/start', label: t('restart') },
+    { href: '/onboarding/profile', label: t('restart') },
     { href: '/insight/about', label: t('about') },
   ];
   return (

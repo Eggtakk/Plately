@@ -4,6 +4,7 @@ import { setRequestLocale } from 'next-intl/server';
 import { routing, dirFor, type Locale } from '@/i18n/routing';
 import { fontClass, fontFamily } from '@/app/fonts';
 import { ThemeScript } from '@/components/chrome/ThemeScript';
+import { OnboardingGate } from '@/components/onboarding/OnboardingGate';
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -32,7 +33,9 @@ export default async function LocaleLayout({
       <body
         style={{ ['--font-sans' as string]: fontFamily(locale as Locale) } as React.CSSProperties}
       >
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        <NextIntlClientProvider>
+          <OnboardingGate>{children}</OnboardingGate>
+        </NextIntlClientProvider>
       </body>
     </html>
   );
