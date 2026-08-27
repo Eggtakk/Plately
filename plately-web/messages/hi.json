@@ -4,16 +4,58 @@
   "theme": { "light": "लाइट", "dark": "डार्क", "system": "सिस्टम" },
   "language": { "label": "भाषा" },
   "onboarding": {
-    "step1Title": "आप किससे परहेज़ करते हैं?",
-    "muslim": "मुस्लिम", "muslimDesc": "सूअर का मांस नहीं",
-    "hindu": "हिंदू", "hinduDesc": "गोमांस नहीं",
-    "porkfree": "सिर्फ़ सूअर-रहित",
-    "custom": "कस्टम",
-    "alcoholToggle": "परिसर में परोसी जाने वाली शराब से भी परहेज़",
-    "vegToggle": "केवल शाकाहारी",
-    "step2Title": "आप कहाँ हैं?",
-    "nearMe": "मेरे आस-पास",
-    "skip": "छोड़ें", "next": "आगे", "done": "रेस्तराँ देखें"
+    "languageTitle": "अपनी भाषा चुनें",
+    "profileTitle": "अपनी प्रोफ़ाइल बनाएँ",
+    "profileMuslim": "मुस्लिम",
+    "profileHindu": "हिंदू",
+    "detailsTitleMuslim": "आपकी हलाल प्राथमिकताएँ",
+    "detailsTitleHindu": "आपकी आहार प्राथमिकताएँ",
+    "halalPrefTitle": "हलाल मानदंड",
+    "meatPrefTitle": "मांस मानदंड",
+    "detailedTitle": "विस्तृत प्रतिबंध",
+    "customHint": "हर आइटम को संपादित करने के लिए \"कस्टम\" चुनें।",
+    "back": "वापस",
+    "next": "आगे",
+    "done": "खोज शुरू करें",
+    "stepOf": "चरण {n} / {total}"
+  },
+  "login": {
+    "title": "Plately में साइन इन करें",
+    "subtitle": "डेमो — असली खाते की ज़रूरत नहीं।",
+    "emailLabel": "ईमेल",
+    "passwordLabel": "पासवर्ड",
+    "signIn": "साइन इन",
+    "guest": "अतिथि के रूप में जारी रखें"
+  },
+  "tiers": {
+    "muslim": {
+      "halal-certified": "केवल हलाल-प्रमाणित",
+      "halal-meat": "हलाल मांस अनिवार्य",
+      "pork-alcohol-free": "सूअर और शराब रहित",
+      "custom": "कस्टम"
+    },
+    "hindu": {
+      "vegetarian": "शाकाहारी",
+      "no-beef": "गोमांस नहीं",
+      "no-beef-pork": "गोमांस/सूअर नहीं",
+      "no-meat": "कोई मांस नहीं",
+      "custom": "कस्टम"
+    }
+  },
+  "restrictions": {
+    "pork": "सूअर का मांस",
+    "alcohol": "भोजन में शराब",
+    "porkDerived": "सूअर-व्युत्पन्न सामग्री",
+    "gelatin": "जिलेटिन",
+    "nonHalalMeat": "गैर-हलाल मांस",
+    "seafood": "समुद्री भोजन",
+    "crossContamination": "क्रॉस-संदूषण",
+    "beef": "गोमांस",
+    "chicken": "चिकन",
+    "fish": "मछली",
+    "eggs": "अंडे",
+    "onion": "प्याज़",
+    "garlic": "लहसुन"
   },
   "filters": {
     "porkFree": "सूअर-रहित", "alcoholFree": "शराब-रहित", "vegetarian": "शाकाहारी",
@@ -37,7 +79,10 @@
     "containsBeef": "गोमांस है", "vegetarianFriendly": "शाकाहारी विकल्प",
     "repMenu": "खास व्यंजन", "directions": "रास्ता", "call": "कॉल करें", "copyAddress": "पता कॉपी करें",
     "disclaimer": "हमेशा रेस्तराँ से पुष्टि करें। मेन्यू के नाम में उल्लेख न होने पर भी शोरबे और मसाले में सूअर का मांस हो सकता है।",
-    "yes": "हाँ", "no": "नहीं", "unknown": "अज्ञात"
+    "yes": "हाँ", "no": "नहीं", "unknown": "अज्ञात",
+    "yourRestrictions": "आपके प्रतिबंध",
+    "restrictionClear": "ठीक लग रहा है",
+    "restrictionUnknown": "स्थल से जाँचें"
   },
   "insight": {
     "gapMap": "अंतर का नक्शा", "rankings": "रैंकिंग", "compare": "तीन क्षेत्र", "about": "डेटा और पद्धति",

@@ -4,16 +4,58 @@
   "theme": { "light": "فاتح", "dark": "داكن", "system": "النظام" },
   "language": { "label": "اللغة" },
   "onboarding": {
-    "step1Title": "ما الذي تتجنبه؟",
-    "muslim": "مسلم", "muslimDesc": "بلا لحم خنزير",
-    "hindu": "هندوسي", "hinduDesc": "بلا لحم بقر",
-    "porkfree": "بلا لحم خنزير فقط",
-    "custom": "مخصص",
-    "alcoholToggle": "تجنّب أيضًا الكحول المُقدَّم في المكان",
-    "vegToggle": "نباتي فقط",
-    "step2Title": "أين أنت؟",
-    "nearMe": "بالقرب مني",
-    "skip": "تخطٍّ", "next": "التالي", "done": "عرض المطاعم"
+    "languageTitle": "اختر لغتك",
+    "profileTitle": "أنشئ ملفك الشخصي",
+    "profileMuslim": "مسلم",
+    "profileHindu": "هندوسي",
+    "detailsTitleMuslim": "تفضيلات الحلال الخاصة بك",
+    "detailsTitleHindu": "تفضيلاتك الغذائية",
+    "halalPrefTitle": "معيار الحلال",
+    "meatPrefTitle": "معيار اللحوم",
+    "detailedTitle": "قيود تفصيلية",
+    "customHint": "اختر \"مخصص\" لتعديل كل عنصر على حدة.",
+    "back": "رجوع",
+    "next": "التالي",
+    "done": "ابدأ الاستكشاف",
+    "stepOf": "الخطوة {n} من {total}"
+  },
+  "login": {
+    "title": "تسجيل الدخول إلى Plately",
+    "subtitle": "نسخة تجريبية — لا حاجة لحساب حقيقي.",
+    "emailLabel": "البريد الإلكتروني",
+    "passwordLabel": "كلمة المرور",
+    "signIn": "تسجيل الدخول",
+    "guest": "المتابعة كضيف"
+  },
+  "tiers": {
+    "muslim": {
+      "halal-certified": "الحاصلة على شهادة حلال فقط",
+      "halal-meat": "لحوم حلال إلزامية",
+      "pork-alcohol-free": "بلا لحم خنزير وكحول",
+      "custom": "مخصص"
+    },
+    "hindu": {
+      "vegetarian": "نباتي",
+      "no-beef": "بلا لحم بقر",
+      "no-beef-pork": "بلا لحم بقر وخنزير",
+      "no-meat": "بلا لحوم",
+      "custom": "مخصص"
+    }
+  },
+  "restrictions": {
+    "pork": "لحم خنزير",
+    "alcohol": "كحول في الطعام",
+    "porkDerived": "مكوّنات مشتقة من لحم الخنزير",
+    "gelatin": "جيلاتين",
+    "nonHalalMeat": "لحوم غير حلال",
+    "seafood": "مأكولات بحرية",
+    "crossContamination": "تلوّث متبادل",
+    "beef": "لحم بقر",
+    "chicken": "دجاج",
+    "fish": "سمك",
+    "eggs": "بيض",
+    "onion": "بصل",
+    "garlic": "ثوم"
   },
   "filters": {
     "porkFree": "بلا لحم خنزير", "alcoholFree": "بلا كحول", "vegetarian": "نباتي",
@@ -37,7 +79,10 @@
     "containsBeef": "يحتوي على لحم بقر", "vegetarianFriendly": "خيارات نباتية",
     "repMenu": "الطبق المميّز", "directions": "الاتجاهات", "call": "اتصال", "copyAddress": "نسخ العنوان",
     "disclaimer": "تأكّد دائمًا من المطعم. قد يحتوي المرق والتوابل على لحم الخنزير حتى لو لم يذكر اسم الطبق ذلك.",
-    "yes": "نعم", "no": "لا", "unknown": "غير معروف"
+    "yes": "نعم", "no": "لا", "unknown": "غير معروف",
+    "yourRestrictions": "قيودك",
+    "restrictionClear": "يبدو مناسبًا",
+    "restrictionUnknown": "تحقّق من المكان"
   },
   "insight": {
     "gapMap": "خريطة الفجوة", "rankings": "الترتيب", "compare": "ثلاث مناطق", "about": "البيانات والمنهجية",

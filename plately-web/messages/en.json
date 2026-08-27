@@ -4,16 +4,58 @@
   "theme": { "light": "Light", "dark": "Dark", "system": "System" },
   "language": { "label": "Language" },
   "onboarding": {
-    "step1Title": "What do you avoid?",
-    "muslim": "Muslim", "muslimDesc": "No pork",
-    "hindu": "Hindu", "hinduDesc": "No beef",
-    "porkfree": "Just pork-free",
-    "custom": "Custom",
-    "alcoholToggle": "Also avoid alcohol served on-site",
-    "vegToggle": "Vegetarian only",
-    "step2Title": "Where are you?",
-    "nearMe": "Near me",
-    "skip": "Skip", "next": "Next", "done": "See restaurants"
+    "languageTitle": "Choose your language",
+    "profileTitle": "Create your profile",
+    "profileMuslim": "Muslim",
+    "profileHindu": "Hindu",
+    "detailsTitleMuslim": "Your halal preferences",
+    "detailsTitleHindu": "Your dietary preferences",
+    "halalPrefTitle": "Halal preference",
+    "meatPrefTitle": "Meat preference",
+    "detailedTitle": "Detailed restrictions",
+    "customHint": "Choose \"Custom\" to edit each item.",
+    "back": "Back",
+    "next": "Next",
+    "done": "Start exploring",
+    "stepOf": "Step {n} of {total}"
+  },
+  "login": {
+    "title": "Sign in to Plately",
+    "subtitle": "Demo — no real account needed.",
+    "emailLabel": "Email",
+    "passwordLabel": "Password",
+    "signIn": "Sign in",
+    "guest": "Continue as guest"
+  },
+  "tiers": {
+    "muslim": {
+      "halal-certified": "Halal-certified only",
+      "halal-meat": "Halal meat required",
+      "pork-alcohol-free": "Pork & alcohol free",
+      "custom": "Custom"
+    },
+    "hindu": {
+      "vegetarian": "Vegetarian",
+      "no-beef": "No beef",
+      "no-beef-pork": "No beef/pork",
+      "no-meat": "No meat",
+      "custom": "Custom"
+    }
+  },
+  "restrictions": {
+    "pork": "Pork",
+    "alcohol": "Alcohol in food",
+    "porkDerived": "Pork-derived ingredients",
+    "gelatin": "Gelatin",
+    "nonHalalMeat": "Non-halal meat",
+    "seafood": "Seafood",
+    "crossContamination": "Cross-contamination",
+    "beef": "Beef",
+    "chicken": "Chicken",
+    "fish": "Fish",
+    "eggs": "Eggs",
+    "onion": "Onion",
+    "garlic": "Garlic"
   },
   "filters": {
     "porkFree": "Pork-free", "alcoholFree": "Alcohol-free", "vegetarian": "Vegetarian",
@@ -37,7 +79,10 @@
     "containsBeef": "Contains beef", "vegetarianFriendly": "Vegetarian options",
     "repMenu": "Signature menu", "directions": "Directions", "call": "Call", "copyAddress": "Copy address",
     "disclaimer": "Always confirm with the restaurant. Broth and seasoning may contain pork even when the menu name doesn't say so.",
-    "yes": "Yes", "no": "No", "unknown": "Unknown"
+    "yes": "Yes", "no": "No", "unknown": "Unknown",
+    "yourRestrictions": "Your restrictions",
+    "restrictionClear": "Looks clear",
+    "restrictionUnknown": "Check with the venue"
   },
   "insight": {
     "gapMap": "Gap map", "rankings": "Rankings", "compare": "Three regions", "about": "Data & method",
