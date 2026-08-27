@@ -45,5 +45,24 @@
     "prescription": "Prescription",
     "legendTitle": "Gap index", "gapLow": "Low", "gapMedium": "Medium", "gapHigh": "High"
   },
+  "about": {
+    "title": "Data & method",
+    "sourcesTitle": "Data sources",
+    "source_localdata": "LOCALDATA (local-government business permit data) — every restaurant nationwide, with operating status, address and coordinates.",
+    "source_tourapi": "TourAPI (Korea Tourism Organization) — representative and served-menu text for restaurants.",
+    "source_datalab": "Korea Tourism Data Lab — Muslim and foreign visitor distribution by region (the demand side).",
+    "pipelineTitle": "Pipeline",
+    "pipelineSteps": [
+      "Filter LOCALDATA to operating restaurants, drop alcohol-license venues.",
+      "Match restaurant names against exclude tokens (pork, alcohol) and include tokens (seafood, chicken, beef, vegetarian, Muslim-cuisine).",
+      "Cross-check candidate menus against TourAPI menu text.",
+      "Phone-verify a sample of candidates for pork-free status and willingness to cooperate.",
+      "Compare the verified supply against Data Lab visitor demand to compute a per-district gap index (229 시군구)."
+    ],
+    "openDataTitle": "Open data",
+    "openDataBody": "The resulting per-district gap dataset is intended for release under the Korea Open Government License so existing apps and local governments can reuse it.",
+    "limitsTitle": "Limits",
+    "limitsBody": "This prototype runs on mock data. Broth and seasoning can contain pork even when a menu name does not say so — always confirm with the restaurant."
+  },
   "common": { "back": "Back", "close": "Close", "loading": "Loading", "of229": "of 229 시군구" }
 }
