@@ -36,6 +36,15 @@ The 14 `RestaurantAttributes` fields drive filtering via `lib/filter.ts`: a rest
 restaurant only on a **confirmed** conflict — `'unknown'` values pass through and surface in the
 restaurant-detail "Your restrictions" block (`components/explore/YourRestrictions.tsx`).
 
+## Explore filtering
+
+The profile's restrictions apply **silently** — Explore has no per-restriction toggles. Above the
+chip row a profile-summary pill (`☪️` / `🕉️` + the active tier name, `components/explore/ProfileSummary.tsx`)
+links to `/onboarding/details` for adjusting them. The filter chips are **cuisine-only** — *Seafood* /
+*Chicken* / *Korean cuisine* — and a chip auto-hides when the profile already restricts that axis
+(e.g. no *Seafood* chip once `seafood` is restricted). `ExploreView.tsx` maps active chips to
+`RestaurantFilter.cuisines` and merges them with `filterFromPreferences(prefs)`.
+
 **Reset onboarding:** clear `plately.session` + `plately.prefs` from `localStorage`, or call the
 hook actions `signOut()` (`lib/useSession.ts`) / `resetOnboarding()` (`lib/usePreferences.ts`).
 
@@ -51,8 +60,8 @@ All routes are locale-prefixed: `/[locale]/…` with locales `en ko ar hi`. `ar`
 | `/[locale]/onboarding/language` | Wizard step 1 — pick the interface language |
 | `/[locale]/onboarding/profile` | Wizard step 2 — pick a diet profile (Muslim / Hindu) |
 | `/[locale]/onboarding/details` | Wizard step 3 — preference tier + detailed restriction toggles |
-| `/[locale]/explore` | Explore: filter chips + restaurant list + map |
-| `/[locale]/explore/[id]` | Restaurant detail — why listed, attributes, signature menu |
+| `/[locale]/explore` | Explore: profile pill + cuisine chips + restaurant list + map |
+| `/[locale]/explore/[id]` | Restaurant detail — split layout: why listed / attributes / signature menu beside a location-zoomed map |
 | `/[locale]/insight` | Insight: choropleth gap map + region list + region panel |
 | `/[locale]/insight/rankings` | Sortable 시군구 gap table |
 | `/[locale]/insight/compare` | Three regions side by side, one prescription each |
