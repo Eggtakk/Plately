@@ -1,0 +1,8 @@
+.wrap { max-inline-size: 380px; margin-inline: auto; padding: var(--space-12) var(--space-6); display: flex; flex-direction: column; gap: var(--space-3); }
+.h { font-size: 22px; margin: 0; }
+.sub { color: var(--ink-soft); font-size: 13px; margin: 0 0 var(--space-4); }
+.form { display: flex; flex-direction: column; gap: var(--space-3); }
+.field { display: flex; flex-direction: column; gap: var(--space-1); font-size: 13px; }
+.field input { font: inherit; padding: 10px 12px; border-radius: var(--radius-sm); border: 1px solid var(--line); background: var(--paper-raised); color: var(--ink); }
+.primary { background: var(--primary); color: var(--primary-contrast); border: 0; border-radius: 999px; padding: 11px; font-weight: 700; cursor: pointer; margin-block-start: var(--space-2); }
+.ghost { background: none; border: 1px solid var(--line); border-radius: 999px; padding: 11px; cursor: pointer; color: var(--ink); }
