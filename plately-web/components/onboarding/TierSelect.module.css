@@ -1,0 +1,5 @@
+.list { display: flex; flex-direction: column; gap: var(--space-2); }
+.row { display: flex; align-items: center; gap: var(--space-2); padding: var(--space-3) var(--space-4); border: 1.5px solid var(--line); border-radius: var(--radius-md); background: var(--paper-raised); cursor: pointer; color: var(--ink); font: inherit; text-align: start; }
+.row[data-on="true"] { border-color: var(--primary); }
+.dot { inline-size: 14px; block-size: 14px; border-radius: 999px; border: 2px solid var(--line); flex: none; }
+.row[data-on="true"] .dot { border-color: var(--primary); background: var(--primary); }

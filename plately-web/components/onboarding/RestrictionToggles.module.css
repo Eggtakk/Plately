@@ -1,0 +1,5 @@
+.grid { display: flex; flex-wrap: wrap; gap: var(--space-2); }
+.grid[data-locked="true"] { opacity: 0.55; }
+.chip { border: 1px solid var(--line); background: var(--paper-raised); color: var(--ink-soft); border-radius: 999px; padding: 6px 12px; font-size: 13px; cursor: pointer; }
+.chip:disabled { cursor: default; }
+.chip[data-on="true"] { border-color: var(--primary); color: var(--primary); background: color-mix(in srgb, var(--primary) 8%, transparent); font-weight: 700; }
