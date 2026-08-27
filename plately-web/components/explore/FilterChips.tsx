@@ -1,18 +1,34 @@
 'use client';
 import { useTranslations } from 'next-intl';
+import type { RestrictionKey } from '@/lib/types';
 import styles from './FilterChips.module.css';
 
-export type ChipKey = 'porkFree' | 'alcoholFree' | 'vegetarian' | 'beefFree' | 'seafood' | 'chicken' | 'korean' | 'halalCertified';
+export type ExtraChip = 'seafoodCuisine' | 'chickenCuisine' | 'koreanCuisine' | 'halalCertified';
 
-export function FilterChips({ active, onToggle }: { active: Set<ChipKey>; onToggle: (k: ChipKey) => void }) {
-  const t = useTranslations('filters');
+export function FilterChips({
+  restrictionKeys, activeRestrictions, onToggleRestriction,
+  extras, activeExtras, onToggleExtra,
+}: {
+  restrictionKeys: RestrictionKey[];
+  activeRestrictions: Partial<Record<RestrictionKey, boolean>>;
+  onToggleRestriction: (k: RestrictionKey) => void;
+  extras: ExtraChip[];
+  activeExtras: Set<ExtraChip>;
+  onToggleExtra: (k: ExtraChip) => void;
+}) {
+  const tr = useTranslations('restrictions');
+  const tf = useTranslations('filters');
   const te = useTranslations('explore');
-  const keys: ChipKey[] = ['porkFree', 'alcoholFree', 'vegetarian', 'beefFree', 'seafood', 'chicken', 'korean', 'halalCertified'];
   return (
     <div className={styles.row} role="group" aria-label={te('filtersLabel')}>
-      {keys.map((k) => (
-        <button key={k} type="button" className={styles.chip} data-on={active.has(k)} aria-pressed={active.has(k)} onClick={() => onToggle(k)}>
-          {t(k)}
+      {restrictionKeys.map((k) => (
+        <button key={k} type="button" className={styles.chip} data-on={!!activeRestrictions[k]} aria-pressed={!!activeRestrictions[k]} onClick={() => onToggleRestriction(k)}>
+          {tr(k)}
+        </button>
+      ))}
+      {extras.map((k) => (
+        <button key={k} type="button" className={styles.chip} data-on={activeExtras.has(k)} aria-pressed={activeExtras.has(k)} onClick={() => onToggleExtra(k)}>
+          {k === 'halalCertified' ? tf('halalCertified') : k === 'seafoodCuisine' ? tf('seafood') : k === 'chickenCuisine' ? tf('chicken') : tf('korean')}
         </button>
       ))}
     </div>

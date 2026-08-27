@@ -3,6 +3,7 @@ import { useLocale, useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import { Badge } from '@/components/ui/Badge';
 import type { Restaurant, Locale } from '@/lib/types';
+import { restaurantTags } from '@/lib/restaurantTags';
 import styles from './RestaurantCard.module.css';
 
 export function RestaurantCard({ r }: { r: Restaurant }) {
@@ -19,9 +20,7 @@ export function RestaurantCard({ r }: { r: Restaurant }) {
       </div>
       <div className={styles.meta}>{area} · {r.cuisine}</div>
       <div className={styles.tags}>
-        {!r.attributes.containsPork && <span className={styles.tag}>{te('tagPorkFree')}</span>}
-        {r.attributes.servesAlcohol === false && <span className={styles.tag}>{te('tagAlcoholFree')}</span>}
-        {r.attributes.vegetarianFriendly && <span className={styles.tag}>{te('tagVeg')}</span>}
+        {restaurantTags(r.attributes).map((k) => <span key={k} className={styles.tag}>{te(k)}</span>)}
       </div>
     </Link>
   );
