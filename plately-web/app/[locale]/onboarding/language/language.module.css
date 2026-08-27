@@ -1,0 +1,2 @@
+.grid { display: grid; gap: var(--space-3); }
+.next { align-self: start; margin-block-start: var(--space-6); background: var(--primary); color: var(--primary-contrast); border: 0; border-radius: 999px; padding: 10px 22px; font-weight: 700; cursor: pointer; }
