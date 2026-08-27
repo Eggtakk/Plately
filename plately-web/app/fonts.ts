@@ -24,7 +24,7 @@ const stackByLocale: Record<Locale, string> = {
   hi: 'var(--font-devanagari), var(--font-latin)',
 };
 
-export function fontClass(_locale: Locale): string {
+export function fontClass(): string {
   return all;
 }
 

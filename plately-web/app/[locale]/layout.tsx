@@ -24,7 +24,7 @@ export default async function LocaleLayout({
     <html
       lang={locale}
       dir={dirFor(locale as Locale)}
-      className={fontClass(locale as Locale)}
+      className={fontClass()}
     >
       <head>
         <ThemeScript />
