@@ -1,22 +1,15 @@
 'use client';
 import { useCallback, useEffect, useState } from 'react';
-import type { Preferences } from './types';
+import type { Preferences, ProfileKind, RestrictionKey } from './types';
+import { presetFor, DEFAULT_TIER } from './tiers';
 
 const KEY = 'plately.prefs';
 
 export const DEFAULT_PREFERENCES: Preferences = {
-  profile: 'porkfree',
-  avoidPork: true,
-  avoidAlcohol: false,
-  avoidBeef: false,
-  vegetarianOnly: false,
-};
-
-const PROFILE_DEFAULTS: Record<Preferences['profile'], Partial<Preferences>> = {
-  muslim: { avoidPork: true, avoidBeef: false },
-  hindu: { avoidBeef: true, avoidPork: false },
-  porkfree: { avoidPork: true, avoidBeef: false, avoidAlcohol: false, vegetarianOnly: false },
-  custom: {},
+  profile: null,
+  tier: null,
+  restrictions: {},
+  onboarded: false,
 };
 
 function read(): Preferences {
@@ -40,13 +33,30 @@ export function usePreferences() {
     try { localStorage.setItem(KEY, JSON.stringify(next)); } catch { /* private mode */ }
   }, []);
 
-  const update = useCallback((patch: Partial<Preferences>) => {
-    persist({ ...read(), ...patch });
+  const setProfile = useCallback((profile: ProfileKind) => {
+    const tier = DEFAULT_TIER[profile];
+    persist({ ...read(), profile, tier, restrictions: { ...presetFor(profile, tier) } });
   }, [persist]);
 
-  const setProfile = useCallback((profile: Preferences['profile']) => {
-    persist({ ...read(), profile, ...PROFILE_DEFAULTS[profile] });
+  const setTier = useCallback((tier: string) => {
+    const cur = read();
+    if (!cur.profile) return;
+    const restrictions = tier === 'custom' ? cur.restrictions : { ...presetFor(cur.profile, tier) };
+    persist({ ...cur, tier, restrictions });
   }, [persist]);
 
-  return { prefs, hydrated, update, setProfile };
+  const toggleRestriction = useCallback((key: RestrictionKey) => {
+    const cur = read();
+    persist({ ...cur, restrictions: { ...cur.restrictions, [key]: !cur.restrictions[key] } });
+  }, [persist]);
+
+  const completeOnboarding = useCallback(() => {
+    persist({ ...read(), onboarded: true });
+  }, [persist]);
+
+  const resetOnboarding = useCallback(() => {
+    persist({ ...DEFAULT_PREFERENCES });
+  }, [persist]);
+
+  return { prefs, hydrated, setProfile, setTier, toggleRestriction, completeOnboarding, resetOnboarding };
 }

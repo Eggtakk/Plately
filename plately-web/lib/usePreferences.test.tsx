@@ -5,24 +5,55 @@ import { usePreferences, DEFAULT_PREFERENCES } from './usePreferences';
 beforeEach(() => localStorage.clear());
 
 describe('usePreferences', () => {
-  it('starts from defaults when storage is empty', () => {
+  it('starts from defaults', () => {
     const { result } = renderHook(() => usePreferences());
     expect(result.current.prefs).toEqual(DEFAULT_PREFERENCES);
+    expect(result.current.prefs.onboarded).toBe(false);
   });
-  it('persists updates to localStorage', () => {
+  it('setProfile sets profile + default tier + its preset restrictions', () => {
     const { result } = renderHook(() => usePreferences());
     act(() => result.current.setProfile('muslim'));
-    expect(JSON.parse(localStorage.getItem('plately.prefs')!).profile).toBe('muslim');
-    expect(JSON.parse(localStorage.getItem('plately.prefs')!).avoidPork).toBe(true);
+    expect(result.current.prefs.profile).toBe('muslim');
+    expect(result.current.prefs.tier).toBe('pork-alcohol-free');
+    expect(result.current.prefs.restrictions).toEqual({ pork: true, alcohol: true, porkDerived: true });
   });
-  it('hindu profile sets avoidBeef', () => {
+  it('setTier applies that tier preset', () => {
+    const { result } = renderHook(() => usePreferences());
+    act(() => result.current.setProfile('muslim'));
+    act(() => result.current.setTier('halal-certified'));
+    expect(result.current.prefs.tier).toBe('halal-certified');
+    expect(result.current.prefs.restrictions.gelatin).toBe(true);
+    expect(result.current.prefs.restrictions.nonHalalMeat).toBe(true);
+  });
+  it('toggleRestriction flips one key (used in custom tier)', () => {
     const { result } = renderHook(() => usePreferences());
     act(() => result.current.setProfile('hindu'));
-    expect(result.current.prefs.avoidBeef).toBe(true);
+    act(() => result.current.setTier('custom'));
+    act(() => result.current.toggleRestriction('eggs'));
+    expect(result.current.prefs.restrictions.eggs).toBe(true);
+    act(() => result.current.toggleRestriction('eggs'));
+    expect(result.current.prefs.restrictions.eggs).toBe(false);
   });
-  it('rehydrates from existing storage', () => {
-    localStorage.setItem('plately.prefs', JSON.stringify({ ...DEFAULT_PREFERENCES, city: 'busan' }));
+  it('completeOnboarding sets the flag', () => {
     const { result } = renderHook(() => usePreferences());
-    expect(result.current.prefs.city).toBe('busan');
+    act(() => result.current.setProfile('muslim'));
+    act(() => result.current.completeOnboarding());
+    expect(result.current.prefs.onboarded).toBe(true);
+  });
+  it('persists + rehydrates', () => {
+    const { result, unmount } = renderHook(() => usePreferences());
+    act(() => result.current.setProfile('hindu'));
+    act(() => result.current.completeOnboarding());
+    unmount();
+    const again = renderHook(() => usePreferences());
+    expect(again.result.current.prefs.profile).toBe('hindu');
+    expect(again.result.current.prefs.onboarded).toBe(true);
+  });
+  it('resetOnboarding clears profile/tier/restrictions/flag', () => {
+    const { result } = renderHook(() => usePreferences());
+    act(() => result.current.setProfile('muslim'));
+    act(() => result.current.completeOnboarding());
+    act(() => result.current.resetOnboarding());
+    expect(result.current.prefs).toEqual(DEFAULT_PREFERENCES);
   });
 });
