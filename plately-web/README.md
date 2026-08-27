@@ -6,8 +6,40 @@ Plately is a two-mode web app built for the 2026 한국관광 데이터랩 활�
 
 ```bash
 npm install
-npm run dev     # http://localhost:3000  (redirects to /en/explore)
+npm run dev     # http://localhost:3000  (first run lands on /en/login)
 ```
+
+## Auth & onboarding
+
+The app gates every non-exempt route on two pieces of `localStorage` state:
+
+- a demo session — `localStorage['plately.session']` (set by `/login`), and
+- a completed profile — `localStorage['plately.prefs'].onboarded === true`.
+
+Missing session → redirect to `/login`. Session but not onboarded → redirect into the wizard
+(`/onboarding/details` if a profile is already picked, otherwise `/onboarding/profile`).
+`/login` and `/onboarding/*` are exempt. The gate lives in
+`components/onboarding/OnboardingGate.tsx` (mounted in `app/[locale]/layout.tsx`).
+
+**Flow:** `/login` → `/onboarding/language` → `/onboarding/profile` → `/onboarding/details` → `/explore`.
+`/login` accepts any email + password, or "Continue as guest" (a guest session has `email: null`).
+
+**Profiles:**
+
+- **Muslim** — halal-preference tiers: *Halal-certified only* / *Halal meat required* / *Pork & alcohol free* / *Custom*.
+- **Hindu** — meat-preference tiers: *Vegetarian* / *No beef* / *No beef/pork* / *No meat* / *Custom*.
+
+Selecting a tier presets the detailed restriction toggles and dims them; choosing **Custom** unlocks
+them for free editing. Presets and the profile→restriction map live in `lib/tiers.ts`.
+
+The 14 `RestaurantAttributes` fields drive filtering via `lib/filter.ts`: a restriction excludes a
+restaurant only on a **confirmed** conflict — `'unknown'` values pass through and surface in the
+restaurant-detail "Your restrictions" block (`components/explore/YourRestrictions.tsx`).
+
+**Reset onboarding:** clear `plately.session` + `plately.prefs` from `localStorage`, or call the
+hook actions `signOut()` (`lib/useSession.ts`) / `resetOnboarding()` (`lib/usePreferences.ts`).
+
+The old city-picker onboarding at `/start` has been removed.
 
 ## Routes
 
@@ -15,7 +47,10 @@ All routes are locale-prefixed: `/[locale]/…` with locales `en ko ar hi`. `ar`
 
 | Route | What it is |
 | --- | --- |
-| `/[locale]/start` | Onboarding — pick a diet profile and city (no TopBar) |
+| `/[locale]/login` | Demo sign-in — email + password or "Continue as guest" (no TopBar) |
+| `/[locale]/onboarding/language` | Wizard step 1 — pick the interface language |
+| `/[locale]/onboarding/profile` | Wizard step 2 — pick a diet profile (Muslim / Hindu) |
+| `/[locale]/onboarding/details` | Wizard step 3 — preference tier + detailed restriction toggles |
 | `/[locale]/explore` | Explore: filter chips + restaurant list + map |
 | `/[locale]/explore/[id]` | Restaurant detail — why listed, attributes, signature menu |
 | `/[locale]/insight` | Insight: choropleth gap map + region list + region panel |
@@ -26,13 +61,15 @@ All routes are locale-prefixed: `/[locale]/…` with locales `en ko ar hi`. `ar`
 ## Testing
 
 ```bash
-npm test          # Vitest — unit + component (45 tests)
-npm run e2e        # Playwright — 4-locale smoke + axe accessibility suite
+npm test          # Vitest — unit + component
+npm run e2e        # Playwright — onboarding gate + 4-locale gated smoke + axe accessibility
 npm run lint       # ESLint
 npm run lint:css   # Stylelint
 ```
 
-`npm run e2e` starts `npm run dev` itself (see `playwright.config.ts`).
+`npm run e2e` starts `npm run dev` itself (see `playwright.config.ts`). The smoke and a11y suites
+seed an onboarded guest session (`plately.session` + `plately.prefs`) in a `beforeEach` so gated
+routes render; `onboarding.spec.ts` drives the real `/login` → `/onboarding/*` → `/explore` flow.
 
 ## Data
 
