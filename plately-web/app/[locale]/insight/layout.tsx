@@ -1,5 +1,6 @@
 import { setRequestLocale } from 'next-intl/server';
 import { TopBar } from '@/components/chrome/TopBar';
+import { InsightNav } from '@/components/insight/InsightNav';
 
 export default async function InsightLayout({
   children, params,
@@ -9,6 +10,7 @@ export default async function InsightLayout({
   return (
     <>
       <TopBar />
+      <InsightNav />
       <main>{children}</main>
     </>
   );
