@@ -1,4 +1,11 @@
-.wrap { max-inline-size: 680px; margin-inline: auto; padding: var(--space-8) var(--space-6) var(--space-12); display: flex; flex-direction: column; gap: var(--space-6); }
-.hero h1 { margin: 0; font-size: 24px; }
-.hero p { color: var(--ink-soft); margin: var(--space-1) 0 var(--space-2); }
-.wrap section h2 { font-size: 16px; margin-block: 0 var(--space-2); }
+.view { display: grid; grid-template-columns: minmax(320px, 480px) 1fr; gap: var(--space-4); block-size: calc(100dvh - 64px); padding: var(--space-4) var(--space-6); }
+.panel { overflow-y: auto; display: flex; flex-direction: column; gap: var(--space-6); padding-inline-end: var(--space-2); padding-block: var(--space-4); }
+.panel .hero h1 { margin: 0; font-size: 24px; }
+.panel .hero p { color: var(--ink-soft); margin: var(--space-1) 0 var(--space-2); }
+.panel section h2 { font-size: 16px; margin-block: 0 var(--space-2); }
+.mapSlot { border: 1px solid var(--line); border-radius: var(--radius-md); overflow: hidden; }
+
+@media (width <= 900px) {
+  .view { grid-template-columns: 1fr; block-size: auto; }
+  .mapSlot { order: -1; block-size: 40vh; }
+}
