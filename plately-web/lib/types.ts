@@ -9,6 +9,16 @@ export interface RestaurantAttributes {
   servesAlcohol: Tristate;
   containsBeef: boolean;
   vegetarianFriendly: boolean;
+  containsChicken: boolean;
+  containsFish: boolean;
+  containsSeafood: boolean;
+  containsEgg: boolean;
+  containsOnionGarlic: boolean;
+  porkDerivedIngredients: Tristate;
+  containsGelatin: Tristate;
+  nonHalalMeat: Tristate;
+  halalCertified: boolean;
+  crossContaminationRisk: Tristate;
 }
 
 export interface Restaurant {
@@ -40,20 +50,29 @@ export interface RegionGapDetail extends RegionGap {
   processingStatus: 'pipeline' | 'menu-checked' | 'phone-sampled';
 }
 
+export type ProfileKind = 'muslim' | 'hindu';
+
+export type RestrictionKey =
+  | 'pork' | 'alcohol' | 'porkDerived' | 'gelatin' | 'nonHalalMeat'
+  | 'seafood' | 'crossContamination'
+  | 'beef' | 'chicken' | 'fish' | 'eggs' | 'onion' | 'garlic';
+
 export interface Preferences {
-  profile: 'muslim' | 'hindu' | 'porkfree' | 'custom';
-  avoidPork: boolean;
-  avoidAlcohol: boolean;
-  avoidBeef: boolean;
-  vegetarianOnly: boolean;
-  city?: string;
+  profile: ProfileKind | null;
+  tier: string | null;
+  restrictions: Partial<Record<RestrictionKey, boolean>>;
+  onboarded: boolean;
+}
+
+export interface Session {
+  email: string | null; // null = guest
+  signedInAt: string;   // ISO
 }
 
 export interface RestaurantFilter {
-  avoidPork?: boolean;
-  avoidAlcohol?: boolean;
-  avoidBeef?: boolean;
-  vegetarianOnly?: boolean;
+  restrictions?: Partial<Record<RestrictionKey, boolean>>;
+  requireHalalCertified?: boolean;
+  requireVegetarian?: boolean;
   cuisines?: string[];
   sigunguCode?: string;
 }
