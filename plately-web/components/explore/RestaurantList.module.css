@@ -1,0 +1,2 @@
+.list { overflow-y: auto; padding-inline-end: var(--space-2); }
+.empty { color: var(--ink-soft); padding: var(--space-6); text-align: center; }
