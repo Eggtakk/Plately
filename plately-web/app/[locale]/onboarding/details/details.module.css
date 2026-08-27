@@ -1,0 +1,4 @@
+.subhead { font-size: 15px; margin: 0 0 var(--space-2); }
+.hint { font-size: 12px; color: var(--ink-soft); margin: 0 0 var(--space-2); }
+.back { background: none; border: 1px solid var(--line); border-radius: 999px; padding: 10px 22px; cursor: pointer; color: var(--ink); }
+.done { background: var(--primary); color: var(--primary-contrast); border: 0; border-radius: 999px; padding: 10px 22px; font-weight: 700; cursor: pointer; }
