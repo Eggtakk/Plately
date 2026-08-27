@@ -1,0 +1,4 @@
+.list { list-style: none; padding: 0; margin: 0; border: 1px solid var(--line); border-radius: var(--radius-md); overflow: hidden; }
+.row { display: flex; justify-content: space-between; padding: var(--space-3) var(--space-4); border-block-end: 1px solid var(--line); }
+.row:last-child { border-block-end: 0; }
+.row[data-good="true"] { color: var(--primary); }

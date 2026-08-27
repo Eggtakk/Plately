@@ -1,0 +1,4 @@
+.wrap { max-inline-size: 680px; margin-inline: auto; padding: var(--space-8) var(--space-6) var(--space-12); display: flex; flex-direction: column; gap: var(--space-6); }
+.hero h1 { margin: 0; font-size: 24px; }
+.hero p { color: var(--ink-soft); margin: var(--space-1) 0 var(--space-2); }
+.wrap section h2 { font-size: 16px; margin-block: 0 var(--space-2); }
