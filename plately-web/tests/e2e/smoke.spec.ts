@@ -54,14 +54,21 @@ test('language picker switches locale', async ({ page }) => {
   await expect(page).toHaveURL(/\/ko\/explore/);
 });
 
-test('loosening a restriction chip widens the result count', async ({ page }) => {
+test('a cuisine chip narrows the result count', async ({ page }) => {
   await page.goto('/en/explore');
   const count = page.getByText(/\d+ place/);
   await expect(count).toBeVisible();
   const before = Number((await count.textContent())!.match(/\d+/)![0]);
-  await page.getByRole('button', { name: 'Pork', exact: true }).click(); // chip is aria-pressed=true (from seeded prefs); clicking loosens it
-  await expect(page.getByRole('button', { name: 'Pork', exact: true })).toHaveAttribute('aria-pressed', 'false');
-  await expect.poll(async () => Number((await count.textContent())!.match(/\d+/)![0])).toBeGreaterThanOrEqual(before);
+  const chip = page.getByRole('button', { name: 'Korean cuisine' });
+  await chip.click();
+  await expect(chip).toHaveAttribute('aria-pressed', 'true');
+  await expect.poll(async () => Number((await count.textContent())!.match(/\d+/)![0])).toBeLessThanOrEqual(before);
+});
+
+test('restaurant detail shows a location map', async ({ page }) => {
+  await page.goto('/en/explore/r-yongsan-samgyetang');
+  await expect(page.getByRole('heading', { name: /Samgyetang/ })).toBeVisible();
+  await expect(page.locator('[role="application"]')).toBeVisible();
 });
 
 test('insight region list opens the region panel', async ({ page }) => {

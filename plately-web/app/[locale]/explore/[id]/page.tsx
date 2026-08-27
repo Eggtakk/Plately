@@ -21,7 +21,7 @@ export default async function DetailPage({ params }: { params: Promise<{ locale:
 
   return (
     <div className={styles.view}>
-      <article className={styles.panel}>
+      <article className={styles.panel} tabIndex={0}>
         <header className={styles.hero}>
           <h1>{r.name[l] ?? r.name.en}</h1>
           <p>{r.area[l] ?? r.area.en} · {r.cuisine}</p>

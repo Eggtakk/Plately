@@ -5,6 +5,7 @@ const routes = [
   '/en/login',
   '/en/onboarding/profile',
   '/en/explore',
+  '/en/explore/r-yongsan-samgyetang',
   '/en/insight',
   '/en/insight/compare',
   '/en/insight/rankings',
