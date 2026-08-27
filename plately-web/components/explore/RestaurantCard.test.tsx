@@ -11,7 +11,12 @@ import { RestaurantCard } from './RestaurantCard';
 const r: Restaurant = {
   id: 'r1', name: { en: 'Sea House', ko: '바다집' }, area: { en: 'Busan', ko: '부산' },
   sigunguCode: '26350', coords: [129, 35], cuisine: 'seafood',
-  attributes: { containsPork: false, servesAlcohol: false, containsBeef: false, vegetarianFriendly: false },
+  attributes: {
+    containsPork: false, servesAlcohol: false, containsBeef: false, vegetarianFriendly: false,
+    containsChicken: false, containsFish: false, containsSeafood: false, containsEgg: false,
+    containsOnionGarlic: false, porkDerivedIngredients: false, containsGelatin: false,
+    nonHalalMeat: 'unknown', halalCertified: false, crossContaminationRisk: false,
+  },
   confidence: 'menu', matchedTokens: [], repMenu: [],
 };
 

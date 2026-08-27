@@ -8,7 +8,14 @@ describe('AttributeList', () => {
   it('renders "Unknown" for tristate alcohol', () => {
     render(
       <NextIntlClientProvider locale="en" messages={messages}>
-        <AttributeList a={{ containsPork: false, servesAlcohol: 'unknown', containsBeef: false, vegetarianFriendly: false }} />
+        <AttributeList
+          a={{
+            containsPork: false, servesAlcohol: 'unknown', containsBeef: false, vegetarianFriendly: false,
+            containsChicken: false, containsFish: false, containsSeafood: false, containsEgg: false,
+            containsOnionGarlic: false, porkDerivedIngredients: false, containsGelatin: false,
+            nonHalalMeat: 'unknown', halalCertified: false, crossContaminationRisk: false,
+          }}
+        />
       </NextIntlClientProvider>,
     );
     expect(screen.getByText('Unknown')).toBeInTheDocument();
