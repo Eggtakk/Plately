@@ -70,7 +70,8 @@
     "tagVeg": "vegetarian",
     "tagHalal": "halal-certified",
     "filtersLabel": "Filters",
-    "mapLabel": "Map"
+    "mapLabel": "Map",
+    "myProfile": "My profile"
   },
   "confidence": { "phone": "Phone-verified", "menu": "Menu-checked", "name": "Name-inferred" },
   "restaurant": {

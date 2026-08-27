@@ -70,7 +70,8 @@
     "tagVeg": "채식",
     "tagHalal": "할랄 인증",
     "filtersLabel": "필터",
-    "mapLabel": "지도"
+    "mapLabel": "지도",
+    "myProfile": "내 프로필"
   },
   "confidence": { "phone": "전화 확인", "menu": "메뉴 확인", "name": "상호 추정" },
   "restaurant": {

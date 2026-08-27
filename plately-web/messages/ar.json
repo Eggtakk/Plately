@@ -70,7 +70,8 @@
     "tagVeg": "نباتي",
     "tagHalal": "حاصل على شهادة حلال",
     "filtersLabel": "عوامل التصفية",
-    "mapLabel": "الخريطة"
+    "mapLabel": "الخريطة",
+    "myProfile": "ملفي الشخصي"
   },
   "confidence": { "phone": "مؤكَّد هاتفيًا", "menu": "تم فحص القائمة", "name": "مُستنتَج من الاسم" },
   "restaurant": {
