@@ -32,6 +32,7 @@
   },
   "insight": {
     "gapMap": "Gap map", "rankings": "Rankings", "compare": "Three regions", "about": "Data & method",
+    "region": "Region", "province": "Province",
     "demand": "Demand", "supply": "Supply", "gapIndex": "Gap index", "trend": "Trend vs 2019",
     "layerGap": "Gap index", "layerDemand": "Demand", "layerSupply": "Supply", "layerCandidates": "Candidate density",
     "regionListLabel": "Regions by gap index",

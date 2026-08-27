@@ -32,6 +32,7 @@
   },
   "insight": {
     "gapMap": "격차 지도", "rankings": "순위", "compare": "세 지역 비교", "about": "데이터와 방법",
+    "region": "지역", "province": "광역시·도",
     "demand": "수요", "supply": "공급", "gapIndex": "격차 지수", "trend": "2019년 대비 추이",
     "layerGap": "격차 지수", "layerDemand": "수요", "layerSupply": "공급", "layerCandidates": "후보 밀도",
     "regionListLabel": "격차 지수 순 지역",

@@ -32,6 +32,7 @@
   },
   "insight": {
     "gapMap": "अंतर का नक्शा", "rankings": "रैंकिंग", "compare": "तीन क्षेत्र", "about": "डेटा और पद्धति",
+    "region": "क्षेत्र", "province": "प्रांत",
     "demand": "माँग", "supply": "आपूर्ति", "gapIndex": "अंतर सूचकांक", "trend": "2019 की तुलना में रुझान",
     "layerGap": "अंतर सूचकांक", "layerDemand": "माँग", "layerSupply": "आपूर्ति", "layerCandidates": "संभावित घनत्व",
     "regionListLabel": "अंतर सूचकांक के अनुसार क्षेत्र",

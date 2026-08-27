@@ -32,6 +32,7 @@
   },
   "insight": {
     "gapMap": "خريطة الفجوة", "rankings": "الترتيب", "compare": "ثلاث مناطق", "about": "البيانات والمنهجية",
+    "region": "المنطقة", "province": "المحافظة",
     "demand": "الطلب", "supply": "العرض", "gapIndex": "مؤشر الفجوة", "trend": "الاتجاه مقارنةً بـ 2019",
     "layerGap": "مؤشر الفجوة", "layerDemand": "الطلب", "layerSupply": "العرض", "layerCandidates": "كثافة المرشحين",
     "regionListLabel": "المناطق حسب مؤشر الفجوة",
