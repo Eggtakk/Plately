@@ -32,4 +32,14 @@ describe('mockData', () => {
   it('gap index is within 0..100', () => {
     for (const r of getRegions()) { expect(r.gapIndex).toBeGreaterThanOrEqual(0); expect(r.gapIndex).toBeLessThanOrEqual(100); }
   });
+  it('every restaurant has all 14 attribute keys', () => {
+    const keys = ['containsPork','servesAlcohol','containsBeef','vegetarianFriendly','containsChicken','containsFish','containsSeafood','containsEgg','containsOnionGarlic','porkDerivedIngredients','containsGelatin','nonHalalMeat','halalCertified','crossContaminationRisk'];
+    for (const r of RESTAURANTS) for (const k of keys) expect(r.attributes).toHaveProperty(k);
+  });
+  it('at least one halal-certified venue exists', () => {
+    expect(RESTAURANTS.some((r) => r.attributes.halalCertified)).toBe(true);
+  });
+  it('at least one vegetarianFriendly venue exists', () => {
+    expect(RESTAURANTS.some((r) => r.attributes.vegetarianFriendly)).toBe(true);
+  });
 });
