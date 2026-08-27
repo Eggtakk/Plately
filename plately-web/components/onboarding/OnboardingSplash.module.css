@@ -1,0 +1,2 @@
+.splash { min-block-size: 100dvh; display: flex; align-items: center; justify-content: center; background: var(--paper); }
+.mark { font-weight: 800; font-size: 22px; color: var(--ink-soft); letter-spacing: 0.02em; }
