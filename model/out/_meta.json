@@ -1,0 +1,8 @@
+{
+  "sampleData": true,
+  "demandSource": "sample",
+  "generatedAt": "2026-08-28T08:40:22+00:00",
+  "restaurants": 15,
+  "regions": 250,
+  "note": "LOCALDATA/TourAPI 실데이터 연결 전 손 작성 샘플 (수요는 demandSource 참조)"
+}

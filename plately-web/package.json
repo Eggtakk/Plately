@@ -10,7 +10,8 @@
     "lint:css": "stylelint \"**/*.css\"",
     "test": "vitest run",
     "test:watch": "vitest",
-    "e2e": "playwright test"
+    "e2e": "playwright test",
+    "sync:data": "node scripts/sync-pipeline-data.mjs"
   },
   "dependencies": {
     "maplibre-gl": "^5.24.0",

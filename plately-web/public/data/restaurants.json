@@ -1,0 +1,650 @@
+[
+  {
+    "id": "r-11030-905f3a0d23",
+    "name": {
+      "en": "용산 삼계탕집",
+      "ko": "용산 삼계탕집",
+      "ar": "용산 삼계탕집",
+      "hi": "용산 삼계탕집"
+    },
+    "area": {
+      "en": "서울 용산구",
+      "ko": "서울 용산구",
+      "ar": "서울 용산구",
+      "hi": "서울 용산구"
+    },
+    "sigunguCode": "11030",
+    "coords": [
+      126.9779,
+      37.5384
+    ],
+    "cuisine": "korean-chicken",
+    "attributes": {
+      "containsPork": false,
+      "servesAlcohol": "unknown",
+      "containsBeef": false,
+      "vegetarianFriendly": false,
+      "containsChicken": true,
+      "containsFish": false,
+      "containsSeafood": false,
+      "containsEgg": false,
+      "containsOnionGarlic": false,
+      "porkDerivedIngredients": "unknown",
+      "containsGelatin": "unknown",
+      "nonHalalMeat": "unknown",
+      "halalCertified": false,
+      "crossContaminationRisk": "unknown"
+    },
+    "confidence": "menu",
+    "matchedTokens": [
+      "삼계탕"
+    ],
+    "repMenu": [
+      "삼계탕",
+      "전복삼계탕"
+    ]
+  },
+  {
+    "id": "r-11030-4617f3cb52",
+    "name": {
+      "en": "이태원 할랄 케밥",
+      "ko": "이태원 할랄 케밥",
+      "ar": "이태원 할랄 케밥",
+      "hi": "이태원 할랄 케밥"
+    },
+    "area": {
+      "en": "서울 용산구",
+      "ko": "서울 용산구",
+      "ar": "서울 용산구",
+      "hi": "서울 용산구"
+    },
+    "sigunguCode": "11030",
+    "coords": [
+      126.9946,
+      37.5345
+    ],
+    "cuisine": "halal",
+    "attributes": {
+      "containsPork": false,
+      "servesAlcohol": "unknown",
+      "containsBeef": false,
+      "vegetarianFriendly": false,
+      "containsChicken": false,
+      "containsFish": false,
+      "containsSeafood": false,
+      "containsEgg": false,
+      "containsOnionGarlic": false,
+      "porkDerivedIngredients": "unknown",
+      "containsGelatin": "unknown",
+      "nonHalalMeat": "unknown",
+      "halalCertified": false,
+      "crossContaminationRisk": "unknown"
+    },
+    "confidence": "menu",
+    "matchedTokens": [
+      "케밥",
+      "할랄"
+    ],
+    "repMenu": [
+      "양고기 케밥",
+      "치킨 케밥"
+    ]
+  },
+  {
+    "id": "r-11030-7b47348ad4",
+    "name": {
+      "en": "이스탄불 케밥 하우스",
+      "ko": "이스탄불 케밥 하우스",
+      "ar": "이스탄불 케밥 하우스",
+      "hi": "이스탄불 케밥 하우스"
+    },
+    "area": {
+      "en": "서울 용산구",
+      "ko": "서울 용산구",
+      "ar": "서울 용산구",
+      "hi": "서울 용산구"
+    },
+    "sigunguCode": "11030",
+    "coords": [
+      126.9925,
+      37.5341
+    ],
+    "cuisine": "halal",
+    "attributes": {
+      "containsPork": false,
+      "servesAlcohol": "unknown",
+      "containsBeef": false,
+      "vegetarianFriendly": false,
+      "containsChicken": false,
+      "containsFish": false,
+      "containsSeafood": false,
+      "containsEgg": false,
+      "containsOnionGarlic": false,
+      "porkDerivedIngredients": "unknown",
+      "containsGelatin": "unknown",
+      "nonHalalMeat": "unknown",
+      "halalCertified": false,
+      "crossContaminationRisk": "unknown"
+    },
+    "confidence": "name",
+    "matchedTokens": [
+      "이스탄불",
+      "케밥"
+    ],
+    "repMenu": []
+  },
+  {
+    "id": "r-11030-6f9b273dfe",
+    "name": {
+      "en": "용산 한우곰탕",
+      "ko": "용산 한우곰탕",
+      "ar": "용산 한우곰탕",
+      "hi": "용산 한우곰탕"
+    },
+    "area": {
+      "en": "서울 용산구",
+      "ko": "서울 용산구",
+      "ar": "서울 용산구",
+      "hi": "서울 용산구"
+    },
+    "sigunguCode": "11030",
+    "coords": [
+      126.9662,
+      37.5389
+    ],
+    "cuisine": "korean-beef",
+    "attributes": {
+      "containsPork": false,
+      "servesAlcohol": true,
+      "containsBeef": true,
+      "vegetarianFriendly": false,
+      "containsChicken": false,
+      "containsFish": false,
+      "containsSeafood": false,
+      "containsEgg": false,
+      "containsOnionGarlic": false,
+      "porkDerivedIngredients": "unknown",
+      "containsGelatin": "unknown",
+      "nonHalalMeat": "unknown",
+      "halalCertified": false,
+      "crossContaminationRisk": "unknown"
+    },
+    "confidence": "menu",
+    "matchedTokens": [
+      "곰탕",
+      "한우"
+    ],
+    "repMenu": [
+      "한우곰탕"
+    ]
+  },
+  {
+    "id": "r-11010-8d61216f8b",
+    "name": {
+      "en": "종로 설렁탕",
+      "ko": "종로 설렁탕",
+      "ar": "종로 설렁탕",
+      "hi": "종로 설렁탕"
+    },
+    "area": {
+      "en": "서울 종로구",
+      "ko": "서울 종로구",
+      "ar": "서울 종로구",
+      "hi": "서울 종로구"
+    },
+    "sigunguCode": "11010",
+    "coords": [
+      126.9895,
+      37.5704
+    ],
+    "cuisine": "korean-beef",
+    "attributes": {
+      "containsPork": false,
+      "servesAlcohol": "unknown",
+      "containsBeef": true,
+      "vegetarianFriendly": false,
+      "containsChicken": false,
+      "containsFish": false,
+      "containsSeafood": false,
+      "containsEgg": false,
+      "containsOnionGarlic": false,
+      "porkDerivedIngredients": "unknown",
+      "containsGelatin": "unknown",
+      "nonHalalMeat": "unknown",
+      "halalCertified": false,
+      "crossContaminationRisk": "unknown"
+    },
+    "confidence": "name",
+    "matchedTokens": [
+      "설렁탕"
+    ],
+    "repMenu": []
+  },
+  {
+    "id": "r-11010-ca1a18bcf0",
+    "name": {
+      "en": "인사동 사찰음식",
+      "ko": "인사동 사찰음식",
+      "ar": "인사동 사찰음식",
+      "hi": "인사동 사찰음식"
+    },
+    "area": {
+      "en": "서울 종로구",
+      "ko": "서울 종로구",
+      "ar": "서울 종로구",
+      "hi": "서울 종로구"
+    },
+    "sigunguCode": "11010",
+    "coords": [
+      126.9856,
+      37.574
+    ],
+    "cuisine": "temple",
+    "attributes": {
+      "containsPork": false,
+      "servesAlcohol": "unknown",
+      "containsBeef": false,
+      "vegetarianFriendly": true,
+      "containsChicken": false,
+      "containsFish": false,
+      "containsSeafood": false,
+      "containsEgg": false,
+      "containsOnionGarlic": false,
+      "porkDerivedIngredients": "unknown",
+      "containsGelatin": "unknown",
+      "nonHalalMeat": "unknown",
+      "halalCertified": false,
+      "crossContaminationRisk": "unknown"
+    },
+    "confidence": "menu",
+    "matchedTokens": [
+      "사찰음식"
+    ],
+    "repMenu": [
+      "사찰정식"
+    ]
+  },
+  {
+    "id": "r-11140-0cb50bca6c",
+    "name": {
+      "en": "마포 물회집",
+      "ko": "마포 물회집",
+      "ar": "마포 물회집",
+      "hi": "마포 물회집"
+    },
+    "area": {
+      "en": "서울 마포구",
+      "ko": "서울 마포구",
+      "ar": "서울 마포구",
+      "hi": "서울 마포구"
+    },
+    "sigunguCode": "11140",
+    "coords": [
+      126.91,
+      37.556
+    ],
+    "cuisine": "seafood",
+    "attributes": {
+      "containsPork": false,
+      "servesAlcohol": "unknown",
+      "containsBeef": false,
+      "vegetarianFriendly": false,
+      "containsChicken": false,
+      "containsFish": true,
+      "containsSeafood": false,
+      "containsEgg": false,
+      "containsOnionGarlic": false,
+      "porkDerivedIngredients": "unknown",
+      "containsGelatin": "unknown",
+      "nonHalalMeat": "unknown",
+      "halalCertified": false,
+      "crossContaminationRisk": "unknown"
+    },
+    "confidence": "name",
+    "matchedTokens": [
+      "물회"
+    ],
+    "repMenu": []
+  },
+  {
+    "id": "r-21040-ad6cd1cc61",
+    "name": {
+      "en": "부산 영도 회센터",
+      "ko": "부산 영도 회센터",
+      "ar": "부산 영도 회센터",
+      "hi": "부산 영도 회센터"
+    },
+    "area": {
+      "en": "부산 영도구",
+      "ko": "부산 영도구",
+      "ar": "부산 영도구",
+      "hi": "부산 영도구"
+    },
+    "sigunguCode": "21040",
+    "coords": [
+      129.068,
+      35.079
+    ],
+    "cuisine": "seafood",
+    "attributes": {
+      "containsPork": false,
+      "servesAlcohol": true,
+      "containsBeef": false,
+      "vegetarianFriendly": false,
+      "containsChicken": false,
+      "containsFish": true,
+      "containsSeafood": false,
+      "containsEgg": false,
+      "containsOnionGarlic": false,
+      "porkDerivedIngredients": "unknown",
+      "containsGelatin": "unknown",
+      "nonHalalMeat": "unknown",
+      "halalCertified": false,
+      "crossContaminationRisk": "unknown"
+    },
+    "confidence": "menu",
+    "matchedTokens": [
+      "회센터"
+    ],
+    "repMenu": [
+      "모둠회",
+      "물회"
+    ]
+  },
+  {
+    "id": "r-21040-fc1976900b",
+    "name": {
+      "en": "영도 조개구이",
+      "ko": "영도 조개구이",
+      "ar": "영도 조개구이",
+      "hi": "영도 조개구이"
+    },
+    "area": {
+      "en": "부산 영도구",
+      "ko": "부산 영도구",
+      "ar": "부산 영도구",
+      "hi": "부산 영도구"
+    },
+    "sigunguCode": "21040",
+    "coords": [
+      129.073,
+      35.085
+    ],
+    "cuisine": "seafood",
+    "attributes": {
+      "containsPork": false,
+      "servesAlcohol": "unknown",
+      "containsBeef": false,
+      "vegetarianFriendly": false,
+      "containsChicken": false,
+      "containsFish": false,
+      "containsSeafood": true,
+      "containsEgg": false,
+      "containsOnionGarlic": false,
+      "porkDerivedIngredients": "unknown",
+      "containsGelatin": "unknown",
+      "nonHalalMeat": "unknown",
+      "halalCertified": false,
+      "crossContaminationRisk": "unknown"
+    },
+    "confidence": "name",
+    "matchedTokens": [
+      "조개"
+    ],
+    "repMenu": []
+  },
+  {
+    "id": "r-21050-a24515c4a8",
+    "name": {
+      "en": "부산 서면 닭갈비",
+      "ko": "부산 서면 닭갈비",
+      "ar": "부산 서면 닭갈비",
+      "hi": "부산 서면 닭갈비"
+    },
+    "area": {
+      "en": "부산 부산진구",
+      "ko": "부산 부산진구",
+      "ar": "부산 부산진구",
+      "hi": "부산 부산진구"
+    },
+    "sigunguCode": "21050",
+    "coords": [
+      129.059,
+      35.158
+    ],
+    "cuisine": "korean-chicken",
+    "attributes": {
+      "containsPork": false,
+      "servesAlcohol": "unknown",
+      "containsBeef": false,
+      "vegetarianFriendly": false,
+      "containsChicken": true,
+      "containsFish": false,
+      "containsSeafood": false,
+      "containsEgg": false,
+      "containsOnionGarlic": false,
+      "porkDerivedIngredients": "unknown",
+      "containsGelatin": "unknown",
+      "nonHalalMeat": "unknown",
+      "halalCertified": false,
+      "crossContaminationRisk": "unknown"
+    },
+    "confidence": "name",
+    "matchedTokens": [
+      "닭갈비"
+    ],
+    "repMenu": []
+  },
+  {
+    "id": "r-21090-e21ca399e4",
+    "name": {
+      "en": "해운대 대구탕",
+      "ko": "해운대 대구탕",
+      "ar": "해운대 대구탕",
+      "hi": "해운대 대구탕"
+    },
+    "area": {
+      "en": "부산 해운대구",
+      "ko": "부산 해운대구",
+      "ar": "부산 해운대구",
+      "hi": "부산 해운대구"
+    },
+    "sigunguCode": "21090",
+    "coords": [
+      129.16,
+      35.159
+    ],
+    "cuisine": "seafood",
+    "attributes": {
+      "containsPork": false,
+      "servesAlcohol": "unknown",
+      "containsBeef": false,
+      "vegetarianFriendly": false,
+      "containsChicken": false,
+      "containsFish": true,
+      "containsSeafood": false,
+      "containsEgg": false,
+      "containsOnionGarlic": false,
+      "porkDerivedIngredients": "unknown",
+      "containsGelatin": "unknown",
+      "nonHalalMeat": "unknown",
+      "halalCertified": false,
+      "crossContaminationRisk": "unknown"
+    },
+    "confidence": "name",
+    "matchedTokens": [
+      "대구탕"
+    ],
+    "repMenu": []
+  },
+  {
+    "id": "r-33370-b2f2954206",
+    "name": {
+      "en": "음성 백숙마을",
+      "ko": "음성 백숙마을",
+      "ar": "음성 백숙마을",
+      "hi": "음성 백숙마을"
+    },
+    "area": {
+      "en": "충북 음성군",
+      "ko": "충북 음성군",
+      "ar": "충북 음성군",
+      "hi": "충북 음성군"
+    },
+    "sigunguCode": "33370",
+    "coords": [
+      127.69,
+      36.94
+    ],
+    "cuisine": "korean-chicken",
+    "attributes": {
+      "containsPork": false,
+      "servesAlcohol": "unknown",
+      "containsBeef": false,
+      "vegetarianFriendly": false,
+      "containsChicken": true,
+      "containsFish": false,
+      "containsSeafood": false,
+      "containsEgg": false,
+      "containsOnionGarlic": false,
+      "porkDerivedIngredients": "unknown",
+      "containsGelatin": "unknown",
+      "nonHalalMeat": "unknown",
+      "halalCertified": false,
+      "crossContaminationRisk": "unknown"
+    },
+    "confidence": "menu",
+    "matchedTokens": [
+      "백숙"
+    ],
+    "repMenu": [
+      "토종닭 백숙"
+    ]
+  },
+  {
+    "id": "r-33370-29c4c12859",
+    "name": {
+      "en": "음성 한우타운",
+      "ko": "음성 한우타운",
+      "ar": "음성 한우타운",
+      "hi": "음성 한우타운"
+    },
+    "area": {
+      "en": "충북 음성군",
+      "ko": "충북 음성군",
+      "ar": "충북 음성군",
+      "hi": "충북 음성군"
+    },
+    "sigunguCode": "33370",
+    "coords": [
+      127.57,
+      36.99
+    ],
+    "cuisine": "korean-beef",
+    "attributes": {
+      "containsPork": false,
+      "servesAlcohol": "unknown",
+      "containsBeef": true,
+      "vegetarianFriendly": false,
+      "containsChicken": false,
+      "containsFish": false,
+      "containsSeafood": false,
+      "containsEgg": false,
+      "containsOnionGarlic": false,
+      "porkDerivedIngredients": "unknown",
+      "containsGelatin": "unknown",
+      "nonHalalMeat": "unknown",
+      "halalCertified": false,
+      "crossContaminationRisk": "unknown"
+    },
+    "confidence": "name",
+    "matchedTokens": [
+      "한우"
+    ],
+    "repMenu": []
+  },
+  {
+    "id": "r-33041-dca277f634",
+    "name": {
+      "en": "청주 삼계탕",
+      "ko": "청주 삼계탕",
+      "ar": "청주 삼계탕",
+      "hi": "청주 삼계탕"
+    },
+    "area": {
+      "en": "충북 청주시상당구",
+      "ko": "충북 청주시상당구",
+      "ar": "충북 청주시상당구",
+      "hi": "충북 청주시상당구"
+    },
+    "sigunguCode": "33041",
+    "coords": [
+      127.489,
+      36.636
+    ],
+    "cuisine": "korean-chicken",
+    "attributes": {
+      "containsPork": false,
+      "servesAlcohol": "unknown",
+      "containsBeef": false,
+      "vegetarianFriendly": false,
+      "containsChicken": true,
+      "containsFish": false,
+      "containsSeafood": false,
+      "containsEgg": false,
+      "containsOnionGarlic": false,
+      "porkDerivedIngredients": "unknown",
+      "containsGelatin": "unknown",
+      "nonHalalMeat": "unknown",
+      "halalCertified": false,
+      "crossContaminationRisk": "unknown"
+    },
+    "confidence": "name",
+    "matchedTokens": [
+      "삼계탕"
+    ],
+    "repMenu": []
+  },
+  {
+    "id": "r-37020-05a02c0144",
+    "name": {
+      "en": "경주 두부마을",
+      "ko": "경주 두부마을",
+      "ar": "경주 두부마을",
+      "hi": "경주 두부마을"
+    },
+    "area": {
+      "en": "경북 경주시",
+      "ko": "경북 경주시",
+      "ar": "경북 경주시",
+      "hi": "경북 경주시"
+    },
+    "sigunguCode": "37020",
+    "coords": [
+      129.332,
+      35.79
+    ],
+    "cuisine": "temple",
+    "attributes": {
+      "containsPork": false,
+      "servesAlcohol": "unknown",
+      "containsBeef": false,
+      "vegetarianFriendly": true,
+      "containsChicken": false,
+      "containsFish": false,
+      "containsSeafood": false,
+      "containsEgg": false,
+      "containsOnionGarlic": false,
+      "porkDerivedIngredients": "unknown",
+      "containsGelatin": "unknown",
+      "nonHalalMeat": "unknown",
+      "halalCertified": false,
+      "crossContaminationRisk": "unknown"
+    },
+    "confidence": "name",
+    "matchedTokens": [
+      "두부"
+    ],
+    "repMenu": []
+  }
+]

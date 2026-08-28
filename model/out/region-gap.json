@@ -8,10 +8,10 @@
       "hi": "종로구"
     },
     "gwangyeok": "Seoul",
-    "demandScore": 99,
+    "demandScore": 70,
     "supplyCount": 2,
-    "gapIndex": 93,
-    "trendVs2019": 0
+    "gapIndex": 61,
+    "trendVs2019": -6
   },
   {
     "code": "11020",
@@ -22,10 +22,10 @@
       "hi": "중구"
     },
     "gwangyeok": "Seoul",
-    "demandScore": 100,
+    "demandScore": 92,
     "supplyCount": 0,
-    "gapIndex": 100,
-    "trendVs2019": 0
+    "gapIndex": 92,
+    "trendVs2019": 8
   },
   {
     "code": "11030",
@@ -36,10 +36,10 @@
       "hi": "용산구"
     },
     "gwangyeok": "Seoul",
-    "demandScore": 98,
+    "demandScore": 70,
     "supplyCount": 4,
-    "gapIndex": 86,
-    "trendVs2019": 0
+    "gapIndex": 53,
+    "trendVs2019": -11
   },
   {
     "code": "11040",
@@ -50,10 +50,10 @@
       "hi": "성동구"
     },
     "gwangyeok": "Seoul",
-    "demandScore": 96,
+    "demandScore": 61,
     "supplyCount": 0,
-    "gapIndex": 96,
-    "trendVs2019": 0
+    "gapIndex": 61,
+    "trendVs2019": -14
   },
   {
     "code": "11050",
@@ -64,10 +64,10 @@
       "hi": "광진구"
     },
     "gwangyeok": "Seoul",
-    "demandScore": 87,
+    "demandScore": 83,
     "supplyCount": 0,
-    "gapIndex": 87,
-    "trendVs2019": 0
+    "gapIndex": 83,
+    "trendVs2019": 6
   },
   {
     "code": "11060",
@@ -78,10 +78,10 @@
       "hi": "동대문구"
     },
     "gwangyeok": "Seoul",
-    "demandScore": 86,
+    "demandScore": 60,
     "supplyCount": 0,
-    "gapIndex": 86,
-    "trendVs2019": 0
+    "gapIndex": 60,
+    "trendVs2019": -20
   },
   {
     "code": "11070",
@@ -92,10 +92,10 @@
       "hi": "중랑구"
     },
     "gwangyeok": "Seoul",
-    "demandScore": 52,
+    "demandScore": 83,
     "supplyCount": 0,
-    "gapIndex": 52,
-    "trendVs2019": 0
+    "gapIndex": 83,
+    "trendVs2019": 1
   },
   {
     "code": "11080",
@@ -106,10 +106,10 @@
       "hi": "성북구"
     },
     "gwangyeok": "Seoul",
-    "demandScore": 84,
+    "demandScore": 68,
     "supplyCount": 0,
-    "gapIndex": 84,
-    "trendVs2019": 0
+    "gapIndex": 68,
+    "trendVs2019": -13
   },
   {
     "code": "11090",
@@ -120,10 +120,10 @@
       "hi": "강북구"
     },
     "gwangyeok": "Seoul",
-    "demandScore": 55,
+    "demandScore": 91,
     "supplyCount": 0,
-    "gapIndex": 55,
-    "trendVs2019": 0
+    "gapIndex": 91,
+    "trendVs2019": 13
   },
   {
     "code": "11100",
@@ -134,10 +134,10 @@
       "hi": "도봉구"
     },
     "gwangyeok": "Seoul",
-    "demandScore": 34,
+    "demandScore": 85,
     "supplyCount": 0,
-    "gapIndex": 34,
-    "trendVs2019": 0
+    "gapIndex": 85,
+    "trendVs2019": 7
   },
   {
     "code": "11110",
@@ -148,10 +148,10 @@
       "hi": "노원구"
     },
     "gwangyeok": "Seoul",
-    "demandScore": 55,
+    "demandScore": 62,
     "supplyCount": 0,
-    "gapIndex": 55,
-    "trendVs2019": 0
+    "gapIndex": 62,
+    "trendVs2019": -13
   },
   {
     "code": "11120",
@@ -162,10 +162,10 @@
       "hi": "은평구"
     },
     "gwangyeok": "Seoul",
-    "demandScore": 74,
+    "demandScore": 96,
     "supplyCount": 0,
-    "gapIndex": 74,
-    "trendVs2019": 0
+    "gapIndex": 96,
+    "trendVs2019": 12
   },
   {
     "code": "11130",
@@ -176,10 +176,10 @@
       "hi": "서대문구"
     },
     "gwangyeok": "Seoul",
-    "demandScore": 94,
+    "demandScore": 74,
     "supplyCount": 0,
-    "gapIndex": 94,
-    "trendVs2019": 0
+    "gapIndex": 74,
+    "trendVs2019": -8
   },
   {
     "code": "11140",
@@ -190,10 +190,10 @@
       "hi": "마포구"
     },
     "gwangyeok": "Seoul",
-    "demandScore": 98,
+    "demandScore": 71,
     "supplyCount": 1,
-    "gapIndex": 95,
-    "trendVs2019": 0
+    "gapIndex": 67,
+    "trendVs2019": -5
   },
   {
     "code": "11150",
@@ -204,10 +204,10 @@
       "hi": "양천구"
     },
     "gwangyeok": "Seoul",
-    "demandScore": 63,
+    "demandScore": 94,
     "supplyCount": 0,
-    "gapIndex": 63,
-    "trendVs2019": 0
+    "gapIndex": 94,
+    "trendVs2019": 15
   },
   {
     "code": "11160",
@@ -218,9 +218,9 @@
       "hi": "강서구"
     },
     "gwangyeok": "Seoul",
-    "demandScore": 96,
+    "demandScore": 83,
     "supplyCount": 0,
-    "gapIndex": 96,
+    "gapIndex": 83,
     "trendVs2019": 0
   },
   {
@@ -232,10 +232,10 @@
       "hi": "구로구"
     },
     "gwangyeok": "Seoul",
-    "demandScore": 86,
+    "demandScore": 60,
     "supplyCount": 0,
-    "gapIndex": 86,
-    "trendVs2019": 0
+    "gapIndex": 60,
+    "trendVs2019": -20
   },
   {
     "code": "11180",
@@ -246,10 +246,10 @@
       "hi": "금천구"
     },
     "gwangyeok": "Seoul",
-    "demandScore": 74,
+    "demandScore": 61,
     "supplyCount": 0,
-    "gapIndex": 74,
-    "trendVs2019": 0
+    "gapIndex": 61,
+    "trendVs2019": -14
   },
   {
     "code": "11190",
@@ -260,9 +260,9 @@
       "hi": "영등포구"
     },
     "gwangyeok": "Seoul",
-    "demandScore": 95,
+    "demandScore": 83,
     "supplyCount": 0,
-    "gapIndex": 95,
+    "gapIndex": 83,
     "trendVs2019": 0
   },
   {
@@ -274,10 +274,10 @@
       "hi": "동작구"
     },
     "gwangyeok": "Seoul",
-    "demandScore": 82,
+    "demandScore": 93,
     "supplyCount": 0,
-    "gapIndex": 82,
-    "trendVs2019": 0
+    "gapIndex": 93,
+    "trendVs2019": 9
   },
   {
     "code": "11210",
@@ -288,10 +288,10 @@
       "hi": "관악구"
     },
     "gwangyeok": "Seoul",
-    "demandScore": 80,
+    "demandScore": 71,
     "supplyCount": 0,
-    "gapIndex": 80,
-    "trendVs2019": 0
+    "gapIndex": 71,
+    "trendVs2019": -6
   },
   {
     "code": "11220",
@@ -302,10 +302,10 @@
       "hi": "서초구"
     },
     "gwangyeok": "Seoul",
-    "demandScore": 95,
+    "demandScore": 93,
     "supplyCount": 0,
-    "gapIndex": 95,
-    "trendVs2019": 0
+    "gapIndex": 93,
+    "trendVs2019": 14
   },
   {
     "code": "11230",
@@ -316,9 +316,9 @@
       "hi": "강남구"
     },
     "gwangyeok": "Seoul",
-    "demandScore": 98,
+    "demandScore": 82,
     "supplyCount": 0,
-    "gapIndex": 98,
+    "gapIndex": 82,
     "trendVs2019": 0
   },
   {
@@ -330,10 +330,10 @@
       "hi": "송파구"
     },
     "gwangyeok": "Seoul",
-    "demandScore": 93,
+    "demandScore": 61,
     "supplyCount": 0,
-    "gapIndex": 93,
-    "trendVs2019": 0
+    "gapIndex": 61,
+    "trendVs2019": -19
   },
   {
     "code": "11250",
@@ -344,10 +344,10 @@
       "hi": "강동구"
     },
     "gwangyeok": "Seoul",
-    "demandScore": 69,
+    "demandScore": 84,
     "supplyCount": 0,
-    "gapIndex": 69,
-    "trendVs2019": 0
+    "gapIndex": 84,
+    "trendVs2019": 6
   },
   {
     "code": "21010",
@@ -358,10 +358,10 @@
       "hi": "중구"
     },
     "gwangyeok": "Busan",
-    "demandScore": 93,
+    "demandScore": 92,
     "supplyCount": 0,
-    "gapIndex": 93,
-    "trendVs2019": 0
+    "gapIndex": 92,
+    "trendVs2019": 8
   },
   {
     "code": "21020",
@@ -372,10 +372,10 @@
       "hi": "서구"
     },
     "gwangyeok": "Busan",
-    "demandScore": 91,
+    "demandScore": 58,
     "supplyCount": 0,
-    "gapIndex": 91,
-    "trendVs2019": 0
+    "gapIndex": 58,
+    "trendVs2019": -17
   },
   {
     "code": "21030",
@@ -386,10 +386,10 @@
       "hi": "동구"
     },
     "gwangyeok": "Busan",
-    "demandScore": 92,
+    "demandScore": 80,
     "supplyCount": 0,
-    "gapIndex": 92,
-    "trendVs2019": 0
+    "gapIndex": 80,
+    "trendVs2019": 3
   },
   {
     "code": "21040",
@@ -400,9 +400,9 @@
       "hi": "영도구"
     },
     "gwangyeok": "Busan",
-    "demandScore": 92,
+    "demandScore": 83,
     "supplyCount": 2,
-    "gapIndex": 85,
+    "gapIndex": 76,
     "trendVs2019": 0
   },
   {
@@ -414,10 +414,10 @@
       "hi": "부산진구"
     },
     "gwangyeok": "Busan",
-    "demandScore": 94,
+    "demandScore": 60,
     "supplyCount": 1,
-    "gapIndex": 91,
-    "trendVs2019": 0
+    "gapIndex": 55,
+    "trendVs2019": -20
   },
   {
     "code": "21060",
@@ -428,10 +428,10 @@
       "hi": "동래구"
     },
     "gwangyeok": "Busan",
-    "demandScore": 40,
+    "demandScore": 72,
     "supplyCount": 0,
-    "gapIndex": 40,
-    "trendVs2019": 0
+    "gapIndex": 72,
+    "trendVs2019": -5
   },
   {
     "code": "21070",
@@ -442,10 +442,10 @@
       "hi": "남구"
     },
     "gwangyeok": "Busan",
-    "demandScore": 90,
+    "demandScore": 94,
     "supplyCount": 0,
-    "gapIndex": 90,
-    "trendVs2019": 0
+    "gapIndex": 94,
+    "trendVs2019": 15
   },
   {
     "code": "21080",
@@ -456,10 +456,10 @@
       "hi": "북구"
     },
     "gwangyeok": "Busan",
-    "demandScore": 33,
+    "demandScore": 91,
     "supplyCount": 0,
-    "gapIndex": 33,
-    "trendVs2019": 0
+    "gapIndex": 91,
+    "trendVs2019": 7
   },
   {
     "code": "21090",
@@ -470,10 +470,10 @@
       "hi": "해운대구"
     },
     "gwangyeok": "Busan",
-    "demandScore": 96,
+    "demandScore": 57,
     "supplyCount": 1,
-    "gapIndex": 93,
-    "trendVs2019": 0
+    "gapIndex": 52,
+    "trendVs2019": -18
   },
   {
     "code": "21100",
@@ -484,10 +484,10 @@
       "hi": "사하구"
     },
     "gwangyeok": "Busan",
-    "demandScore": 84,
+    "demandScore": 79,
     "supplyCount": 0,
-    "gapIndex": 84,
-    "trendVs2019": 0
+    "gapIndex": 79,
+    "trendVs2019": -3
   },
   {
     "code": "21110",
@@ -498,10 +498,10 @@
       "hi": "금정구"
     },
     "gwangyeok": "Busan",
-    "demandScore": 59,
+    "demandScore": 56,
     "supplyCount": 0,
-    "gapIndex": 59,
-    "trendVs2019": 0
+    "gapIndex": 56,
+    "trendVs2019": 17
   },
   {
     "code": "21120",
@@ -512,10 +512,10 @@
       "hi": "강서구"
     },
     "gwangyeok": "Busan",
-    "demandScore": 97,
+    "demandScore": 79,
     "supplyCount": 0,
-    "gapIndex": 97,
-    "trendVs2019": 0
+    "gapIndex": 79,
+    "trendVs2019": 2
   },
   {
     "code": "21130",
@@ -526,10 +526,10 @@
       "hi": "연제구"
     },
     "gwangyeok": "Busan",
-    "demandScore": 60,
+    "demandScore": 57,
     "supplyCount": 0,
-    "gapIndex": 60,
-    "trendVs2019": 0
+    "gapIndex": 57,
+    "trendVs2019": -18
   },
   {
     "code": "21140",
@@ -540,10 +540,10 @@
       "hi": "수영구"
     },
     "gwangyeok": "Busan",
-    "demandScore": 88,
+    "demandScore": 92,
     "supplyCount": 0,
-    "gapIndex": 88,
-    "trendVs2019": 0
+    "gapIndex": 92,
+    "trendVs2019": 9
   },
   {
     "code": "21150",
@@ -554,10 +554,10 @@
       "hi": "사상구"
     },
     "gwangyeok": "Busan",
-    "demandScore": 74,
+    "demandScore": 70,
     "supplyCount": 0,
-    "gapIndex": 74,
-    "trendVs2019": 0
+    "gapIndex": 70,
+    "trendVs2019": -11
   },
   {
     "code": "21310",
@@ -568,10 +568,10 @@
       "hi": "기장군"
     },
     "gwangyeok": "Busan",
-    "demandScore": 89,
+    "demandScore": 83,
     "supplyCount": 0,
-    "gapIndex": 89,
-    "trendVs2019": 0
+    "gapIndex": 83,
+    "trendVs2019": 6
   },
   {
     "code": "22010",
@@ -582,10 +582,10 @@
       "hi": "중구"
     },
     "gwangyeok": "Daegu",
-    "demandScore": 54,
+    "demandScore": 16,
     "supplyCount": 0,
-    "gapIndex": 54,
-    "trendVs2019": 0
+    "gapIndex": 16,
+    "trendVs2019": 16
   },
   {
     "code": "22020",
@@ -596,10 +596,10 @@
       "hi": "동구"
     },
     "gwangyeok": "Daegu",
-    "demandScore": 70,
+    "demandScore": 39,
     "supplyCount": 0,
-    "gapIndex": 70,
-    "trendVs2019": 0
+    "gapIndex": 39,
+    "trendVs2019": -3
   },
   {
     "code": "22030",
@@ -610,10 +610,10 @@
       "hi": "서구"
     },
     "gwangyeok": "Daegu",
-    "demandScore": 22,
+    "demandScore": 16,
     "supplyCount": 0,
-    "gapIndex": 22,
-    "trendVs2019": 0
+    "gapIndex": 16,
+    "trendVs2019": -18
   },
   {
     "code": "22040",
@@ -624,10 +624,10 @@
       "hi": "남구"
     },
     "gwangyeok": "Daegu",
-    "demandScore": 26,
+    "demandScore": 40,
     "supplyCount": 0,
-    "gapIndex": 26,
-    "trendVs2019": 0
+    "gapIndex": 40,
+    "trendVs2019": 3
   },
   {
     "code": "22050",
@@ -638,10 +638,10 @@
       "hi": "북구"
     },
     "gwangyeok": "Daegu",
-    "demandScore": 53,
+    "demandScore": 29,
     "supplyCount": 0,
-    "gapIndex": 53,
-    "trendVs2019": 0
+    "gapIndex": 29,
+    "trendVs2019": -12
   },
   {
     "code": "22060",
@@ -652,10 +652,10 @@
       "hi": "수성구"
     },
     "gwangyeok": "Daegu",
-    "demandScore": 44,
+    "demandScore": 52,
     "supplyCount": 0,
-    "gapIndex": 44,
-    "trendVs2019": 0
+    "gapIndex": 52,
+    "trendVs2019": 8
   },
   {
     "code": "22070",
@@ -666,10 +666,10 @@
       "hi": "달서구"
     },
     "gwangyeok": "Daegu",
-    "demandScore": 64,
+    "demandScore": 30,
     "supplyCount": 0,
-    "gapIndex": 64,
-    "trendVs2019": 0
+    "gapIndex": 30,
+    "trendVs2019": -6
   },
   {
     "code": "22310",
@@ -680,10 +680,10 @@
       "hi": "달성군"
     },
     "gwangyeok": "Daegu",
-    "demandScore": 52,
+    "demandScore": 32,
     "supplyCount": 0,
-    "gapIndex": 52,
-    "trendVs2019": 0
+    "gapIndex": 32,
+    "trendVs2019": -9
   },
   {
     "code": "23010",
@@ -694,10 +694,10 @@
       "hi": "중구"
     },
     "gwangyeok": "Incheon",
-    "demandScore": 100,
+    "demandScore": 15,
     "supplyCount": 0,
-    "gapIndex": 100,
-    "trendVs2019": 0
+    "gapIndex": 15,
+    "trendVs2019": 16
   },
   {
     "code": "23020",
@@ -708,10 +708,10 @@
       "hi": "동구"
     },
     "gwangyeok": "Incheon",
-    "demandScore": 20,
+    "demandScore": 39,
     "supplyCount": 0,
-    "gapIndex": 20,
-    "trendVs2019": 0
+    "gapIndex": 39,
+    "trendVs2019": 1
   },
   {
     "code": "23030",
@@ -722,10 +722,10 @@
       "hi": "남구"
     },
     "gwangyeok": "Incheon",
-    "demandScore": 68,
+    "demandScore": 16,
     "supplyCount": 0,
-    "gapIndex": 68,
-    "trendVs2019": 0
+    "gapIndex": 16,
+    "trendVs2019": -19
   },
   {
     "code": "23040",
@@ -736,10 +736,10 @@
       "hi": "연수구"
     },
     "gwangyeok": "Incheon",
-    "demandScore": 88,
+    "demandScore": 51,
     "supplyCount": 0,
-    "gapIndex": 88,
-    "trendVs2019": 0
+    "gapIndex": 51,
+    "trendVs2019": 8
   },
   {
     "code": "23050",
@@ -750,10 +750,10 @@
       "hi": "남동구"
     },
     "gwangyeok": "Incheon",
-    "demandScore": 77,
+    "demandScore": 29,
     "supplyCount": 0,
-    "gapIndex": 77,
-    "trendVs2019": 0
+    "gapIndex": 29,
+    "trendVs2019": -12
   },
   {
     "code": "23060",
@@ -764,10 +764,10 @@
       "hi": "부평구"
     },
     "gwangyeok": "Incheon",
-    "demandScore": 77,
+    "demandScore": 52,
     "supplyCount": 0,
-    "gapIndex": 77,
-    "trendVs2019": 0
+    "gapIndex": 52,
+    "trendVs2019": 13
   },
   {
     "code": "23070",
@@ -778,10 +778,10 @@
       "hi": "계양구"
     },
     "gwangyeok": "Incheon",
-    "demandScore": 67,
+    "demandScore": 29,
     "supplyCount": 0,
-    "gapIndex": 67,
-    "trendVs2019": 0
+    "gapIndex": 29,
+    "trendVs2019": -7
   },
   {
     "code": "23080",
@@ -792,10 +792,10 @@
       "hi": "서구"
     },
     "gwangyeok": "Incheon",
-    "demandScore": 85,
+    "demandScore": 59,
     "supplyCount": 0,
-    "gapIndex": 85,
-    "trendVs2019": 0
+    "gapIndex": 59,
+    "trendVs2019": 15
   },
   {
     "code": "23310",
@@ -806,10 +806,10 @@
       "hi": "강화군"
     },
     "gwangyeok": "Incheon",
-    "demandScore": 54,
+    "demandScore": 33,
     "supplyCount": 0,
-    "gapIndex": 54,
-    "trendVs2019": 0
+    "gapIndex": 33,
+    "trendVs2019": -4
   },
   {
     "code": "23320",
@@ -820,10 +820,10 @@
       "hi": "옹진군"
     },
     "gwangyeok": "Incheon",
-    "demandScore": 92,
+    "demandScore": 22,
     "supplyCount": 0,
-    "gapIndex": 92,
-    "trendVs2019": 0
+    "gapIndex": 22,
+    "trendVs2019": -18
   },
   {
     "code": "24010",
@@ -834,10 +834,10 @@
       "hi": "동구"
     },
     "gwangyeok": "Gwangju",
-    "demandScore": 19,
+    "demandScore": 17,
     "supplyCount": 0,
-    "gapIndex": 19,
-    "trendVs2019": 0
+    "gapIndex": 17,
+    "trendVs2019": 17
   },
   {
     "code": "24020",
@@ -848,10 +848,10 @@
       "hi": "서구"
     },
     "gwangyeok": "Gwangju",
-    "demandScore": 41,
+    "demandScore": 27,
     "supplyCount": 0,
-    "gapIndex": 41,
-    "trendVs2019": 0
+    "gapIndex": 27,
+    "trendVs2019": -13
   },
   {
     "code": "24030",
@@ -862,10 +862,10 @@
       "hi": "남구"
     },
     "gwangyeok": "Gwangju",
-    "demandScore": 17,
+    "demandScore": 50,
     "supplyCount": 0,
-    "gapIndex": 17,
-    "trendVs2019": 0
+    "gapIndex": 50,
+    "trendVs2019": 12
   },
   {
     "code": "24040",
@@ -876,10 +876,10 @@
       "hi": "북구"
     },
     "gwangyeok": "Gwangju",
-    "demandScore": 39,
+    "demandScore": 59,
     "supplyCount": 0,
-    "gapIndex": 39,
-    "trendVs2019": 0
+    "gapIndex": 59,
+    "trendVs2019": -20
   },
   {
     "code": "24050",
@@ -890,10 +890,10 @@
       "hi": "광산구"
     },
     "gwangyeok": "Gwangju",
-    "demandScore": 58,
+    "demandScore": 48,
     "supplyCount": 0,
-    "gapIndex": 58,
-    "trendVs2019": 0
+    "gapIndex": 48,
+    "trendVs2019": 5
   },
   {
     "code": "25010",
@@ -904,10 +904,10 @@
       "hi": "동구"
     },
     "gwangyeok": "Daejeon",
-    "demandScore": 43,
+    "demandScore": 16,
     "supplyCount": 0,
-    "gapIndex": 43,
-    "trendVs2019": 0
+    "gapIndex": 16,
+    "trendVs2019": 17
   },
   {
     "code": "25020",
@@ -918,10 +918,10 @@
       "hi": "중구"
     },
     "gwangyeok": "Daejeon",
-    "demandScore": 26,
+    "demandScore": 27,
     "supplyCount": 0,
-    "gapIndex": 26,
-    "trendVs2019": 0
+    "gapIndex": 27,
+    "trendVs2019": -9
   },
   {
     "code": "25030",
@@ -932,10 +932,10 @@
       "hi": "서구"
     },
     "gwangyeok": "Daejeon",
-    "demandScore": 52,
+    "demandScore": 49,
     "supplyCount": 0,
-    "gapIndex": 52,
-    "trendVs2019": 0
+    "gapIndex": 49,
+    "trendVs2019": 11
   },
   {
     "code": "25040",
@@ -946,10 +946,10 @@
       "hi": "유성구"
     },
     "gwangyeok": "Daejeon",
-    "demandScore": 64,
+    "demandScore": 25,
     "supplyCount": 0,
-    "gapIndex": 64,
-    "trendVs2019": 0
+    "gapIndex": 25,
+    "trendVs2019": -15
   },
   {
     "code": "25050",
@@ -960,10 +960,10 @@
       "hi": "대덕구"
     },
     "gwangyeok": "Daejeon",
-    "demandScore": 30,
+    "demandScore": 48,
     "supplyCount": 0,
-    "gapIndex": 30,
-    "trendVs2019": 0
+    "gapIndex": 48,
+    "trendVs2019": 5
   },
   {
     "code": "26010",
@@ -974,10 +974,10 @@
       "hi": "중구"
     },
     "gwangyeok": "Ulsan",
-    "demandScore": 20,
+    "demandScore": 48,
     "supplyCount": 0,
-    "gapIndex": 20,
-    "trendVs2019": 0
+    "gapIndex": 48,
+    "trendVs2019": 4
   },
   {
     "code": "26020",
@@ -988,10 +988,10 @@
       "hi": "남구"
     },
     "gwangyeok": "Ulsan",
-    "demandScore": 83,
+    "demandScore": 25,
     "supplyCount": 0,
-    "gapIndex": 83,
-    "trendVs2019": 0
+    "gapIndex": 25,
+    "trendVs2019": -16
   },
   {
     "code": "26030",
@@ -1002,10 +1002,10 @@
       "hi": "동구"
     },
     "gwangyeok": "Ulsan",
-    "demandScore": 82,
+    "demandScore": 48,
     "supplyCount": 0,
-    "gapIndex": 82,
-    "trendVs2019": 0
+    "gapIndex": 48,
+    "trendVs2019": 10
   },
   {
     "code": "26040",
@@ -1016,10 +1016,10 @@
       "hi": "북구"
     },
     "gwangyeok": "Ulsan",
-    "demandScore": 86,
+    "demandScore": 45,
     "supplyCount": 0,
-    "gapIndex": 86,
-    "trendVs2019": 0
+    "gapIndex": 45,
+    "trendVs2019": 7
   },
   {
     "code": "26310",
@@ -1030,10 +1030,10 @@
       "hi": "울주군"
     },
     "gwangyeok": "Ulsan",
-    "demandScore": 76,
+    "demandScore": 43,
     "supplyCount": 0,
-    "gapIndex": 76,
-    "trendVs2019": 0
+    "gapIndex": 43,
+    "trendVs2019": 1
   },
   {
     "code": "29010",
@@ -1044,10 +1044,10 @@
       "hi": "세종시"
     },
     "gwangyeok": "Sejong",
-    "demandScore": 59,
+    "demandScore": 30,
     "supplyCount": 0,
-    "gapIndex": 59,
-    "trendVs2019": 0
+    "gapIndex": 30,
+    "trendVs2019": -7
   },
   {
     "code": "31011",
@@ -1058,10 +1058,10 @@
       "hi": "수원시장안구"
     },
     "gwangyeok": "Gyeonggi",
-    "demandScore": 63,
+    "demandScore": 46,
     "supplyCount": 0,
-    "gapIndex": 63,
-    "trendVs2019": 0
+    "gapIndex": 46,
+    "trendVs2019": 3
   },
   {
     "code": "31012",
@@ -1072,9 +1072,9 @@
       "hi": "수원시권선구"
     },
     "gwangyeok": "Gyeonggi",
-    "demandScore": 63,
+    "demandScore": 37,
     "supplyCount": 0,
-    "gapIndex": 63,
+    "gapIndex": 37,
     "trendVs2019": 0
   },
   {
@@ -1086,10 +1086,10 @@
       "hi": "수원시팔달구"
     },
     "gwangyeok": "Gyeonggi",
-    "demandScore": 63,
+    "demandScore": 44,
     "supplyCount": 0,
-    "gapIndex": 63,
-    "trendVs2019": 0
+    "gapIndex": 44,
+    "trendVs2019": 1
   },
   {
     "code": "31014",
@@ -1100,10 +1100,10 @@
       "hi": "수원시영통구"
     },
     "gwangyeok": "Gyeonggi",
-    "demandScore": 63,
+    "demandScore": 47,
     "supplyCount": 0,
-    "gapIndex": 63,
-    "trendVs2019": 0
+    "gapIndex": 47,
+    "trendVs2019": 4
   },
   {
     "code": "31021",
@@ -1114,10 +1114,10 @@
       "hi": "성남시수정구"
     },
     "gwangyeok": "Gyeonggi",
-    "demandScore": 66,
+    "demandScore": 22,
     "supplyCount": 0,
-    "gapIndex": 66,
-    "trendVs2019": 0
+    "gapIndex": 22,
+    "trendVs2019": -13
   },
   {
     "code": "31022",
@@ -1128,10 +1128,10 @@
       "hi": "성남시중원구"
     },
     "gwangyeok": "Gyeonggi",
-    "demandScore": 66,
+    "demandScore": 28,
     "supplyCount": 0,
-    "gapIndex": 66,
-    "trendVs2019": 0
+    "gapIndex": 28,
+    "trendVs2019": -13
   },
   {
     "code": "31023",
@@ -1142,10 +1142,10 @@
       "hi": "성남시분당구"
     },
     "gwangyeok": "Gyeonggi",
-    "demandScore": 66,
+    "demandScore": 21,
     "supplyCount": 0,
-    "gapIndex": 66,
-    "trendVs2019": 0
+    "gapIndex": 21,
+    "trendVs2019": -14
   },
   {
     "code": "31030",
@@ -1156,10 +1156,10 @@
       "hi": "의정부시"
     },
     "gwangyeok": "Gyeonggi",
-    "demandScore": 49,
+    "demandScore": 53,
     "supplyCount": 0,
-    "gapIndex": 49,
-    "trendVs2019": 0
+    "gapIndex": 53,
+    "trendVs2019": 9
   },
   {
     "code": "31041",
@@ -1170,10 +1170,10 @@
       "hi": "안양시만안구"
     },
     "gwangyeok": "Gyeonggi",
-    "demandScore": 38,
+    "demandScore": 43,
     "supplyCount": 0,
-    "gapIndex": 38,
-    "trendVs2019": 0
+    "gapIndex": 43,
+    "trendVs2019": 6
   },
   {
     "code": "31042",
@@ -1184,10 +1184,10 @@
       "hi": "안양시동안구"
     },
     "gwangyeok": "Gyeonggi",
-    "demandScore": 38,
+    "demandScore": 52,
     "supplyCount": 0,
-    "gapIndex": 38,
-    "trendVs2019": 0
+    "gapIndex": 52,
+    "trendVs2019": 8
   },
   {
     "code": "31050",
@@ -1198,10 +1198,10 @@
       "hi": "부천시"
     },
     "gwangyeok": "Gyeonggi",
-    "demandScore": 80,
+    "demandScore": 28,
     "supplyCount": 0,
-    "gapIndex": 80,
-    "trendVs2019": 0
+    "gapIndex": 28,
+    "trendVs2019": -8
   },
   {
     "code": "31060",
@@ -1212,10 +1212,10 @@
       "hi": "광명시"
     },
     "gwangyeok": "Gyeonggi",
-    "demandScore": 57,
+    "demandScore": 50,
     "supplyCount": 0,
-    "gapIndex": 57,
-    "trendVs2019": 0
+    "gapIndex": 50,
+    "trendVs2019": 12
   },
   {
     "code": "31070",
@@ -1226,10 +1226,10 @@
       "hi": "평택시"
     },
     "gwangyeok": "Gyeonggi",
-    "demandScore": 94,
+    "demandScore": 39,
     "supplyCount": 0,
-    "gapIndex": 94,
-    "trendVs2019": 0
+    "gapIndex": 39,
+    "trendVs2019": -3
   },
   {
     "code": "31080",
@@ -1240,10 +1240,10 @@
       "hi": "동두천시"
     },
     "gwangyeok": "Gyeonggi",
-    "demandScore": 51,
+    "demandScore": 42,
     "supplyCount": 0,
-    "gapIndex": 51,
-    "trendVs2019": 0
+    "gapIndex": 42,
+    "trendVs2019": 5
   },
   {
     "code": "31091",
@@ -1254,10 +1254,10 @@
       "hi": "안산시상록구"
     },
     "gwangyeok": "Gyeonggi",
-    "demandScore": 81,
+    "demandScore": 25,
     "supplyCount": 0,
-    "gapIndex": 81,
-    "trendVs2019": 0
+    "gapIndex": 25,
+    "trendVs2019": -15
   },
   {
     "code": "31092",
@@ -1268,10 +1268,10 @@
       "hi": "안산시단원구"
     },
     "gwangyeok": "Gyeonggi",
-    "demandScore": 81,
+    "demandScore": 28,
     "supplyCount": 0,
-    "gapIndex": 81,
-    "trendVs2019": 0
+    "gapIndex": 28,
+    "trendVs2019": -13
   },
   {
     "code": "31101",
@@ -1282,10 +1282,10 @@
       "hi": "고양시덕양구"
     },
     "gwangyeok": "Gyeonggi",
-    "demandScore": 76,
+    "demandScore": 16,
     "supplyCount": 0,
-    "gapIndex": 76,
-    "trendVs2019": 0
+    "gapIndex": 16,
+    "trendVs2019": 16
   },
   {
     "code": "31103",
@@ -1296,10 +1296,10 @@
       "hi": "고양시일산동구"
     },
     "gwangyeok": "Gyeonggi",
-    "demandScore": 76,
+    "demandScore": 52,
     "supplyCount": 0,
-    "gapIndex": 76,
-    "trendVs2019": 0
+    "gapIndex": 52,
+    "trendVs2019": 13
   },
   {
     "code": "31104",
@@ -1310,10 +1310,10 @@
       "hi": "고양시일산서구"
     },
     "gwangyeok": "Gyeonggi",
-    "demandScore": 76,
+    "demandScore": 57,
     "supplyCount": 0,
-    "gapIndex": 76,
-    "trendVs2019": 0
+    "gapIndex": 57,
+    "trendVs2019": 13
   },
   {
     "code": "31110",
@@ -1324,10 +1324,10 @@
       "hi": "과천시"
     },
     "gwangyeok": "Gyeonggi",
-    "demandScore": 28,
+    "demandScore": 32,
     "supplyCount": 0,
-    "gapIndex": 28,
-    "trendVs2019": 0
+    "gapIndex": 32,
+    "trendVs2019": -10
   },
   {
     "code": "31120",
@@ -1338,10 +1338,10 @@
       "hi": "구리시"
     },
     "gwangyeok": "Gyeonggi",
-    "demandScore": 29,
+    "demandScore": 54,
     "supplyCount": 0,
-    "gapIndex": 29,
-    "trendVs2019": 0
+    "gapIndex": 54,
+    "trendVs2019": 10
   },
   {
     "code": "31130",
@@ -1352,10 +1352,10 @@
       "hi": "남양주시"
     },
     "gwangyeok": "Gyeonggi",
-    "demandScore": 71,
+    "demandScore": 20,
     "supplyCount": 0,
-    "gapIndex": 71,
-    "trendVs2019": 0
+    "gapIndex": 20,
+    "trendVs2019": -15
   },
   {
     "code": "31140",
@@ -1366,10 +1366,10 @@
       "hi": "오산시"
     },
     "gwangyeok": "Gyeonggi",
-    "demandScore": 50,
+    "demandScore": 41,
     "supplyCount": 0,
-    "gapIndex": 50,
-    "trendVs2019": 0
+    "gapIndex": 41,
+    "trendVs2019": 4
   },
   {
     "code": "31150",
@@ -1380,10 +1380,10 @@
       "hi": "시흥시"
     },
     "gwangyeok": "Gyeonggi",
-    "demandScore": 82,
+    "demandScore": 18,
     "supplyCount": 0,
-    "gapIndex": 82,
-    "trendVs2019": 0
+    "gapIndex": 18,
+    "trendVs2019": -22
   },
   {
     "code": "31160",
@@ -1397,7 +1397,7 @@
     "demandScore": 40,
     "supplyCount": 0,
     "gapIndex": 40,
-    "trendVs2019": 0
+    "trendVs2019": -2
   },
   {
     "code": "31170",
@@ -1408,10 +1408,10 @@
       "hi": "의왕시"
     },
     "gwangyeok": "Gyeonggi",
-    "demandScore": 34,
+    "demandScore": 52,
     "supplyCount": 0,
-    "gapIndex": 34,
-    "trendVs2019": 0
+    "gapIndex": 52,
+    "trendVs2019": 13
   },
   {
     "code": "31180",
@@ -1422,10 +1422,10 @@
       "hi": "하남시"
     },
     "gwangyeok": "Gyeonggi",
-    "demandScore": 41,
+    "demandScore": 33,
     "supplyCount": 0,
-    "gapIndex": 41,
-    "trendVs2019": 0
+    "gapIndex": 33,
+    "trendVs2019": -3
   },
   {
     "code": "31191",
@@ -1436,10 +1436,10 @@
       "hi": "용인시처인구"
     },
     "gwangyeok": "Gyeonggi",
-    "demandScore": 69,
+    "demandScore": 59,
     "supplyCount": 0,
-    "gapIndex": 69,
-    "trendVs2019": 0
+    "gapIndex": 59,
+    "trendVs2019": 15
   },
   {
     "code": "31192",
@@ -1450,10 +1450,10 @@
       "hi": "용인시기흥구"
     },
     "gwangyeok": "Gyeonggi",
-    "demandScore": 69,
+    "demandScore": 54,
     "supplyCount": 0,
-    "gapIndex": 69,
-    "trendVs2019": 0
+    "gapIndex": 54,
+    "trendVs2019": 15
   },
   {
     "code": "31193",
@@ -1464,10 +1464,10 @@
       "hi": "용인시수지구"
     },
     "gwangyeok": "Gyeonggi",
-    "demandScore": 69,
+    "demandScore": 58,
     "supplyCount": 0,
-    "gapIndex": 69,
-    "trendVs2019": 0
+    "gapIndex": 58,
+    "trendVs2019": 14
   },
   {
     "code": "31200",
@@ -1478,10 +1478,10 @@
       "hi": "파주시"
     },
     "gwangyeok": "Gyeonggi",
-    "demandScore": 84,
+    "demandScore": 18,
     "supplyCount": 0,
-    "gapIndex": 84,
-    "trendVs2019": 0
+    "gapIndex": 18,
+    "trendVs2019": -17
   },
   {
     "code": "31210",
@@ -1492,10 +1492,10 @@
       "hi": "이천시"
     },
     "gwangyeok": "Gyeonggi",
-    "demandScore": 64,
+    "demandScore": 40,
     "supplyCount": 0,
-    "gapIndex": 64,
-    "trendVs2019": 0
+    "gapIndex": 40,
+    "trendVs2019": 3
   },
   {
     "code": "31220",
@@ -1506,10 +1506,10 @@
       "hi": "안성시"
     },
     "gwangyeok": "Gyeonggi",
-    "demandScore": 67,
+    "demandScore": 17,
     "supplyCount": 0,
-    "gapIndex": 67,
-    "trendVs2019": 0
+    "gapIndex": 17,
+    "trendVs2019": 18
   },
   {
     "code": "31230",
@@ -1520,10 +1520,10 @@
       "hi": "김포시"
     },
     "gwangyeok": "Gyeonggi",
-    "demandScore": 88,
+    "demandScore": 40,
     "supplyCount": 0,
-    "gapIndex": 88,
-    "trendVs2019": 0
+    "gapIndex": 40,
+    "trendVs2019": -2
   },
   {
     "code": "31240",
@@ -1534,10 +1534,10 @@
       "hi": "화성시"
     },
     "gwangyeok": "Gyeonggi",
-    "demandScore": 91,
+    "demandScore": 49,
     "supplyCount": 0,
-    "gapIndex": 91,
-    "trendVs2019": 0
+    "gapIndex": 49,
+    "trendVs2019": 11
   },
   {
     "code": "31250",
@@ -1548,10 +1548,10 @@
       "hi": "광주시"
     },
     "gwangyeok": "Gyeonggi",
-    "demandScore": 65,
+    "demandScore": 27,
     "supplyCount": 0,
-    "gapIndex": 65,
-    "trendVs2019": 0
+    "gapIndex": 27,
+    "trendVs2019": -9
   },
   {
     "code": "31260",
@@ -1562,10 +1562,10 @@
       "hi": "양주시"
     },
     "gwangyeok": "Gyeonggi",
-    "demandScore": 53,
+    "demandScore": 49,
     "supplyCount": 0,
-    "gapIndex": 53,
-    "trendVs2019": 0
+    "gapIndex": 49,
+    "trendVs2019": 6
   },
   {
     "code": "31270",
@@ -1576,10 +1576,10 @@
       "hi": "포천시"
     },
     "gwangyeok": "Gyeonggi",
-    "demandScore": 56,
+    "demandScore": 27,
     "supplyCount": 0,
-    "gapIndex": 56,
-    "trendVs2019": 0
+    "gapIndex": 27,
+    "trendVs2019": -14
   },
   {
     "code": "31280",
@@ -1590,10 +1590,10 @@
       "hi": "여주시"
     },
     "gwangyeok": "Gyeonggi",
-    "demandScore": 57,
+    "demandScore": 39,
     "supplyCount": 0,
-    "gapIndex": 57,
-    "trendVs2019": 0
+    "gapIndex": 39,
+    "trendVs2019": -3
   },
   {
     "code": "31350",
@@ -1604,10 +1604,10 @@
       "hi": "연천군"
     },
     "gwangyeok": "Gyeonggi",
-    "demandScore": 12,
+    "demandScore": 26,
     "supplyCount": 0,
-    "gapIndex": 12,
-    "trendVs2019": 0
+    "gapIndex": 26,
+    "trendVs2019": -10
   },
   {
     "code": "31370",
@@ -1618,10 +1618,10 @@
       "hi": "가평군"
     },
     "gwangyeok": "Gyeonggi",
-    "demandScore": 78,
+    "demandScore": 37,
     "supplyCount": 0,
-    "gapIndex": 78,
-    "trendVs2019": 0
+    "gapIndex": 37,
+    "trendVs2019": -5
   },
   {
     "code": "31380",
@@ -1632,10 +1632,10 @@
       "hi": "양평군"
     },
     "gwangyeok": "Gyeonggi",
-    "demandScore": 36,
+    "demandScore": 25,
     "supplyCount": 0,
-    "gapIndex": 36,
-    "trendVs2019": 0
+    "gapIndex": 25,
+    "trendVs2019": -15
   },
   {
     "code": "32010",
@@ -1646,10 +1646,10 @@
       "hi": "춘천시"
     },
     "gwangyeok": "Gangwon",
-    "demandScore": 78,
+    "demandScore": 30,
     "supplyCount": 0,
-    "gapIndex": 78,
-    "trendVs2019": 0
+    "gapIndex": 30,
+    "trendVs2019": -6
   },
   {
     "code": "32020",
@@ -1660,10 +1660,10 @@
       "hi": "원주시"
     },
     "gwangyeok": "Gangwon",
-    "demandScore": 45,
+    "demandScore": 52,
     "supplyCount": 0,
-    "gapIndex": 45,
-    "trendVs2019": 0
+    "gapIndex": 52,
+    "trendVs2019": 9
   },
   {
     "code": "32030",
@@ -1674,10 +1674,10 @@
       "hi": "강릉시"
     },
     "gwangyeok": "Gangwon",
-    "demandScore": 48,
+    "demandScore": 30,
     "supplyCount": 0,
-    "gapIndex": 48,
-    "trendVs2019": 0
+    "gapIndex": 30,
+    "trendVs2019": -12
   },
   {
     "code": "32040",
@@ -1688,10 +1688,10 @@
       "hi": "동해시"
     },
     "gwangyeok": "Gangwon",
-    "demandScore": 24,
+    "demandScore": 39,
     "supplyCount": 0,
-    "gapIndex": 24,
-    "trendVs2019": 0
+    "gapIndex": 39,
+    "trendVs2019": 2
   },
   {
     "code": "32050",
@@ -1702,10 +1702,10 @@
       "hi": "태백시"
     },
     "gwangyeok": "Gangwon",
-    "demandScore": 4,
+    "demandScore": 17,
     "supplyCount": 0,
-    "gapIndex": 4,
-    "trendVs2019": 0
+    "gapIndex": 17,
+    "trendVs2019": -18
   },
   {
     "code": "32060",
@@ -1716,10 +1716,10 @@
       "hi": "속초시"
     },
     "gwangyeok": "Gangwon",
-    "demandScore": 44,
+    "demandScore": 39,
     "supplyCount": 0,
-    "gapIndex": 44,
-    "trendVs2019": 0
+    "gapIndex": 39,
+    "trendVs2019": -3
   },
   {
     "code": "32070",
@@ -1730,10 +1730,10 @@
       "hi": "삼척시"
     },
     "gwangyeok": "Gangwon",
-    "demandScore": 32,
+    "demandScore": 16,
     "supplyCount": 0,
-    "gapIndex": 32,
-    "trendVs2019": 0
+    "gapIndex": 16,
+    "trendVs2019": 16
   },
   {
     "code": "32310",
@@ -1744,10 +1744,10 @@
       "hi": "홍천군"
     },
     "gwangyeok": "Gangwon",
-    "demandScore": 58,
+    "demandScore": 33,
     "supplyCount": 0,
-    "gapIndex": 58,
-    "trendVs2019": 0
+    "gapIndex": 33,
+    "trendVs2019": -9
   },
   {
     "code": "32320",
@@ -1758,10 +1758,10 @@
       "hi": "횡성군"
     },
     "gwangyeok": "Gangwon",
-    "demandScore": 35,
+    "demandScore": 43,
     "supplyCount": 0,
-    "gapIndex": 35,
-    "trendVs2019": 0
+    "gapIndex": 43,
+    "trendVs2019": 1
   },
   {
     "code": "32330",
@@ -1772,10 +1772,10 @@
       "hi": "영월군"
     },
     "gwangyeok": "Gangwon",
-    "demandScore": 4,
+    "demandScore": 21,
     "supplyCount": 0,
-    "gapIndex": 4,
-    "trendVs2019": 0
+    "gapIndex": 21,
+    "trendVs2019": -14
   },
   {
     "code": "32340",
@@ -1786,10 +1786,10 @@
       "hi": "평창군"
     },
     "gwangyeok": "Gangwon",
-    "demandScore": 42,
+    "demandScore": 30,
     "supplyCount": 0,
-    "gapIndex": 42,
-    "trendVs2019": 0
+    "gapIndex": 30,
+    "trendVs2019": -6
   },
   {
     "code": "32350",
@@ -1800,10 +1800,10 @@
       "hi": "정선군"
     },
     "gwangyeok": "Gangwon",
-    "demandScore": 17,
+    "demandScore": 19,
     "supplyCount": 0,
-    "gapIndex": 17,
-    "trendVs2019": 0
+    "gapIndex": 19,
+    "trendVs2019": -21
   },
   {
     "code": "32360",
@@ -1814,10 +1814,10 @@
       "hi": "철원군"
     },
     "gwangyeok": "Gangwon",
-    "demandScore": 12,
+    "demandScore": 30,
     "supplyCount": 0,
-    "gapIndex": 12,
-    "trendVs2019": 0
+    "gapIndex": 30,
+    "trendVs2019": -11
   },
   {
     "code": "32370",
@@ -1828,10 +1828,10 @@
       "hi": "화천군"
     },
     "gwangyeok": "Gangwon",
-    "demandScore": 5,
+    "demandScore": 53,
     "supplyCount": 0,
-    "gapIndex": 5,
-    "trendVs2019": 0
+    "gapIndex": 53,
+    "trendVs2019": 14
   },
   {
     "code": "32380",
@@ -1842,10 +1842,10 @@
       "hi": "양구군"
     },
     "gwangyeok": "Gangwon",
-    "demandScore": 6,
+    "demandScore": 34,
     "supplyCount": 0,
-    "gapIndex": 6,
-    "trendVs2019": 0
+    "gapIndex": 34,
+    "trendVs2019": -8
   },
   {
     "code": "32390",
@@ -1856,10 +1856,10 @@
       "hi": "인제군"
     },
     "gwangyeok": "Gangwon",
-    "demandScore": 18,
+    "demandScore": 57,
     "supplyCount": 0,
-    "gapIndex": 18,
-    "trendVs2019": 0
+    "gapIndex": 57,
+    "trendVs2019": 13
   },
   {
     "code": "32400",
@@ -1870,10 +1870,10 @@
       "hi": "고성군"
     },
     "gwangyeok": "Gangwon",
-    "demandScore": 21,
+    "demandScore": 51,
     "supplyCount": 0,
-    "gapIndex": 21,
-    "trendVs2019": 0
+    "gapIndex": 51,
+    "trendVs2019": 13
   },
   {
     "code": "32410",
@@ -1884,10 +1884,10 @@
       "hi": "양양군"
     },
     "gwangyeok": "Gangwon",
-    "demandScore": 27,
+    "demandScore": 29,
     "supplyCount": 0,
-    "gapIndex": 27,
-    "trendVs2019": 0
+    "gapIndex": 29,
+    "trendVs2019": -12
   },
   {
     "code": "33020",
@@ -1898,10 +1898,10 @@
       "hi": "충주시"
     },
     "gwangyeok": "Chungbuk",
-    "demandScore": 42,
+    "demandScore": 41,
     "supplyCount": 0,
-    "gapIndex": 42,
-    "trendVs2019": 0
+    "gapIndex": 41,
+    "trendVs2019": 4
   },
   {
     "code": "33030",
@@ -1912,10 +1912,10 @@
       "hi": "제천시"
     },
     "gwangyeok": "Chungbuk",
-    "demandScore": 26,
+    "demandScore": 30,
     "supplyCount": 0,
-    "gapIndex": 26,
-    "trendVs2019": 0
+    "gapIndex": 30,
+    "trendVs2019": -11
   },
   {
     "code": "33041",
@@ -1926,10 +1926,10 @@
       "hi": "청주시상당구"
     },
     "gwangyeok": "Chungbuk",
-    "demandScore": 47,
+    "demandScore": 34,
     "supplyCount": 1,
-    "gapIndex": 41,
-    "trendVs2019": 0
+    "gapIndex": 25,
+    "trendVs2019": -2
   },
   {
     "code": "33042",
@@ -1940,9 +1940,9 @@
       "hi": "청주시서원구"
     },
     "gwangyeok": "Chungbuk",
-    "demandScore": 47,
+    "demandScore": 37,
     "supplyCount": 0,
-    "gapIndex": 47,
+    "gapIndex": 37,
     "trendVs2019": 0
   },
   {
@@ -1954,10 +1954,10 @@
       "hi": "청주시흥덕구"
     },
     "gwangyeok": "Chungbuk",
-    "demandScore": 47,
+    "demandScore": 42,
     "supplyCount": 0,
-    "gapIndex": 47,
-    "trendVs2019": 0
+    "gapIndex": 42,
+    "trendVs2019": -1
   },
   {
     "code": "33044",
@@ -1968,9 +1968,9 @@
       "hi": "청주시청원구"
     },
     "gwangyeok": "Chungbuk",
-    "demandScore": 47,
+    "demandScore": 37,
     "supplyCount": 0,
-    "gapIndex": 47,
+    "gapIndex": 37,
     "trendVs2019": 0
   },
   {
@@ -1982,10 +1982,10 @@
       "hi": "보은군"
     },
     "gwangyeok": "Chungbuk",
-    "demandScore": 14,
+    "demandScore": 50,
     "supplyCount": 0,
-    "gapIndex": 14,
-    "trendVs2019": 0
+    "gapIndex": 50,
+    "trendVs2019": 12
   },
   {
     "code": "33330",
@@ -1996,10 +1996,10 @@
       "hi": "옥천군"
     },
     "gwangyeok": "Chungbuk",
-    "demandScore": 16,
+    "demandScore": 27,
     "supplyCount": 0,
-    "gapIndex": 16,
-    "trendVs2019": 0
+    "gapIndex": 27,
+    "trendVs2019": -9
   },
   {
     "code": "33340",
@@ -2010,10 +2010,10 @@
       "hi": "영동군"
     },
     "gwangyeok": "Chungbuk",
-    "demandScore": 16,
+    "demandScore": 48,
     "supplyCount": 0,
-    "gapIndex": 16,
-    "trendVs2019": 0
+    "gapIndex": 48,
+    "trendVs2019": 5
   },
   {
     "code": "33350",
@@ -2024,10 +2024,10 @@
       "hi": "진천군"
     },
     "gwangyeok": "Chungbuk",
-    "demandScore": 44,
+    "demandScore": 26,
     "supplyCount": 0,
-    "gapIndex": 44,
-    "trendVs2019": 0
+    "gapIndex": 26,
+    "trendVs2019": -15
   },
   {
     "code": "33360",
@@ -2038,9 +2038,9 @@
       "hi": "괴산군"
     },
     "gwangyeok": "Chungbuk",
-    "demandScore": 27,
+    "demandScore": 37,
     "supplyCount": 0,
-    "gapIndex": 27,
+    "gapIndex": 37,
     "trendVs2019": 0
   },
   {
@@ -2052,10 +2052,10 @@
       "hi": "음성군"
     },
     "gwangyeok": "Chungbuk",
-    "demandScore": 60,
+    "demandScore": 59,
     "supplyCount": 2,
-    "gapIndex": 50,
-    "trendVs2019": 0
+    "gapIndex": 49,
+    "trendVs2019": -20
   },
   {
     "code": "33380",
@@ -2066,10 +2066,10 @@
       "hi": "단양군"
     },
     "gwangyeok": "Chungbuk",
-    "demandScore": 9,
+    "demandScore": 38,
     "supplyCount": 0,
-    "gapIndex": 9,
-    "trendVs2019": 0
+    "gapIndex": 38,
+    "trendVs2019": -4
   },
   {
     "code": "33390",
@@ -2080,10 +2080,10 @@
       "hi": "증평군"
     },
     "gwangyeok": "Chungbuk",
-    "demandScore": 4,
+    "demandScore": 49,
     "supplyCount": 0,
-    "gapIndex": 4,
-    "trendVs2019": 0
+    "gapIndex": 49,
+    "trendVs2019": 11
   },
   {
     "code": "34011",
@@ -2094,10 +2094,10 @@
       "hi": "천안시동남구"
     },
     "gwangyeok": "Chungnam",
-    "demandScore": 61,
+    "demandScore": 59,
     "supplyCount": 0,
-    "gapIndex": 61,
-    "trendVs2019": 0
+    "gapIndex": 59,
+    "trendVs2019": 14
   },
   {
     "code": "34012",
@@ -2108,10 +2108,10 @@
       "hi": "천안시서북구"
     },
     "gwangyeok": "Chungnam",
-    "demandScore": 61,
+    "demandScore": 56,
     "supplyCount": 0,
-    "gapIndex": 61,
-    "trendVs2019": 0
+    "gapIndex": 56,
+    "trendVs2019": 12
   },
   {
     "code": "34020",
@@ -2122,10 +2122,10 @@
       "hi": "공주시"
     },
     "gwangyeok": "Chungnam",
-    "demandScore": 38,
+    "demandScore": 43,
     "supplyCount": 0,
-    "gapIndex": 38,
-    "trendVs2019": 0
+    "gapIndex": 43,
+    "trendVs2019": 1
   },
   {
     "code": "34030",
@@ -2136,10 +2136,10 @@
       "hi": "보령시"
     },
     "gwangyeok": "Chungnam",
-    "demandScore": 35,
+    "demandScore": 21,
     "supplyCount": 0,
-    "gapIndex": 35,
-    "trendVs2019": 0
+    "gapIndex": 21,
+    "trendVs2019": -19
   },
   {
     "code": "34040",
@@ -2150,10 +2150,10 @@
       "hi": "아산시"
     },
     "gwangyeok": "Chungnam",
-    "demandScore": 80,
+    "demandScore": 45,
     "supplyCount": 0,
-    "gapIndex": 80,
-    "trendVs2019": 0
+    "gapIndex": 45,
+    "trendVs2019": 7
   },
   {
     "code": "34050",
@@ -2164,10 +2164,10 @@
       "hi": "서산시"
     },
     "gwangyeok": "Chungnam",
-    "demandScore": 54,
+    "demandScore": 22,
     "supplyCount": 0,
-    "gapIndex": 54,
-    "trendVs2019": 0
+    "gapIndex": 22,
+    "trendVs2019": -13
   },
   {
     "code": "34060",
@@ -2178,10 +2178,10 @@
       "hi": "논산시"
     },
     "gwangyeok": "Chungnam",
-    "demandScore": 36,
+    "demandScore": 57,
     "supplyCount": 0,
-    "gapIndex": 36,
-    "trendVs2019": 0
+    "gapIndex": 57,
+    "trendVs2019": 13
   },
   {
     "code": "34070",
@@ -2192,10 +2192,10 @@
       "hi": "계룡시"
     },
     "gwangyeok": "Chungnam",
-    "demandScore": 0,
+    "demandScore": 34,
     "supplyCount": 0,
-    "gapIndex": 0,
-    "trendVs2019": 0
+    "gapIndex": 34,
+    "trendVs2019": -8
   },
   {
     "code": "34080",
@@ -2206,10 +2206,10 @@
       "hi": "당진시"
     },
     "gwangyeok": "Chungnam",
-    "demandScore": 70,
+    "demandScore": 53,
     "supplyCount": 0,
-    "gapIndex": 70,
-    "trendVs2019": 0
+    "gapIndex": 53,
+    "trendVs2019": 14
   },
   {
     "code": "34310",
@@ -2220,10 +2220,10 @@
       "hi": "금산군"
     },
     "gwangyeok": "Chungnam",
-    "demandScore": 19,
+    "demandScore": 58,
     "supplyCount": 0,
-    "gapIndex": 19,
-    "trendVs2019": 0
+    "gapIndex": 58,
+    "trendVs2019": 14
   },
   {
     "code": "34330",
@@ -2234,10 +2234,10 @@
       "hi": "부여군"
     },
     "gwangyeok": "Chungnam",
-    "demandScore": 18,
+    "demandScore": 58,
     "supplyCount": 0,
-    "gapIndex": 18,
-    "trendVs2019": 0
+    "gapIndex": 58,
+    "trendVs2019": -21
   },
   {
     "code": "34340",
@@ -2248,10 +2248,10 @@
       "hi": "서천군"
     },
     "gwangyeok": "Chungnam",
-    "demandScore": 21,
+    "demandScore": 22,
     "supplyCount": 0,
-    "gapIndex": 21,
-    "trendVs2019": 0
+    "gapIndex": 22,
+    "trendVs2019": -18
   },
   {
     "code": "34350",
@@ -2262,10 +2262,10 @@
       "hi": "청양군"
     },
     "gwangyeok": "Chungnam",
-    "demandScore": 10,
+    "demandScore": 45,
     "supplyCount": 0,
-    "gapIndex": 10,
-    "trendVs2019": 0
+    "gapIndex": 45,
+    "trendVs2019": 2
   },
   {
     "code": "34360",
@@ -2279,7 +2279,7 @@
     "demandScore": 22,
     "supplyCount": 0,
     "gapIndex": 22,
-    "trendVs2019": 0
+    "trendVs2019": -13
   },
   {
     "code": "34370",
@@ -2290,10 +2290,10 @@
       "hi": "예산군"
     },
     "gwangyeok": "Chungnam",
-    "demandScore": 31,
+    "demandScore": 45,
     "supplyCount": 0,
-    "gapIndex": 31,
-    "trendVs2019": 0
+    "gapIndex": 45,
+    "trendVs2019": 7
   },
   {
     "code": "34380",
@@ -2304,10 +2304,10 @@
       "hi": "태안군"
     },
     "gwangyeok": "Chungnam",
-    "demandScore": 73,
+    "demandScore": 45,
     "supplyCount": 0,
-    "gapIndex": 73,
-    "trendVs2019": 0
+    "gapIndex": 45,
+    "trendVs2019": 7
   },
   {
     "code": "35011",
@@ -2318,10 +2318,10 @@
       "hi": "전주시완산구"
     },
     "gwangyeok": "Jeonbuk",
-    "demandScore": 46,
+    "demandScore": 51,
     "supplyCount": 0,
-    "gapIndex": 46,
-    "trendVs2019": 0
+    "gapIndex": 51,
+    "trendVs2019": 13
   },
   {
     "code": "35012",
@@ -2332,10 +2332,10 @@
       "hi": "전주시덕진구"
     },
     "gwangyeok": "Jeonbuk",
-    "demandScore": 46,
+    "demandScore": 54,
     "supplyCount": 0,
-    "gapIndex": 46,
-    "trendVs2019": 0
+    "gapIndex": 54,
+    "trendVs2019": 15
   },
   {
     "code": "35020",
@@ -2346,10 +2346,10 @@
       "hi": "군산시"
     },
     "gwangyeok": "Jeonbuk",
-    "demandScore": 79,
+    "demandScore": 32,
     "supplyCount": 0,
-    "gapIndex": 79,
-    "trendVs2019": 0
+    "gapIndex": 32,
+    "trendVs2019": -4
   },
   {
     "code": "35030",
@@ -2360,10 +2360,10 @@
       "hi": "익산시"
     },
     "gwangyeok": "Jeonbuk",
-    "demandScore": 43,
+    "demandScore": 21,
     "supplyCount": 0,
-    "gapIndex": 43,
-    "trendVs2019": 0
+    "gapIndex": 21,
+    "trendVs2019": -19
   },
   {
     "code": "35040",
@@ -2374,10 +2374,10 @@
       "hi": "정읍시"
     },
     "gwangyeok": "Jeonbuk",
-    "demandScore": 22,
+    "demandScore": 45,
     "supplyCount": 0,
-    "gapIndex": 22,
-    "trendVs2019": 0
+    "gapIndex": 45,
+    "trendVs2019": 2
   },
   {
     "code": "35050",
@@ -2388,10 +2388,10 @@
       "hi": "남원시"
     },
     "gwangyeok": "Jeonbuk",
-    "demandScore": 20,
+    "demandScore": 23,
     "supplyCount": 0,
-    "gapIndex": 20,
-    "trendVs2019": 0
+    "gapIndex": 23,
+    "trendVs2019": -12
   },
   {
     "code": "35060",
@@ -2402,10 +2402,10 @@
       "hi": "김제시"
     },
     "gwangyeok": "Jeonbuk",
-    "demandScore": 24,
+    "demandScore": 46,
     "supplyCount": 0,
-    "gapIndex": 24,
-    "trendVs2019": 0
+    "gapIndex": 46,
+    "trendVs2019": 8
   },
   {
     "code": "35310",
@@ -2416,10 +2416,10 @@
       "hi": "완주군"
     },
     "gwangyeok": "Jeonbuk",
-    "demandScore": 36,
+    "demandScore": 46,
     "supplyCount": 0,
-    "gapIndex": 36,
-    "trendVs2019": 0
+    "gapIndex": 46,
+    "trendVs2019": 8
   },
   {
     "code": "35320",
@@ -2430,10 +2430,10 @@
       "hi": "진안군"
     },
     "gwangyeok": "Jeonbuk",
-    "demandScore": 13,
+    "demandScore": 35,
     "supplyCount": 0,
-    "gapIndex": 13,
-    "trendVs2019": 0
+    "gapIndex": 35,
+    "trendVs2019": -6
   },
   {
     "code": "35330",
@@ -2444,10 +2444,10 @@
       "hi": "무주군"
     },
     "gwangyeok": "Jeonbuk",
-    "demandScore": 8,
+    "demandScore": 58,
     "supplyCount": 0,
-    "gapIndex": 8,
-    "trendVs2019": 0
+    "gapIndex": 58,
+    "trendVs2019": 13
   },
   {
     "code": "35340",
@@ -2458,10 +2458,10 @@
       "hi": "장수군"
     },
     "gwangyeok": "Jeonbuk",
-    "demandScore": 2,
+    "demandScore": 55,
     "supplyCount": 0,
-    "gapIndex": 2,
-    "trendVs2019": 0
+    "gapIndex": 55,
+    "trendVs2019": 16
   },
   {
     "code": "35350",
@@ -2472,10 +2472,10 @@
       "hi": "임실군"
     },
     "gwangyeok": "Jeonbuk",
-    "demandScore": 2,
+    "demandScore": 33,
     "supplyCount": 0,
-    "gapIndex": 2,
-    "trendVs2019": 0
+    "gapIndex": 33,
+    "trendVs2019": -4
   },
   {
     "code": "35360",
@@ -2486,10 +2486,10 @@
       "hi": "순창군"
     },
     "gwangyeok": "Jeonbuk",
-    "demandScore": 1,
+    "demandScore": 22,
     "supplyCount": 0,
-    "gapIndex": 1,
-    "trendVs2019": 0
+    "gapIndex": 22,
+    "trendVs2019": -18
   },
   {
     "code": "35370",
@@ -2500,10 +2500,10 @@
       "hi": "고창군"
     },
     "gwangyeok": "Jeonbuk",
-    "demandScore": 25,
+    "demandScore": 44,
     "supplyCount": 0,
-    "gapIndex": 25,
-    "trendVs2019": 0
+    "gapIndex": 44,
+    "trendVs2019": 1
   },
   {
     "code": "35380",
@@ -2514,10 +2514,10 @@
       "hi": "부안군"
     },
     "gwangyeok": "Jeonbuk",
-    "demandScore": 51,
+    "demandScore": 45,
     "supplyCount": 0,
-    "gapIndex": 51,
-    "trendVs2019": 0
+    "gapIndex": 45,
+    "trendVs2019": 7
   },
   {
     "code": "36010",
@@ -2528,10 +2528,10 @@
       "hi": "목포시"
     },
     "gwangyeok": "Jeonnam",
-    "demandScore": 66,
+    "demandScore": 21,
     "supplyCount": 0,
-    "gapIndex": 66,
-    "trendVs2019": 0
+    "gapIndex": 21,
+    "trendVs2019": -14
   },
   {
     "code": "36020",
@@ -2542,10 +2542,10 @@
       "hi": "여수시"
     },
     "gwangyeok": "Jeonnam",
-    "demandScore": 90,
+    "demandScore": 43,
     "supplyCount": 0,
-    "gapIndex": 90,
-    "trendVs2019": 0
+    "gapIndex": 43,
+    "trendVs2019": 1
   },
   {
     "code": "36030",
@@ -2556,10 +2556,10 @@
       "hi": "순천시"
     },
     "gwangyeok": "Jeonnam",
-    "demandScore": 32,
+    "demandScore": 21,
     "supplyCount": 0,
-    "gapIndex": 32,
-    "trendVs2019": 0
+    "gapIndex": 21,
+    "trendVs2019": -20
   },
   {
     "code": "36040",
@@ -2570,10 +2570,10 @@
       "hi": "나주시"
     },
     "gwangyeok": "Jeonnam",
-    "demandScore": 29,
+    "demandScore": 57,
     "supplyCount": 0,
-    "gapIndex": 29,
-    "trendVs2019": 0
+    "gapIndex": 57,
+    "trendVs2019": 18
   },
   {
     "code": "36060",
@@ -2584,10 +2584,10 @@
       "hi": "광양시"
     },
     "gwangyeok": "Jeonnam",
-    "demandScore": 78,
+    "demandScore": 57,
     "supplyCount": 0,
-    "gapIndex": 78,
-    "trendVs2019": 0
+    "gapIndex": 57,
+    "trendVs2019": 12
   },
   {
     "code": "36310",
@@ -2598,10 +2598,10 @@
       "hi": "담양군"
     },
     "gwangyeok": "Jeonnam",
-    "demandScore": 10,
+    "demandScore": 48,
     "supplyCount": 0,
-    "gapIndex": 10,
-    "trendVs2019": 0
+    "gapIndex": 48,
+    "trendVs2019": 5
   },
   {
     "code": "36320",
@@ -2612,10 +2612,10 @@
       "hi": "곡성군"
     },
     "gwangyeok": "Jeonnam",
-    "demandScore": 2,
+    "demandScore": 59,
     "supplyCount": 0,
-    "gapIndex": 2,
-    "trendVs2019": 0
+    "gapIndex": 59,
+    "trendVs2019": 15
   },
   {
     "code": "36330",
@@ -2626,9 +2626,9 @@
       "hi": "구례군"
     },
     "gwangyeok": "Jeonnam",
-    "demandScore": 1,
+    "demandScore": 37,
     "supplyCount": 0,
-    "gapIndex": 1,
+    "gapIndex": 37,
     "trendVs2019": 0
   },
   {
@@ -2640,10 +2640,10 @@
       "hi": "고흥군"
     },
     "gwangyeok": "Jeonnam",
-    "demandScore": 31,
+    "demandScore": 17,
     "supplyCount": 0,
-    "gapIndex": 31,
-    "trendVs2019": 0
+    "gapIndex": 17,
+    "trendVs2019": 17
   },
   {
     "code": "36360",
@@ -2654,10 +2654,10 @@
       "hi": "보성군"
     },
     "gwangyeok": "Jeonnam",
-    "demandScore": 14,
+    "demandScore": 27,
     "supplyCount": 0,
-    "gapIndex": 14,
-    "trendVs2019": 0
+    "gapIndex": 27,
+    "trendVs2019": -13
   },
   {
     "code": "36370",
@@ -2668,10 +2668,10 @@
       "hi": "화순군"
     },
     "gwangyeok": "Jeonnam",
-    "demandScore": 9,
+    "demandScore": 50,
     "supplyCount": 0,
-    "gapIndex": 9,
-    "trendVs2019": 0
+    "gapIndex": 50,
+    "trendVs2019": 12
   },
   {
     "code": "36380",
@@ -2682,10 +2682,10 @@
       "hi": "장흥군"
     },
     "gwangyeok": "Jeonnam",
-    "demandScore": 6,
+    "demandScore": 50,
     "supplyCount": 0,
-    "gapIndex": 6,
-    "trendVs2019": 0
+    "gapIndex": 50,
+    "trendVs2019": 6
   },
   {
     "code": "36390",
@@ -2696,10 +2696,10 @@
       "hi": "강진군"
     },
     "gwangyeok": "Jeonnam",
-    "demandScore": 3,
+    "demandScore": 27,
     "supplyCount": 0,
-    "gapIndex": 3,
-    "trendVs2019": 0
+    "gapIndex": 27,
+    "trendVs2019": -13
   },
   {
     "code": "36400",
@@ -2710,10 +2710,10 @@
       "hi": "해남군"
     },
     "gwangyeok": "Jeonnam",
-    "demandScore": 49,
+    "demandScore": 18,
     "supplyCount": 0,
-    "gapIndex": 49,
-    "trendVs2019": 0
+    "gapIndex": 18,
+    "trendVs2019": -21
   },
   {
     "code": "36410",
@@ -2724,10 +2724,10 @@
       "hi": "영암군"
     },
     "gwangyeok": "Jeonnam",
-    "demandScore": 37,
+    "demandScore": 29,
     "supplyCount": 0,
-    "gapIndex": 37,
-    "trendVs2019": 0
+    "gapIndex": 29,
+    "trendVs2019": -7
   },
   {
     "code": "36420",
@@ -2738,10 +2738,10 @@
       "hi": "무안군"
     },
     "gwangyeok": "Jeonnam",
-    "demandScore": 28,
+    "demandScore": 52,
     "supplyCount": 0,
-    "gapIndex": 28,
-    "trendVs2019": 0
+    "gapIndex": 52,
+    "trendVs2019": 13
   },
   {
     "code": "36430",
@@ -2752,10 +2752,10 @@
       "hi": "함평군"
     },
     "gwangyeok": "Jeonnam",
-    "demandScore": 11,
+    "demandScore": 29,
     "supplyCount": 0,
-    "gapIndex": 11,
-    "trendVs2019": 0
+    "gapIndex": 29,
+    "trendVs2019": -12
   },
   {
     "code": "36440",
@@ -2766,10 +2766,10 @@
       "hi": "영광군"
     },
     "gwangyeok": "Jeonnam",
-    "demandScore": 28,
+    "demandScore": 50,
     "supplyCount": 0,
-    "gapIndex": 28,
-    "trendVs2019": 0
+    "gapIndex": 50,
+    "trendVs2019": 7
   },
   {
     "code": "36450",
@@ -2780,10 +2780,10 @@
       "hi": "장성군"
     },
     "gwangyeok": "Jeonnam",
-    "demandScore": 8,
+    "demandScore": 16,
     "supplyCount": 0,
-    "gapIndex": 8,
-    "trendVs2019": 0
+    "gapIndex": 16,
+    "trendVs2019": -19
   },
   {
     "code": "36460",
@@ -2794,10 +2794,10 @@
       "hi": "완도군"
     },
     "gwangyeok": "Jeonnam",
-    "demandScore": 79,
+    "demandScore": 38,
     "supplyCount": 0,
-    "gapIndex": 79,
-    "trendVs2019": 0
+    "gapIndex": 38,
+    "trendVs2019": 1
   },
   {
     "code": "36470",
@@ -2808,10 +2808,10 @@
       "hi": "진도군"
     },
     "gwangyeok": "Jeonnam",
-    "demandScore": 75,
+    "demandScore": 16,
     "supplyCount": 0,
-    "gapIndex": 75,
-    "trendVs2019": 0
+    "gapIndex": 16,
+    "trendVs2019": 16
   },
   {
     "code": "36480",
@@ -2822,9 +2822,9 @@
       "hi": "신안군"
     },
     "gwangyeok": "Jeonnam",
-    "demandScore": 90,
+    "demandScore": 43,
     "supplyCount": 0,
-    "gapIndex": 90,
+    "gapIndex": 43,
     "trendVs2019": 0
   },
   {
@@ -2836,10 +2836,10 @@
       "hi": "포항시남구"
     },
     "gwangyeok": "Gyeongbuk",
-    "demandScore": 50,
+    "demandScore": 28,
     "supplyCount": 0,
-    "gapIndex": 50,
-    "trendVs2019": 0
+    "gapIndex": 28,
+    "trendVs2019": -13
   },
   {
     "code": "37012",
@@ -2850,10 +2850,10 @@
       "hi": "포항시북구"
     },
     "gwangyeok": "Gyeongbuk",
-    "demandScore": 50,
+    "demandScore": 25,
     "supplyCount": 0,
-    "gapIndex": 50,
-    "trendVs2019": 0
+    "gapIndex": 25,
+    "trendVs2019": -16
   },
   {
     "code": "37020",
@@ -2864,10 +2864,10 @@
       "hi": "경주시"
     },
     "gwangyeok": "Gyeongbuk",
-    "demandScore": 85,
+    "demandScore": 32,
     "supplyCount": 1,
-    "gapIndex": 81,
-    "trendVs2019": 0
+    "gapIndex": 23,
+    "trendVs2019": -4
   },
   {
     "code": "37030",
@@ -2878,10 +2878,10 @@
       "hi": "김천시"
     },
     "gwangyeok": "Gyeongbuk",
-    "demandScore": 34,
+    "demandScore": 21,
     "supplyCount": 0,
-    "gapIndex": 34,
-    "trendVs2019": 0
+    "gapIndex": 21,
+    "trendVs2019": -19
   },
   {
     "code": "37040",
@@ -2892,10 +2892,10 @@
       "hi": "안동시"
     },
     "gwangyeok": "Gyeongbuk",
-    "demandScore": 38,
+    "demandScore": 57,
     "supplyCount": 0,
-    "gapIndex": 38,
-    "trendVs2019": 0
+    "gapIndex": 57,
+    "trendVs2019": 13
   },
   {
     "code": "37050",
@@ -2906,10 +2906,10 @@
       "hi": "구미시"
     },
     "gwangyeok": "Gyeongbuk",
-    "demandScore": 58,
+    "demandScore": 35,
     "supplyCount": 0,
-    "gapIndex": 58,
-    "trendVs2019": 0
+    "gapIndex": 35,
+    "trendVs2019": -2
   },
   {
     "code": "37060",
@@ -2920,10 +2920,10 @@
       "hi": "영주시"
     },
     "gwangyeok": "Gyeongbuk",
-    "demandScore": 18,
+    "demandScore": 46,
     "supplyCount": 0,
-    "gapIndex": 18,
-    "trendVs2019": 0
+    "gapIndex": 46,
+    "trendVs2019": 8
   },
   {
     "code": "37070",
@@ -2934,10 +2934,10 @@
       "hi": "영천시"
     },
     "gwangyeok": "Gyeongbuk",
-    "demandScore": 32,
+    "demandScore": 35,
     "supplyCount": 0,
-    "gapIndex": 32,
-    "trendVs2019": 0
+    "gapIndex": 35,
+    "trendVs2019": -7
   },
   {
     "code": "37080",
@@ -2948,10 +2948,10 @@
       "hi": "상주시"
     },
     "gwangyeok": "Gyeongbuk",
-    "demandScore": 40,
+    "demandScore": 23,
     "supplyCount": 0,
-    "gapIndex": 40,
-    "trendVs2019": 0
+    "gapIndex": 23,
+    "trendVs2019": -13
   },
   {
     "code": "37090",
@@ -2962,10 +2962,10 @@
       "hi": "문경시"
     },
     "gwangyeok": "Gyeongbuk",
-    "demandScore": 23,
+    "demandScore": 46,
     "supplyCount": 0,
-    "gapIndex": 23,
-    "trendVs2019": 0
+    "gapIndex": 46,
+    "trendVs2019": 8
   },
   {
     "code": "37100",
@@ -2976,10 +2976,10 @@
       "hi": "경산시"
     },
     "gwangyeok": "Gyeongbuk",
-    "demandScore": 70,
+    "demandScore": 16,
     "supplyCount": 0,
-    "gapIndex": 70,
-    "trendVs2019": 0
+    "gapIndex": 16,
+    "trendVs2019": -19
   },
   {
     "code": "37310",
@@ -2990,10 +2990,10 @@
       "hi": "군위군"
     },
     "gwangyeok": "Gyeongbuk",
-    "demandScore": 7,
+    "demandScore": 30,
     "supplyCount": 0,
-    "gapIndex": 7,
-    "trendVs2019": 0
+    "gapIndex": 30,
+    "trendVs2019": -11
   },
   {
     "code": "37320",
@@ -3004,10 +3004,10 @@
       "hi": "의성군"
     },
     "gwangyeok": "Gyeongbuk",
-    "demandScore": 15,
+    "demandScore": 41,
     "supplyCount": 0,
-    "gapIndex": 15,
-    "trendVs2019": 0
+    "gapIndex": 41,
+    "trendVs2019": 4
   },
   {
     "code": "37330",
@@ -3018,10 +3018,10 @@
       "hi": "청송군"
     },
     "gwangyeok": "Gyeongbuk",
-    "demandScore": 12,
+    "demandScore": 18,
     "supplyCount": 0,
-    "gapIndex": 12,
-    "trendVs2019": 0
+    "gapIndex": 18,
+    "trendVs2019": -17
   },
   {
     "code": "37340",
@@ -3032,10 +3032,10 @@
       "hi": "영양군"
     },
     "gwangyeok": "Gyeongbuk",
-    "demandScore": 5,
+    "demandScore": 21,
     "supplyCount": 0,
-    "gapIndex": 5,
-    "trendVs2019": 0
+    "gapIndex": 21,
+    "trendVs2019": -19
   },
   {
     "code": "37350",
@@ -3046,10 +3046,10 @@
       "hi": "영덕군"
     },
     "gwangyeok": "Gyeongbuk",
-    "demandScore": 33,
+    "demandScore": 43,
     "supplyCount": 0,
-    "gapIndex": 33,
-    "trendVs2019": 0
+    "gapIndex": 43,
+    "trendVs2019": 1
   },
   {
     "code": "37360",
@@ -3060,10 +3060,10 @@
       "hi": "청도군"
     },
     "gwangyeok": "Gyeongbuk",
-    "demandScore": 15,
+    "demandScore": 55,
     "supplyCount": 0,
-    "gapIndex": 15,
-    "trendVs2019": 0
+    "gapIndex": 55,
+    "trendVs2019": 16
   },
   {
     "code": "37370",
@@ -3074,10 +3074,10 @@
       "hi": "고령군"
     },
     "gwangyeok": "Gyeongbuk",
-    "demandScore": 16,
+    "demandScore": 32,
     "supplyCount": 0,
-    "gapIndex": 16,
-    "trendVs2019": 0
+    "gapIndex": 32,
+    "trendVs2019": -5
   },
   {
     "code": "37380",
@@ -3088,10 +3088,10 @@
       "hi": "성주군"
     },
     "gwangyeok": "Gyeongbuk",
-    "demandScore": 48,
+    "demandScore": 29,
     "supplyCount": 0,
-    "gapIndex": 48,
-    "trendVs2019": 0
+    "gapIndex": 29,
+    "trendVs2019": -12
   },
   {
     "code": "37390",
@@ -3102,10 +3102,10 @@
       "hi": "칠곡군"
     },
     "gwangyeok": "Gyeongbuk",
-    "demandScore": 42,
+    "demandScore": 40,
     "supplyCount": 0,
-    "gapIndex": 42,
-    "trendVs2019": 0
+    "gapIndex": 40,
+    "trendVs2019": 2
   },
   {
     "code": "37400",
@@ -3116,10 +3116,10 @@
       "hi": "예천군"
     },
     "gwangyeok": "Gyeongbuk",
-    "demandScore": 8,
+    "demandScore": 45,
     "supplyCount": 0,
-    "gapIndex": 8,
-    "trendVs2019": 0
+    "gapIndex": 45,
+    "trendVs2019": 7
   },
   {
     "code": "37410",
@@ -3130,10 +3130,10 @@
       "hi": "봉화군"
     },
     "gwangyeok": "Gyeongbuk",
-    "demandScore": 14,
+    "demandScore": 23,
     "supplyCount": 0,
-    "gapIndex": 14,
-    "trendVs2019": 0
+    "gapIndex": 23,
+    "trendVs2019": -13
   },
   {
     "code": "37420",
@@ -3144,10 +3144,10 @@
       "hi": "울진군"
     },
     "gwangyeok": "Gyeongbuk",
-    "demandScore": 30,
+    "demandScore": 45,
     "supplyCount": 0,
-    "gapIndex": 30,
-    "trendVs2019": 0
+    "gapIndex": 45,
+    "trendVs2019": 2
   },
   {
     "code": "37430",
@@ -3158,10 +3158,10 @@
       "hi": "울릉군"
     },
     "gwangyeok": "Gyeongbuk",
-    "demandScore": 56,
+    "demandScore": 22,
     "supplyCount": 0,
-    "gapIndex": 56,
-    "trendVs2019": 0
+    "gapIndex": 22,
+    "trendVs2019": -18
   },
   {
     "code": "38030",
@@ -3172,10 +3172,10 @@
       "hi": "진주시"
     },
     "gwangyeok": "Gyeongnam",
-    "demandScore": 39,
+    "demandScore": 48,
     "supplyCount": 0,
-    "gapIndex": 39,
-    "trendVs2019": 0
+    "gapIndex": 48,
+    "trendVs2019": 10
   },
   {
     "code": "38050",
@@ -3186,10 +3186,10 @@
       "hi": "통영시"
     },
     "gwangyeok": "Gyeongnam",
-    "demandScore": 87,
+    "demandScore": 34,
     "supplyCount": 0,
-    "gapIndex": 87,
-    "trendVs2019": 0
+    "gapIndex": 34,
+    "trendVs2019": -7
   },
   {
     "code": "38060",
@@ -3203,7 +3203,7 @@
     "demandScore": 24,
     "supplyCount": 0,
     "gapIndex": 24,
-    "trendVs2019": 0
+    "trendVs2019": -17
   },
   {
     "code": "38070",
@@ -3214,10 +3214,10 @@
       "hi": "김해시"
     },
     "gwangyeok": "Gyeongnam",
-    "demandScore": 83,
+    "demandScore": 35,
     "supplyCount": 0,
-    "gapIndex": 83,
-    "trendVs2019": 0
+    "gapIndex": 35,
+    "trendVs2019": -2
   },
   {
     "code": "38080",
@@ -3228,10 +3228,10 @@
       "hi": "밀양시"
     },
     "gwangyeok": "Gyeongnam",
-    "demandScore": 48,
+    "demandScore": 50,
     "supplyCount": 0,
-    "gapIndex": 48,
-    "trendVs2019": 0
+    "gapIndex": 50,
+    "trendVs2019": 11
   },
   {
     "code": "38090",
@@ -3242,10 +3242,10 @@
       "hi": "거제시"
     },
     "gwangyeok": "Gyeongnam",
-    "demandScore": 89,
+    "demandScore": 27,
     "supplyCount": 0,
-    "gapIndex": 89,
-    "trendVs2019": 0
+    "gapIndex": 27,
+    "trendVs2019": -9
   },
   {
     "code": "38100",
@@ -3256,10 +3256,10 @@
       "hi": "양산시"
     },
     "gwangyeok": "Gyeongnam",
-    "demandScore": 60,
+    "demandScore": 33,
     "supplyCount": 0,
-    "gapIndex": 60,
-    "trendVs2019": 0
+    "gapIndex": 33,
+    "trendVs2019": -8
   },
   {
     "code": "38111",
@@ -3270,10 +3270,10 @@
       "hi": "창원시의창구"
     },
     "gwangyeok": "Gyeongnam",
-    "demandScore": 73,
+    "demandScore": 17,
     "supplyCount": 0,
-    "gapIndex": 73,
-    "trendVs2019": 0
+    "gapIndex": 17,
+    "trendVs2019": 18
   },
   {
     "code": "38112",
@@ -3284,10 +3284,10 @@
       "hi": "창원시성산구"
     },
     "gwangyeok": "Gyeongnam",
-    "demandScore": 73,
+    "demandScore": 59,
     "supplyCount": 0,
-    "gapIndex": 73,
-    "trendVs2019": 0
+    "gapIndex": 59,
+    "trendVs2019": 15
   },
   {
     "code": "38113",
@@ -3298,10 +3298,10 @@
       "hi": "창원시마산합포구"
     },
     "gwangyeok": "Gyeongnam",
-    "demandScore": 73,
+    "demandScore": 53,
     "supplyCount": 0,
-    "gapIndex": 73,
-    "trendVs2019": 0
+    "gapIndex": 53,
+    "trendVs2019": 15
   },
   {
     "code": "38114",
@@ -3312,10 +3312,10 @@
       "hi": "창원시마산회원구"
     },
     "gwangyeok": "Gyeongnam",
-    "demandScore": 73,
+    "demandScore": 53,
     "supplyCount": 0,
-    "gapIndex": 73,
-    "trendVs2019": 0
+    "gapIndex": 53,
+    "trendVs2019": 14
   },
   {
     "code": "38115",
@@ -3326,10 +3326,10 @@
       "hi": "창원시진해구"
     },
     "gwangyeok": "Gyeongnam",
-    "demandScore": 73,
+    "demandScore": 60,
     "supplyCount": 0,
-    "gapIndex": 73,
-    "trendVs2019": 0
+    "gapIndex": 60,
+    "trendVs2019": 15
   },
   {
     "code": "38310",
@@ -3340,10 +3340,10 @@
       "hi": "의령군"
     },
     "gwangyeok": "Gyeongnam",
-    "demandScore": 3,
+    "demandScore": 49,
     "supplyCount": 0,
-    "gapIndex": 3,
-    "trendVs2019": 0
+    "gapIndex": 49,
+    "trendVs2019": 6
   },
   {
     "code": "38320",
@@ -3354,10 +3354,10 @@
       "hi": "함안군"
     },
     "gwangyeok": "Gyeongnam",
-    "demandScore": 25,
+    "demandScore": 27,
     "supplyCount": 0,
-    "gapIndex": 25,
-    "trendVs2019": 0
+    "gapIndex": 27,
+    "trendVs2019": -9
   },
   {
     "code": "38330",
@@ -3368,10 +3368,10 @@
       "hi": "창녕군"
     },
     "gwangyeok": "Gyeongnam",
-    "demandScore": 30,
+    "demandScore": 49,
     "supplyCount": 0,
-    "gapIndex": 30,
-    "trendVs2019": 0
+    "gapIndex": 49,
+    "trendVs2019": 11
   },
   {
     "code": "38340",
@@ -3382,10 +3382,10 @@
       "hi": "고성군"
     },
     "gwangyeok": "Gyeongnam",
-    "demandScore": 23,
+    "demandScore": 40,
     "supplyCount": 0,
-    "gapIndex": 23,
-    "trendVs2019": 0
+    "gapIndex": 40,
+    "trendVs2019": -3
   },
   {
     "code": "38350",
@@ -3396,10 +3396,10 @@
       "hi": "남해군"
     },
     "gwangyeok": "Gyeongnam",
-    "demandScore": 56,
+    "demandScore": 17,
     "supplyCount": 0,
-    "gapIndex": 56,
-    "trendVs2019": 0
+    "gapIndex": 17,
+    "trendVs2019": 18
   },
   {
     "code": "38360",
@@ -3410,10 +3410,10 @@
       "hi": "하동군"
     },
     "gwangyeok": "Gyeongnam",
-    "demandScore": 13,
+    "demandScore": 40,
     "supplyCount": 0,
-    "gapIndex": 13,
-    "trendVs2019": 0
+    "gapIndex": 40,
+    "trendVs2019": 3
   },
   {
     "code": "38370",
@@ -3424,10 +3424,10 @@
       "hi": "산청군"
     },
     "gwangyeok": "Gyeongnam",
-    "demandScore": 10,
+    "demandScore": 18,
     "supplyCount": 0,
-    "gapIndex": 10,
-    "trendVs2019": 0
+    "gapIndex": 18,
+    "trendVs2019": -17
   },
   {
     "code": "38380",
@@ -3438,10 +3438,10 @@
       "hi": "함양군"
     },
     "gwangyeok": "Gyeongnam",
-    "demandScore": 7,
+    "demandScore": 36,
     "supplyCount": 0,
-    "gapIndex": 7,
-    "trendVs2019": 0
+    "gapIndex": 36,
+    "trendVs2019": -1
   },
   {
     "code": "38390",
@@ -3452,10 +3452,10 @@
       "hi": "거창군"
     },
     "gwangyeok": "Gyeongnam",
-    "demandScore": 11,
+    "demandScore": 25,
     "supplyCount": 0,
-    "gapIndex": 11,
-    "trendVs2019": 0
+    "gapIndex": 25,
+    "trendVs2019": -16
   },
   {
     "code": "38400",
@@ -3466,10 +3466,10 @@
       "hi": "합천군"
     },
     "gwangyeok": "Gyeongnam",
-    "demandScore": 6,
+    "demandScore": 18,
     "supplyCount": 0,
-    "gapIndex": 6,
-    "trendVs2019": 0
+    "gapIndex": 18,
+    "trendVs2019": 18
   },
   {
     "code": "39010",
@@ -3480,10 +3480,10 @@
       "hi": "제주시"
     },
     "gwangyeok": "Jeju",
-    "demandScore": 99,
+    "demandScore": 59,
     "supplyCount": 0,
-    "gapIndex": 99,
-    "trendVs2019": 0
+    "gapIndex": 59,
+    "trendVs2019": -21
   },
   {
     "code": "39020",
@@ -3494,9 +3494,9 @@
       "hi": "서귀포시"
     },
     "gwangyeok": "Jeju",
-    "demandScore": 97,
+    "demandScore": 81,
     "supplyCount": 0,
-    "gapIndex": 97,
-    "trendVs2019": 0
+    "gapIndex": 81,
+    "trendVs2019": 4
   }
 ]
