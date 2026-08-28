@@ -24,14 +24,34 @@ _DEF_GEOJSON = _HERE.parent / "plately-web/public/sigungu.simplified.geojson"
 
 def run(localdata: Path, tourapi_dir: Path, datalab: Path, out_dir: Path,
         *, datalab_format: str = "sample", datalab_country: Path | None = None,
-        geojson: Path = _DEF_GEOJSON) -> None:
-    raw = pd.read_csv(localdata, dtype=str)
-    for c in ["lng", "lat"]:
-        raw[c] = pd.to_numeric(raw[c], errors="coerce")
+        geojson: Path = _DEF_GEOJSON, localdata_format: str = "sample",
+        model_restaurant_csv: Path | None = None) -> None:
+    resolver = None
+    if localdata_format == "api":
+        from pipeline.region_codes import RegionResolver
+        from pipeline import localdata_adapter
+        resolver = RegionResolver(geojson)
+        raw = (pd.read_parquet(localdata) if str(localdata).endswith(".parquet")
+               else pd.read_csv(localdata, dtype=str))
+        raw = localdata_adapter.normalize(raw, resolver)
+        supply_source = "localdata-api"
+    else:
+        raw = pd.read_csv(localdata, dtype=str)
+        for c in ["lng", "lat"]:
+            raw[c] = pd.to_numeric(raw[c], errors="coerce")
+        supply_source = "sample"
     print(f"LOCALDATA 입력            {len(raw):>6}")
 
     filtered = filter_localdata(raw)
     print(f"  ↓ 영업중 + 비주류        {len(filtered):>6}")
+
+    if model_restaurant_csv:
+        from pipeline.region_codes import RegionResolver
+        from pipeline import model_restaurant
+        resolver = resolver or RegionResolver(geojson)
+        hints = model_restaurant.load_menu_hints(model_restaurant_csv, resolver)
+        filtered = model_restaurant.annotate(filtered, hints)
+        print(f"  · 모범음식점 힌트         {int((filtered['menu_hint'] != '').sum()):>6}")
 
     candidates = match_tokens(filtered)
     candidates["repMenu"] = pd.Series([[] for _ in range(len(candidates))],
@@ -64,7 +84,8 @@ def run(localdata: Path, tourapi_dir: Path, datalab: Path, out_dir: Path,
         json.dumps(to_region_gap(gap_df), ensure_ascii=False, indent=2), encoding="utf-8")
     (out_dir / "_meta.json").write_text(
         json.dumps(build_meta(len(restaurants), len(gap_df),
-                              demand_source=demand_source, muslim_share=share),
+                              demand_source=demand_source, supply_source=supply_source,
+                              muslim_share=share),
                    ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"\n확인된 포크프리 {len(restaurants)}곳 → {out_dir}")
 
@@ -78,9 +99,12 @@ def main() -> None:
     ap.add_argument("--datalab-format", choices=["sample", "regional"], default="sample")
     ap.add_argument("--datalab-country", type=Path, default=None)
     ap.add_argument("--geojson", type=Path, default=_DEF_GEOJSON)
+    ap.add_argument("--localdata-format", choices=["sample", "api"], default="sample")
+    ap.add_argument("--model-restaurant-csv", type=Path, default=None)
     a = ap.parse_args()
     run(a.localdata, a.tourapi_dir, a.datalab, a.out_dir,
-        datalab_format=a.datalab_format, datalab_country=a.datalab_country, geojson=a.geojson)
+        datalab_format=a.datalab_format, datalab_country=a.datalab_country, geojson=a.geojson,
+        localdata_format=a.localdata_format, model_restaurant_csv=a.model_restaurant_csv)
 
 
 if __name__ == "__main__":

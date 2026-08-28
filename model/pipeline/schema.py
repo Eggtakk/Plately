@@ -22,6 +22,19 @@ SIGUNGU_CODE_COL = "sigungu_code"
 LNG_COL = "lng"
 LAT_COL = "lat"
 
+# LOCALDATA open API(행안부 15154916 / localdata.go.kr) 응답 필드 → 우리 표준 컬럼.
+# best-effort — 실제 응답 1페이지로 검증 후 이 맵과 fetch_localdata 를 고칠 것.
+LOCALDATA_API_FIELD_MAP = {
+    "bplcNm": NAME_COL,
+    "trdStateNm": STATUS_COL,
+    "dtlStateNm": DETAIL_STATUS_COL,
+    "uptaeNm": BIZTYPE_COL,
+    "siteWhlAddr": ADDR_COL,
+    "rdnWhlAddr": ROAD_ADDR_COL,
+    "x": X_COL,
+    "y": Y_COL,
+}
+
 OPEN_STATUS_NAME = "영업/정상"
 CLOSED_DETAIL_STATUSES = frozenset({"폐업", "휴업", "직권말소", "말소", "폐업처리"})
 

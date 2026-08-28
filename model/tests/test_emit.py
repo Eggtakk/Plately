@@ -96,6 +96,7 @@ def test_meta_marks_sample():
     assert m["restaurants"] == 10 and m["regions"] == 250
     assert "generatedAt" in m
     assert m["demandSource"] == "sample"
+    assert m["supplySource"] == "sample"
     assert "muslimShare" not in m
 
 
@@ -103,7 +104,21 @@ def test_meta_regional_source_and_share():
     m = build_meta(12, 250, demand_source="datalab-regional-2026-08", muslim_share=0.0902)
     assert m["demandSource"] == "datalab-regional-2026-08"
     assert m["muslimShare"] == 0.0902
+    assert m["supplySource"] == "sample"  # demand 는 regional 이어도 supply 는 여전히 샘플
     assert m["sampleData"] is True  # restaurants 는 여전히 샘플
+
+
+def test_meta_localdata_supply_source():
+    m = build_meta(30, 250, supply_source="localdata-api")
+    assert m["supplySource"] == "localdata-api"
+    assert m["demandSource"] == "sample"
+    assert m["sampleData"] is False
+
+
+def test_meta_rejects_unknown_supply_source():
+    import pytest
+    with pytest.raises(ValueError):
+        build_meta(1, 1, supply_source="bogus")
 
 
 def test_output_is_json_serializable():
