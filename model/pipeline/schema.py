@@ -22,25 +22,26 @@ SIGUNGU_CODE_COL = "sigungu_code"
 LNG_COL = "lng"
 LAT_COL = "lat"
 
-# LOCALDATA open API(행안부 15154916 / localdata.go.kr) 응답 필드 → 우리 표준 컬럼.
-# best-effort — 실제 응답 1페이지로 검증 후 이 맵과 fetch_localdata 를 고칠 것.
+# 행안부 15154916 "식품_일반음식점 조회서비스" 응답 필드 → 우리 표준 컬럼.
+# 2026-08 실제 응답(https://apis.data.go.kr/1741000/general_restaurants/info)으로 검증.
 LOCALDATA_API_FIELD_MAP = {
-    "bplcNm": NAME_COL,
-    "trdStateNm": STATUS_COL,
-    "dtlStateNm": DETAIL_STATUS_COL,
-    "uptaeNm": BIZTYPE_COL,
-    "siteWhlAddr": ADDR_COL,
-    "rdnWhlAddr": ROAD_ADDR_COL,
-    "x": X_COL,
-    "y": Y_COL,
+    "BPLC_NM": NAME_COL,             # 사업장명
+    "SALS_STTS_NM": STATUS_COL,      # 영업상태명 ("영업/정상" | "폐업")
+    "DTL_SALS_STTS_NM": DETAIL_STATUS_COL,  # 상세영업상태명 ("영업")
+    "BZSTAT_SE_NM": BIZTYPE_COL,     # 업태구분명 ("한식" / "호프/통닭" / "감성주점" …)
+    "LOTNO_ADDR": ADDR_COL,          # 소재지(지번)주소 — 항상 채워짐, 주소→코드에 사용
+    "ROAD_NM_ADDR": ROAD_ADDR_COL,   # 도로명주소 (일부 공란)
+    "CRD_INFO_X": X_COL,             # 좌표 X (EPSG:5174)
+    "CRD_INFO_Y": Y_COL,             # 좌표 Y (EPSG:5174, 제주는 음수)
 }
 
 OPEN_STATUS_NAME = "영업/정상"
 CLOSED_DETAIL_STATUSES = frozenset({"폐업", "휴업", "직권말소", "말소", "폐업처리"})
 
-# 주류 전제 업소 → 제외 (Notion 1단계)
+# 주류 전제 업소 → 제외 (Notion 1단계). filter_localdata 는 substring 매칭 —
+# 실 LOCALDATA 값이 "호프/통닭", "정종/대포집/소주방" 처럼 복합 문자열이라.
 ALCOHOL_BUSINESS_TYPES = frozenset(
-    {"유흥주점", "단란주점", "감성주점", "소주방", "대포집", "호프", "간이주점", "칵테일바"}
+    {"유흥주점", "단란주점", "감성주점", "소주방", "대포집", "호프", "간이주점", "칵테일바", "라이브카페"}
 )
 
 # 한반도 대략 bbox (좌표 sanity check)
