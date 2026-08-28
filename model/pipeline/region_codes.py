@@ -37,6 +37,9 @@ NAME_ALIASES: dict[str, str] = {
     "세종특별자치시": "세종시",  # CSV: 세종특별자치시,세종특별자치시 / geojson: 29010 세종시
 }
 
+# 일부 데이터셋이 "전남광주통합특별시" 로 전남·광주를 합쳐 표기 → 기초명으로 갈라냄.
+_GWANGJU_GU = frozenset({"동구", "서구", "남구", "북구", "광산구"})
+
 # 2018 geojson 이 예측 못한 행정구역 변경 → (광역명, 기초명) → 5자리 코드.
 # 군위군: 2023년 경북 → 대구 편입. 2018 geojson 은 접두 37(경북)로 유지하며
 # 군위군 코드는 37310 (spec 초안의 37430 은 울릉군 — 실제 geojson 확인 후 정정).
@@ -119,12 +122,16 @@ class RegionResolver:
         if len(parts) < 2:
             return None
         gw = parts[0]
+        gu = parts[1]
+        # 일부 데이터셋(LOCALDATA 15045016, 데이터랩 일부)은 전남·광주 통합안 명칭 사용 →
+        # 기초명이 광주 자치구면 광주, 아니면 전남.
+        if gw == "전남광주통합특별시":
+            gw = "광주광역시" if gu in _GWANGJU_GU else "전라남도"
         if gw not in GWANGYEOK_PREFIX:
             return None
         # 세종: 기초 == 광역
         if gw == "세종특별자치시":
             return self.resolve(gw, gw)
-        gu = parts[1]
         # 통합시 일반구: parts[1]=…시, parts[2]=…구  → 붙여서 시도
         if len(parts) >= 3 and gu.endswith("시") and parts[2].endswith("구"):
             merged = self.resolve(gw, gu + parts[2])

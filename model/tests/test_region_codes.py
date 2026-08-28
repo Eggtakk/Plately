@@ -94,3 +94,11 @@ def test_city_key_only_touches_integrated_gu():
     assert _city_key("수원시장안구") == "수원시"
     for u in ["용산구", "중구", "서귀포시", "당진시", "군위군"]:
         assert _city_key(u) == u
+
+
+def test_resolve_from_address_jeonnam_gwangju_combined():
+    r = RegionResolver(GEOJSON)
+    # 일부 데이터셋의 "전남광주통합특별시" 표기 → 기초명으로 전남/광주 갈라냄
+    assert r.resolve_from_address("전남광주통합특별시 여수시 학동 100") == r.resolve("전라남도", "여수시")
+    assert r.resolve_from_address("전남광주통합특별시 광산구 명도동 1") == r.resolve("광주광역시", "광산구")
+    assert r.resolve_from_address("전남광주통합특별시 동구 금남로 1") == r.resolve("광주광역시", "동구")

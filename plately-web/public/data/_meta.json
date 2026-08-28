@@ -3,9 +3,9 @@
   "demandSource": "datalab-regional",
   "supplySource": "localdata-api",
   "muslimShare": 0.0902,
-  "generatedAt": "2026-08-28T13:06:23+00:00",
+  "generatedAt": "2026-08-28T13:15:37+00:00",
   "restaurants": 15,
-  "supplyTotal": 40722,
+  "supplyTotal": 43668,
   "regions": 250,
   "note": "Explore 식당 목록은 샘플. 시군구 수요(데이터랩)·공급(LOCALDATA 전국) 지수는 실데이터."
 }
