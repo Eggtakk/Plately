@@ -24,9 +24,10 @@ from dotenv import load_dotenv
 
 from pipeline import schema
 
-# best-effort — 검증 후 수정
-BASE = "https://apis.data.go.kr/1471000/FoodPrmisnInfoService"  # PLACEHOLDER — Swagger 로 확인
-LIST_OP = "getFoodPrmisnList"
+# 행안부 15154916 "식품_일반음식점 조회서비스" (미리보기 URL 로 확인, 2026-08).
+# 요청주소가 오퍼레이션 경로 없이 한 조각이면 LIST_OP = "" 로 두면 BASE 로 직접 호출.
+BASE = "https://apis.data.go.kr/1741000/general_restaurants"
+LIST_OP = "info"
 
 # 시도 2자리 코드(우리 파이프라인 kostat-2018 접두와 동일 체계는 아님 — LOCALDATA localCode 앞자리).
 # 검증 필요. 전국 수집이 기본이므로 이 맵은 선택적 청크용.
@@ -37,7 +38,7 @@ def build_params(api_key: str, page_no: int, num_rows: int, *, local_code: str |
         "serviceKey": api_key,
         "pageNo": page_no,
         "numOfRows": num_rows,
-        "type": "json",
+        "returnType": "json",
     }
     if local_code:
         p["localCode"] = local_code
@@ -94,10 +95,11 @@ def total_count(body: dict) -> int | None:
 def fetch_all(api_key: str, *, num_rows: int = 1000, local_code: str | None = None,
               sleep: float = 0.2, session: requests.Session | None = None) -> list[dict]:
     s = session or requests.Session()
+    url = f"{BASE}/{LIST_OP}" if LIST_OP else BASE
     page, acc = 1, []
     while True:
         r = s.get(
-            f"{BASE}/{LIST_OP}",
+            url,
             params=build_params(api_key, page, num_rows, local_code=local_code),
             timeout=15,
         )

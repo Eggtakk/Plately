@@ -51,5 +51,5 @@ def test_integrated_city_gu_address_resolves_exact():
 
 
 def test_field_map_present():
-    assert schema.LOCALDATA_API_FIELD_MAP["bplcNm"] == schema.NAME_COL
-    assert schema.LOCALDATA_API_FIELD_MAP["x"] == schema.X_COL
+    assert schema.LOCALDATA_API_FIELD_MAP["BPLC_NM"] == schema.NAME_COL
+    assert schema.LOCALDATA_API_FIELD_MAP["CRD_INFO_X"] == schema.X_COL
