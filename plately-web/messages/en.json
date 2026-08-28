@@ -1,8 +1,22 @@
 {
-  "meta": { "appName": "Plately", "tagline": "Places you can eat, mapped." },
-  "nav": { "explore": "Explore", "insight": "Insight", "restart": "Restart", "about": "About" },
-  "theme": { "light": "Light", "dark": "Dark", "system": "System" },
-  "language": { "label": "Language" },
+  "meta": {
+    "appName": "Plately",
+    "tagline": "Places you can eat, mapped."
+  },
+  "nav": {
+    "explore": "Explore",
+    "insight": "Insight",
+    "restart": "Restart",
+    "about": "About"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "language": {
+    "label": "Language"
+  },
   "onboarding": {
     "languageTitle": "Choose your language",
     "profileTitle": "Create your profile",
@@ -58,9 +72,14 @@
     "garlic": "Garlic"
   },
   "filters": {
-    "porkFree": "Pork-free", "alcoholFree": "Alcohol-free", "vegetarian": "Vegetarian",
-    "beefFree": "Beef-free", "seafood": "Seafood", "chicken": "Chicken",
-    "korean": "Korean cuisine", "halalCertified": "Halal-certified"
+    "porkFree": "Pork-free",
+    "alcoholFree": "Alcohol-free",
+    "vegetarian": "Vegetarian",
+    "beefFree": "Beef-free",
+    "seafood": "Seafood",
+    "chicken": "Chicken",
+    "korean": "Korean cuisine",
+    "halalCertified": "Halal-certified"
   },
   "explore": {
     "placeCount": "{count, plural, one {# place} other {# places}}",
@@ -73,33 +92,62 @@
     "mapLabel": "Map",
     "myProfile": "My profile"
   },
-  "confidence": { "phone": "Phone-verified", "menu": "Menu-checked", "name": "Name-inferred" },
+  "confidence": {
+    "phone": "Phone-verified",
+    "menu": "Menu-checked",
+    "name": "Name-inferred"
+  },
   "restaurant": {
     "whyListed": "Why it's listed",
-    "matchedTokens": "Name signals", "menuChecked": "Menu text checked", "phoneVerified": "Phone-verified on {date}",
-    "attributes": "What's inside", "containsPork": "Contains pork", "servesAlcohol": "Serves alcohol",
-    "containsBeef": "Contains beef", "vegetarianFriendly": "Vegetarian options",
-    "repMenu": "Signature menu", "directions": "Directions", "call": "Call", "copyAddress": "Copy address",
+    "matchedTokens": "Name signals",
+    "menuChecked": "Menu text checked",
+    "phoneVerified": "Phone-verified on {date}",
+    "attributes": "What's inside",
+    "containsPork": "Contains pork",
+    "servesAlcohol": "Serves alcohol",
+    "containsBeef": "Contains beef",
+    "vegetarianFriendly": "Vegetarian options",
+    "repMenu": "Signature menu",
+    "directions": "Directions",
+    "call": "Call",
+    "copyAddress": "Copy address",
     "disclaimer": "Always confirm with the restaurant. Broth and seasoning may contain pork even when the menu name doesn't say so.",
-    "yes": "Yes", "no": "No", "unknown": "Unknown",
+    "yes": "Yes",
+    "no": "No",
+    "unknown": "Unknown",
     "yourRestrictions": "Your restrictions",
     "restrictionClear": "Looks clear",
     "restrictionUnknown": "Check with the venue"
   },
   "insight": {
-    "gapMap": "Gap map", "rankings": "Rankings", "compare": "Three regions", "about": "Data & method",
-    "region": "Region", "province": "Province",
-    "demand": "Demand", "supply": "Supply", "gapIndex": "Gap index", "trend": "Trend vs 2019",
+    "gapMap": "Gap map",
+    "rankings": "Rankings",
+    "compare": "Three regions",
+    "about": "Data & method",
+    "region": "Region",
+    "province": "Province",
+    "demand": "Demand",
+    "supply": "Supply",
+    "gapIndex": "Gap index",
+    "trend": "Trend vs 2019",
     "rxSaturated": "Demand is already met — hold and monitor.",
     "rxGrowing": "Demand is rising faster than supply — add pork-free options now.",
     "rxEmpty": "Real demand, zero infrastructure — seed the first venues.",
-    "layerGap": "Gap index", "layerDemand": "Demand", "layerSupply": "Supply", "layerCandidates": "Candidate density",
+    "layerGap": "Gap index",
+    "layerDemand": "Demand",
+    "layerSupply": "Supply",
+    "layerCandidates": "Candidate density",
     "regionListLabel": "Regions by gap index",
     "topCandidates": "Top candidate restaurants",
     "compareIntro": "Same country, three different prescriptions.",
-    "saturated": "Saturated", "growing": "Growing, underserved", "empty": "Empty",
+    "saturated": "Saturated",
+    "growing": "Growing, underserved",
+    "empty": "Empty",
     "prescription": "Prescription",
-    "legendTitle": "Gap index", "gapLow": "Low", "gapMedium": "Medium", "gapHigh": "High"
+    "legendTitle": "Gap index",
+    "gapLow": "Low",
+    "gapMedium": "Medium",
+    "gapHigh": "High"
   },
   "about": {
     "title": "Data & method",
@@ -118,7 +166,12 @@
     "openDataTitle": "Open data",
     "openDataBody": "The resulting per-district gap dataset is intended for release under the Korea Open Government License so existing apps and local governments can reuse it.",
     "limitsTitle": "Limits",
-    "limitsBody": "The restaurant list is hand-authored sample data — real LOCALDATA and TourAPI feeds are not connected yet. Demand uses real Korea Tourism Data Lab figures: foreign-visitor counts by 시군구, scaled by an estimated Muslim-market share. Broth and seasoning can contain pork even when a menu name does not say so — always confirm with the restaurant."
+    "limitsBody": "The Explore restaurant list is still hand-authored sample data, and TourAPI menu verification isn't connected yet. The Insight gap dashboard, though, runs on real data: demand from Korea Tourism Data Lab (foreign-visitor counts by 시군구 × an estimated Muslim-market share), supply from ~40,000 name-inferred pork-free restaurants across the nationwide LOCALDATA licensing dataset. Broth and seasoning can contain pork even when a menu name doesn't say so — always confirm with the restaurant."
   },
-  "common": { "back": "Back", "close": "Close", "loading": "Loading", "of229": "of 229 시군구" }
+  "common": {
+    "back": "Back",
+    "close": "Close",
+    "loading": "Loading",
+    "of229": "of 229 시군구"
+  }
 }

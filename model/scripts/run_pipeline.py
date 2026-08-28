@@ -15,6 +15,27 @@ from pipeline.gap_index import compute_gap
 from pipeline.emit import to_restaurants, to_region_gap, build_meta
 
 _HERE = Path(__file__).resolve().parents[1]
+
+
+def _read_localdata(path: Path) -> pd.DataFrame:
+    """실 LOCALDATA (API dump 또는 localdata.go.kr 벌크 CSV). parquet 또는 CSV.
+    벌크 CSV 는 대용량(~700MB, 229만행) + cp949 + 39컬럼 → 필요한 컬럼만, 인코딩 자동."""
+    from pipeline import schema
+    if str(path).endswith(".parquet"):
+        return pd.read_parquet(path)
+    wanted = {schema.NAME_COL, schema.STATUS_COL, schema.DETAIL_STATUS_COL, schema.BIZTYPE_COL,
+              schema.ADDR_COL, schema.ROAD_ADDR_COL, schema.X_COL, schema.Y_COL,
+              *schema.LOCALDATA_CSV_HEADER_ALIASES}
+    for enc in ("utf-8-sig", "cp949"):
+        try:
+            head = pd.read_csv(path, dtype=str, nrows=0, encoding=enc)
+        except (UnicodeDecodeError, UnicodeError):
+            continue
+        usecols = [c for c in head.columns if c in wanted]
+        return pd.read_csv(path, dtype=str, encoding=enc, usecols=usecols or None)
+    raise SystemExit(f"{path}: utf-8/cp949 로 읽을 수 없음")
+
+
 _DEF_LOCALDATA = _HERE / "data/samples/localdata.sample.csv"
 _DEF_TOURAPI = _HERE / "data/samples/tourapi"
 _DEF_DATALAB = _HERE / "data/samples/datalab-visitors.sample.csv"
@@ -31,8 +52,7 @@ def run(localdata: Path, tourapi_dir: Path, datalab: Path, out_dir: Path,
         from pipeline.region_codes import RegionResolver
         from pipeline import localdata_adapter
         resolver = RegionResolver(geojson)
-        raw = (pd.read_parquet(localdata) if str(localdata).endswith(".parquet")
-               else pd.read_csv(localdata, dtype=str))
+        raw = _read_localdata(localdata)
         raw = localdata_adapter.normalize(raw, resolver)
         supply_source = "localdata-api"
     else:

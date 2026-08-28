@@ -14,8 +14,17 @@ def normalize(raw: pd.DataFrame, resolver: RegionResolver) -> pd.DataFrame:
     """입력 컬럼: 사업장명, 영업상태명, 상세영업상태명, 업태구분명, 소재지전체주소,
     좌표정보(x), 좌표정보(y)  (schema 상수)
     출력: 위 passthrough + lng, lat, sigungu_code  → filter_localdata 가 그대로 소비.
+
+    벌크 CSV(지번주소 / 좌표정보(X) 등 다른 헤더)는 schema.LOCALDATA_CSV_HEADER_ALIASES
+    로 먼저 표준화. 좌표값의 앞뒤 공백은 pd.to_numeric 이 처리.
     """
-    df = raw.copy()
+    df = raw.rename(columns={k: v for k, v in schema.LOCALDATA_CSV_HEADER_ALIASES.items()
+                             if k in raw.columns and v not in raw.columns})
+
+    # 폐업 행을 좌표변환·주소해석 전에 제거 (벌크 CSV 는 2.29M 중 ~1.4M 이 폐업).
+    # filter_localdata 가 뒤에서 같은 검사를 또 하므로 idempotent.
+    if schema.STATUS_COL in df.columns:
+        df = df[df[schema.STATUS_COL].astype(str).str.strip() == schema.OPEN_STATUS_NAME]
 
     # 좌표 EPSG:5174 → WGS84. 벡터화 (Task 3 datalab_adapter 와 동일 방식).
     # NaN in → NaN out, 범위 밖 x/y → inf → filter_localdata 의 bbox 가 제거.

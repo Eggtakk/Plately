@@ -80,7 +80,20 @@ if (meta.restaurants !== restaurants.length) fail(`_meta restaurants=${meta.rest
 if (meta.regions !== regionGap.length) fail(`_meta regions=${meta.regions} but array has ${regionGap.length}`);
 
 writeFileSync(join(DEST, 'restaurants.json'), JSON.stringify(restaurants, null, 2) + '\n');
-writeFileSync(join(DEST, 'region-gap.json'), JSON.stringify(regionGap, null, 2) + '\n');
-writeFileSync(join(DEST, '_meta.json'), JSON.stringify(meta, null, 2) + '\n');
+
+// public/data/region-gap.json + _meta.json 은 실데이터(regional/api)일 수 있다. model/out/
+// 이 sample 인데 그걸 덮어쓰면 실 대시보드가 sample 로 되돌아감 → --force 없이는 보존.
+// 실데이터 갱신: run_pipeline --datalab-format regional --localdata-format api 후 이 스크립트 --force,
+// 또는 그 산출물을 public/data 로 직접 커밋.
+const force = process.argv.includes('--force');
+let destMeta = null;
+try { destMeta = JSON.parse(readFileSync(join(DEST, '_meta.json'), 'utf8')); } catch { /* none yet */ }
+const destIsReal = destMeta && (destMeta.demandSource !== 'sample' || destMeta.supplySource !== 'sample');
+if (destIsReal && meta.demandSource === 'sample' && meta.supplySource === 'sample' && !force) {
+  console.log(`↷ region-gap.json / _meta.json 보존 — public/data 가 실데이터(${destMeta.demandSource}/${destMeta.supplySource}), model/out 은 sample. 덮어쓰려면 --force`);
+} else {
+  writeFileSync(join(DEST, 'region-gap.json'), JSON.stringify(regionGap, null, 2) + '\n');
+  writeFileSync(join(DEST, '_meta.json'), JSON.stringify(meta, null, 2) + '\n');
+}
 
 console.log(`✓ synced ${restaurants.length} restaurants, ${regionGap.length} regions (sampleData=${meta.sampleData})`);
