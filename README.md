@@ -12,6 +12,12 @@ npm install
 npm run dev   # http://localhost:3000
 ```
 
-## Data pipeline (planned)
+## Data pipeline — [`model/`](./model)
 
-The Python data pipeline — LOCALDATA filtering to operating pork-free candidates, TourAPI menu cross-check, and the per-시군구 gap-index computation against 데이터랩 visitor demand — will live alongside the app in this repo, mirroring the `dajim/` layout elsewhere in this workspace (`model/` + `docs/`). For now `plately-web` runs entirely on mock data behind the accessor seam described in its README.
+The Python pipeline implementing Notion's 5-stage flow (LOCALDATA filtering →
+name-token matching → TourAPI menu cross-check → phone-verification checklist →
+per-시군구 gap index against 데이터랩 demand). Mirrors the `dajim/` layout
+(`model/` + `docs/`). Runs on hand-authored sample inputs today; real
+LOCALDATA / TourAPI / 데이터랩 exports slot in by file replacement
+(`--localdata` / `--tourapi-dir` / `--datalab`). Output JSON feeds `plately-web`
+via `npm run sync:data`.

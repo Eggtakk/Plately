@@ -1,11 +1,12 @@
 import { test, expect } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
+import restaurants from '../../public/data/restaurants.json';
 
 const routes = [
   '/en/login',
   '/en/onboarding/profile',
   '/en/explore',
-  '/en/explore/r-yongsan-samgyetang',
+  `/en/explore/${restaurants[0].id}`,
   '/en/insight',
   '/en/insight/compare',
   '/en/insight/rankings',

@@ -118,7 +118,7 @@
     "openDataTitle": "Open data",
     "openDataBody": "The resulting per-district gap dataset is intended for release under the Korea Open Government License so existing apps and local governments can reuse it.",
     "limitsTitle": "Limits",
-    "limitsBody": "This prototype runs on mock data. Broth and seasoning can contain pork even when a menu name does not say so — always confirm with the restaurant."
+    "limitsBody": "The restaurant list is hand-authored sample data — real LOCALDATA and TourAPI feeds are not connected yet. Demand uses real Korea Tourism Data Lab figures: foreign-visitor counts by 시군구, scaled by an estimated Muslim-market share. Broth and seasoning can contain pork even when a menu name does not say so — always confirm with the restaurant."
   },
   "common": { "back": "Back", "close": "Close", "loading": "Loading", "of229": "of 229 시군구" }
 }

@@ -66,8 +66,9 @@ test('a cuisine chip narrows the result count', async ({ page }) => {
 });
 
 test('restaurant detail shows a location map', async ({ page }) => {
-  await page.goto('/en/explore/r-yongsan-samgyetang');
-  await expect(page.getByRole('heading', { name: /Samgyetang/ })).toBeVisible();
+  await page.goto('/en/explore');
+  await page.locator('a[href*="/explore/"]').first().click();
+  await expect(page).toHaveURL(/\/explore\/[^/]+$/);
   await expect(page.locator('[role="application"]')).toBeVisible();
 });
 

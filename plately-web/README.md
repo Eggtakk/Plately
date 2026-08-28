@@ -82,14 +82,26 @@ routes render; `onboarding.spec.ts` drives the real `/login` → `/onboarding/*`
 
 ## Data
 
-All data is **mock**. Restaurants (28) live in `lib/mockData.ts`; the 시군구 gap dataset (250 districts) is `public/data/region-gap.json`. The single real-data seam is `lib/filter.ts` plus the `getRestaurants` / `getRestaurant` / `getRegions` / `getRegion` / `getComparisonRegions` accessors in `lib/mockData.ts` — real LOCALDATA / TourAPI / 데이터랩 data slots in behind those without touching any screen code.
+Restaurants and the 시군구 gap dataset now come from the **Python pipeline in
+[`../model/`](../model)** — Notion's 5-stage flow (LOCALDATA filter → name-token
+matching → TourAPI menu cross-check → phone verification → demand/supply gap
+index). The pipeline currently runs on hand-authored sample inputs
+(`model/data/samples/`); `model/out/_meta.json` carries `sampleData: true`.
+
+`lib/mockData.ts` reads `public/data/restaurants.json` + `public/data/region-gap.json`
+(both produced by `npm run sync:data` from `model/out/`). The accessor seam —
+`getRestaurants` / `getRestaurant` / `getRegions` / `getRegion` / `getComparisonRegions` —
+is unchanged, so screen code never sees the swap.
 
 ### Regenerating data
 
 ```bash
-bash scripts/build-geojson.sh      # re-download + simplify the 시군구 GeoJSON
-node scripts/gen-region-gap.mjs    # regenerate public/data/region-gap.json deterministically from the GeoJSON
+cd ../model && python scripts/gen_datalab_sample.py && python -m scripts.run_pipeline
+cd ../plately-web && npm run sync:data
 ```
+
+`bash scripts/build-geojson.sh` still re-downloads + simplifies the 시군구 GeoJSON.
+`scripts/gen-region-gap.mjs` is superseded by the pipeline and kept only for reference.
 
 ## i18n
 
