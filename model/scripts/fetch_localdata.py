@@ -4,11 +4,21 @@
 endpoint / param 이름 / 응답 필드는 best-effort (localdata.go.kr·행안부 규약 기준 추정).
 첫 실행 시: 응답 1페이지를 raw 로 저장 → 실제 키/필드 확인 → 이 파일 + schema.LOCALDATA_API_FIELD_MAP 수정.
 
-parquet 출력에는 pyarrow 가 필요할 수 있음(`pip install pyarrow`). .csv 경로를 주면 CSV 로 저장.
+이 API 는 페이지당 100건 고정, 전국 약 229만행 = 22,934콜 ≈ 14시간.
+개발계정 일 10,000콜 제한 → --max-pages 로 나눠 받고 --start-page 로 이어받기.
+CSV 로 증분 저장(페이지마다 flush) — 중단해도 받은 만큼 남음.
 
-사용:
-  python -m scripts.fetch_localdata --out data/raw/localdata.parquet
-  # 시도별: --sido 11 (서울) 등, 생략 시 전국
+  # 1일차: 처음 9000페이지 (90만행)
+  python -m scripts.fetch_localdata --out data/raw/localdata.csv --max-pages 9000
+  # 2일차: 이어서
+  python -m scripts.fetch_localdata --out data/raw/localdata.csv --start-page 9001 --max-pages 9000
+  # 3일차: 나머지
+  python -m scripts.fetch_localdata --out data/raw/localdata.csv --start-page 18001
+
+  → run_pipeline --localdata-format api --localdata data/raw/localdata.csv
+
+** 전국 벌크는 localdata.go.kr "지방행정인허가데이터개방 → 일반음식점 → 전체자료"
+   CSV 다운로드가 더 빠름(키·호출 불필요). 그 CSV 도 --localdata 로 그대로 넣으면 됨. **
 """
 from __future__ import annotations
 
@@ -65,15 +75,14 @@ def _rows(body: dict) -> list[dict]:
 
 
 def parse_rows(body: dict) -> list[dict]:
-    """API 응답 → [{schema 표준 컬럼명: 값}]. LOCALDATA_API_FIELD_MAP 사용, 미지 필드 무시."""
+    """API 응답 → [{schema 표준 컬럼명: 값}]. 매핑된 8개 컬럼을 항상 포함(없으면 "") —
+    증분 CSV append 시 스키마가 일정하도록."""
     out = []
     for r in _rows(body):
         if not isinstance(r, dict):
             continue
-        rec = {}
-        for api_field, std_col in schema.LOCALDATA_API_FIELD_MAP.items():
-            if api_field in r:
-                rec[std_col] = r[api_field]
+        rec = {std_col: (r.get(api_field) or "")
+               for api_field, std_col in schema.LOCALDATA_API_FIELD_MAP.items()}
         if rec.get(schema.NAME_COL):  # 최소 상호명은 있어야 유효
             out.append(rec)
     return out
@@ -92,54 +101,104 @@ def total_count(body: dict) -> int | None:
     return None
 
 
-def fetch_all(api_key: str, *, num_rows: int = 1000, local_code: str | None = None,
-              sleep: float = 0.2, session: requests.Session | None = None) -> list[dict]:
+PAGE_SIZE = 100  # 이 API 는 numOfRows 무시하고 페이지당 100건 고정 (2026-08 확인)
+
+
+def _get_page(session: requests.Session, url: str, api_key: str, page: int,
+              local_code: str | None, retries: int = 4) -> dict:
+    for attempt in range(retries):
+        try:
+            r = session.get(url, params=build_params(api_key, page, PAGE_SIZE, local_code=local_code),
+                            timeout=20)
+            r.raise_for_status()
+            return r.json()
+        except (requests.RequestException, ValueError) as e:
+            if attempt == retries - 1:
+                raise
+            wait = 2 ** attempt
+            print(f"  ! page {page} 재시도 {attempt + 1}/{retries} ({e}) — {wait}s 대기", flush=True)
+            time.sleep(wait)
+    return {}
+
+
+def fetch_all(api_key: str, *, local_code: str | None = None, sleep: float = 0.2,
+              start_page: int = 1, max_pages: int | None = None,
+              session: requests.Session | None = None,
+              on_batch=None) -> int:
+    """페이지네이션. on_batch(rows, page, total_pages) 를 페이지마다 호출(있으면).
+    반환: 받은 총 행 수. all-in-memory 아님 — 소비는 on_batch 가."""
     s = session or requests.Session()
     url = f"{BASE}/{LIST_OP}" if LIST_OP else BASE
-    page, acc = 1, []
-    while True:
-        r = s.get(
-            url,
-            params=build_params(api_key, page, num_rows, local_code=local_code),
-            timeout=15,
-        )
-        r.raise_for_status()
-        body = r.json()
+    got, page, total_pages = 0, start_page, None
+    while max_pages is None or page < start_page + max_pages:
+        body = _get_page(s, url, api_key, page, local_code)
         rows = parse_rows(body)
-        acc.extend(rows)
-        tc = total_count(body)
-        if not rows or (tc is not None and len(acc) >= tc):
+        if total_pages is None:
+            tc = total_count(body)
+            total_pages = (tc + PAGE_SIZE - 1) // PAGE_SIZE if tc else None
+        got += len(rows)
+        if on_batch:
+            on_batch(rows, page, total_pages)
+        if not rows or (total_pages is not None and page >= total_pages):
             break
         page += 1
         time.sleep(sleep)
-    return acc
+    return got
 
 
 def main() -> None:
     load_dotenv()
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--out", type=Path, default=Path("data/raw/localdata.parquet"))
-    ap.add_argument("--sido", type=str, default=None, help="LOCALDATA localCode 앞자리 (선택)")
-    ap.add_argument("--num-rows", type=int, default=1000)
+    ap = argparse.ArgumentParser(description="행안부 일반음식점 API(15154916) → CSV (증분 저장, 이어받기)")
+    ap.add_argument("--out", type=Path, default=Path("data/raw/localdata.csv"))
+    ap.add_argument("--sido", type=str, default=None, help="localCode 앞자리 등 지역 필터 (선택, 명세 확인)")
+    ap.add_argument("--start-page", type=int, default=1, help="이어받기: 마지막으로 받은 페이지+1")
+    ap.add_argument("--max-pages", type=int, default=None,
+                    help="이번 실행에서 받을 최대 페이지 수 (일 10,000콜 제한 대응 — 예: 9000)")
     ap.add_argument("--sleep", type=float, default=0.2)
     a = ap.parse_args()
 
     api_key = os.environ.get("DATA_GO_KR_API_KEY")
     if not api_key:
         raise SystemExit("DATA_GO_KR_API_KEY 미설정 — .env 를 채우세요")
-    api_key = unquote(api_key)  # data.go.kr "Encoding" 키 대응 (fetch_tourapi 와 동일)
+    api_key = unquote(api_key)  # data.go.kr "Encoding" 키 대응
 
-    rows = fetch_all(api_key, num_rows=a.num_rows, local_code=a.sido, sleep=a.sleep)
-    if not rows:
-        raise SystemExit("0 rows — endpoint/param/field 를 명세로 검증하세요 (이 스크립트 상단 주석)")
+    out = a.out
+    out.parent.mkdir(parents=True, exist_ok=True)
+    append = a.start_page > 1 and out.exists()
+    fh = out.open("a" if append else "w", newline="", encoding="utf-8-sig")
+    writer = {"w": None, "n": 0}
+    t0 = time.time()
 
-    df = pd.DataFrame(rows)
-    a.out.parent.mkdir(parents=True, exist_ok=True)
-    if str(a.out).endswith(".parquet"):
-        df.to_parquet(a.out)  # pyarrow 필요 시 `pip install pyarrow`
-    else:
-        df.to_csv(a.out, index=False, encoding="utf-8-sig")
-    print(f"wrote {len(df)} rows → {a.out}")
+    def on_batch(rows, page, total_pages):
+        if rows and writer["w"] is None:
+            import csv
+            writer["w"] = csv.DictWriter(fh, fieldnames=list(rows[0].keys()))
+            if not append:
+                writer["w"].writeheader()
+        for row in rows:
+            writer["w"].writerow(row)
+        writer["n"] += len(rows)
+        fh.flush()
+        if page % 50 == 0 or (total_pages and page >= total_pages):
+            elapsed = time.time() - t0
+            done = page - a.start_page + 1
+            rate = done / elapsed if elapsed else 0
+            eta = ((total_pages - page) / rate) if (total_pages and rate) else None
+            eta_s = f" · ETA {eta / 3600:.1f}h" if eta else ""
+            tp = f"/{total_pages}" if total_pages else ""
+            print(f"  page {page}{tp} · {writer['n']:,} rows{eta_s}", flush=True)
+
+    try:
+        got = fetch_all(api_key, local_code=a.sido, sleep=a.sleep,
+                        start_page=a.start_page, max_pages=a.max_pages, on_batch=on_batch)
+    finally:
+        fh.close()
+
+    if writer["n"] == 0:
+        raise SystemExit("0 rows — endpoint/param/field 검증 필요 (스크립트 상단 주석)")
+    print(f"\n{writer['n']:,} rows ({got} fetched) → {out}")
+    if a.max_pages:
+        print(f"이어받기: --start-page {a.start_page + a.max_pages} 로 다음 실행")
 
 
 if __name__ == "__main__":

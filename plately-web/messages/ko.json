@@ -1,8 +1,22 @@
 {
-  "meta": { "appName": "Plately", "tagline": "먹을 수 있는 곳을 지도에." },
-  "nav": { "explore": "탐색", "insight": "인사이트", "restart": "다시 시작", "about": "소개" },
-  "theme": { "light": "라이트", "dark": "다크", "system": "시스템" },
-  "language": { "label": "언어" },
+  "meta": {
+    "appName": "Plately",
+    "tagline": "먹을 수 있는 곳을 지도에."
+  },
+  "nav": {
+    "explore": "탐색",
+    "insight": "인사이트",
+    "restart": "다시 시작",
+    "about": "소개"
+  },
+  "theme": {
+    "light": "라이트",
+    "dark": "다크",
+    "system": "시스템"
+  },
+  "language": {
+    "label": "언어"
+  },
   "onboarding": {
     "languageTitle": "언어를 선택하세요",
     "profileTitle": "프로필 만들기",
@@ -58,9 +72,14 @@
     "garlic": "마늘"
   },
   "filters": {
-    "porkFree": "돼지고기 없음", "alcoholFree": "주류 없음", "vegetarian": "채식",
-    "beefFree": "소고기 없음", "seafood": "해산물", "chicken": "닭고기",
-    "korean": "한식", "halalCertified": "할랄 인증"
+    "porkFree": "돼지고기 없음",
+    "alcoholFree": "주류 없음",
+    "vegetarian": "채식",
+    "beefFree": "소고기 없음",
+    "seafood": "해산물",
+    "chicken": "닭고기",
+    "korean": "한식",
+    "halalCertified": "할랄 인증"
   },
   "explore": {
     "placeCount": "{count, plural, other {#곳}}",
@@ -73,33 +92,62 @@
     "mapLabel": "지도",
     "myProfile": "내 프로필"
   },
-  "confidence": { "phone": "전화 확인", "menu": "메뉴 확인", "name": "상호 추정" },
+  "confidence": {
+    "phone": "전화 확인",
+    "menu": "메뉴 확인",
+    "name": "상호 추정"
+  },
   "restaurant": {
     "whyListed": "선정 이유",
-    "matchedTokens": "상호 신호", "menuChecked": "메뉴 문구 확인", "phoneVerified": "{date} 전화 확인",
-    "attributes": "포함 정보", "containsPork": "돼지고기 포함", "servesAlcohol": "주류 제공",
-    "containsBeef": "소고기 포함", "vegetarianFriendly": "채식 메뉴 있음",
-    "repMenu": "대표 메뉴", "directions": "길찾기", "call": "전화", "copyAddress": "주소 복사",
+    "matchedTokens": "상호 신호",
+    "menuChecked": "메뉴 문구 확인",
+    "phoneVerified": "{date} 전화 확인",
+    "attributes": "포함 정보",
+    "containsPork": "돼지고기 포함",
+    "servesAlcohol": "주류 제공",
+    "containsBeef": "소고기 포함",
+    "vegetarianFriendly": "채식 메뉴 있음",
+    "repMenu": "대표 메뉴",
+    "directions": "길찾기",
+    "call": "전화",
+    "copyAddress": "주소 복사",
     "disclaimer": "이용 전 식당에 꼭 확인하세요. 메뉴 이름에 표시가 없어도 육수나 양념에 돼지고기가 들어갈 수 있습니다.",
-    "yes": "예", "no": "아니오", "unknown": "알 수 없음",
+    "yes": "예",
+    "no": "아니오",
+    "unknown": "알 수 없음",
     "yourRestrictions": "내 제한 사항",
     "restrictionClear": "문제 없어 보임",
     "restrictionUnknown": "매장에 확인 필요"
   },
   "insight": {
-    "gapMap": "격차 지도", "rankings": "순위", "compare": "세 지역 비교", "about": "데이터와 방법",
-    "region": "지역", "province": "광역시·도",
-    "demand": "수요", "supply": "공급", "gapIndex": "격차 지수", "trend": "2019년 대비 추이",
+    "gapMap": "격차 지도",
+    "rankings": "순위",
+    "compare": "세 지역 비교",
+    "about": "데이터와 방법",
+    "region": "지역",
+    "province": "광역시·도",
+    "demand": "수요",
+    "supply": "공급",
+    "gapIndex": "격차 지수",
+    "trend": "2019년 대비 추이",
     "rxSaturated": "수요가 이미 충족되었습니다 — 현상을 유지하며 관찰하세요.",
     "rxGrowing": "수요가 공급보다 빠르게 늘고 있습니다 — 지금 돼지고기 없는 선택지를 추가하세요.",
     "rxEmpty": "실제 수요는 있으나 인프라가 전무합니다 — 첫 매장을 유치하세요.",
-    "layerGap": "격차 지수", "layerDemand": "수요", "layerSupply": "공급", "layerCandidates": "후보 밀도",
+    "layerGap": "격차 지수",
+    "layerDemand": "수요",
+    "layerSupply": "공급",
+    "layerCandidates": "후보 밀도",
     "regionListLabel": "격차 지수 순 지역",
     "topCandidates": "상위 후보 식당",
     "compareIntro": "같은 나라, 서로 다른 세 가지 처방.",
-    "saturated": "포화", "growing": "성장 중, 공급 부족", "empty": "공백",
+    "saturated": "포화",
+    "growing": "성장 중, 공급 부족",
+    "empty": "공백",
     "prescription": "처방",
-    "legendTitle": "갭 지수", "gapLow": "낮음", "gapMedium": "보통", "gapHigh": "높음"
+    "legendTitle": "갭 지수",
+    "gapLow": "낮음",
+    "gapMedium": "보통",
+    "gapHigh": "높음"
   },
   "about": {
     "title": "데이터와 방법",
@@ -118,7 +166,12 @@
     "openDataTitle": "오픈 데이터",
     "openDataBody": "산출된 시군구별 격차 데이터셋은 기존 앱과 지방자치단체가 재사용할 수 있도록 공공누리(한국 공공저작물 자유이용허락)로 공개하는 것을 목표로 합니다.",
     "limitsTitle": "한계",
-    "limitsBody": "식당 목록은 손으로 만든 샘플 데이터입니다 — 실제 LOCALDATA·TourAPI 연동은 아직 연결되지 않았습니다. 수요 데이터는 한국관광 데이터랩 실측치를 사용합니다: 시군구별 외국인 방문자 수에 추정 무슬림 시장 비중을 곱한 값입니다. 메뉴 이름에 없어도 육수나 조미료에 돼지 성분이 들어갈 수 있으니 매장에 꼭 확인하세요."
+    "limitsBody": "Explore 식당 목록은 아직 손으로 만든 샘플 데이터이고, TourAPI 메뉴 검증은 연결되지 않았습니다. 다만 Insight 갭 대시보드는 실데이터로 동작합니다: 수요는 한국관광 데이터랩(시군구별 외국인 방문자 수 × 추정 무슬림 시장 비중), 공급은 전국 LOCALDATA 인허가 데이터에서 상호명으로 추정한 포크프리 식당 약 4만 곳입니다. 메뉴 이름에 없어도 육수나 조미료에 돼지 성분이 들어갈 수 있으니 매장에 꼭 확인하세요."
   },
-  "common": { "back": "뒤로", "close": "닫기", "loading": "불러오는 중", "of229": "229개 시군구 중" }
+  "common": {
+    "back": "뒤로",
+    "close": "닫기",
+    "loading": "불러오는 중",
+    "of229": "229개 시군구 중"
+  }
 }

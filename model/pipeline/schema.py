@@ -35,6 +35,21 @@ LOCALDATA_API_FIELD_MAP = {
     "CRD_INFO_Y": Y_COL,             # 좌표 Y (EPSG:5174, 제주는 음수)
 }
 
+# localdata.go.kr 벌크 CSV(15045016) / 모범음식점 등 파일-덤프의 헤더 → 우리 표준.
+# 파일마다 이름이 조금씩 달라(지번주소 vs 소재지전체주소, 대소문자 등) — normalize 에서 rename.
+LOCALDATA_CSV_HEADER_ALIASES = {
+    "지번주소": ADDR_COL,
+    "소재지주소": ADDR_COL,
+    "소재지전체주소": ADDR_COL,
+    "도로명주소": ROAD_ADDR_COL,
+    "도로명전체주소": ROAD_ADDR_COL,
+    "좌표정보(X)": X_COL,
+    "좌표정보(Y)": Y_COL,
+    "좌표정보(x)": X_COL,
+    "좌표정보(y)": Y_COL,
+    "업소명": NAME_COL,
+}
+
 OPEN_STATUS_NAME = "영업/정상"
 CLOSED_DETAIL_STATUSES = frozenset({"폐업", "휴업", "직권말소", "말소", "폐업처리"})
 
