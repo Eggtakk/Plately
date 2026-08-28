@@ -83,3 +83,27 @@ def test_no_axis_match_is_dropped():
     assert list(match_tokens(_df("그냥 분식집")).columns) == list(
         match_tokens(_df("용산 삼계탕집")).columns
     )
+
+
+def test_menu_hint_pork_token_drops_candidate():
+    df = _df("일미식당")           # name alone: no axis match → would be dropped anyway
+    df["menu_hint"] = ["삼겹살"]   # ... but even with a hint, 삼겹살 → containsPork → dropped
+    assert len(match_tokens(df)) == 0
+
+
+def test_menu_hint_promotes_via_axis_token():
+    df = _df("행복회관")           # name: no axis match
+    df["menu_hint"] = ["조개"]     # hint has seafood token → promoted
+    out = match_tokens(df)
+    assert len(out) == 1 and out.iloc[0]["containsSeafood"] is True
+
+
+def test_menu_hint_pork_beats_axis():
+    df = _df("바다식당")
+    df["menu_hint"] = ["돼지갈비 물회"]   # both a pork and a seafood token
+    assert len(match_tokens(df)) == 0     # pork wins → dropped
+
+
+def test_no_menu_hint_column_is_unchanged():
+    out = match_tokens(_df("용산 삼계탕집"))   # no menu_hint col at all
+    assert len(out) == 1

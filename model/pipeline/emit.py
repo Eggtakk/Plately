@@ -78,14 +78,17 @@ def to_region_gap(df: pd.DataFrame) -> list[dict]:
 
 
 def build_meta(restaurants: int, regions: int, *, demand_source: str = "sample",
-               muslim_share: float | None = None) -> dict:
+               supply_source: str = "sample", muslim_share: float | None = None) -> dict:
+    if supply_source not in ("sample", "localdata-api"):
+        raise ValueError(f"supply_source: {supply_source!r}")
     meta = {
-        "sampleData": True,   # restaurants 는 LOCALDATA 미연동이므로 항상 샘플
+        "sampleData": supply_source == "sample",   # 식당 목록이 손 작성 샘플인지
         "demandSource": demand_source,   # "sample" | "datalab-regional-<YYYY-MM>"
+        "supplySource": supply_source,   # "sample" | "localdata-api"
         "generatedAt": _dt.datetime.now(_dt.timezone.utc).isoformat(timespec="seconds"),
         "restaurants": int(restaurants),
         "regions": int(regions),
-        "note": "LOCALDATA/TourAPI 실데이터 연결 전 손 작성 샘플 (수요는 demandSource 참조)",
+        "note": "수요는 demandSource, 공급(식당)은 supplySource 참조",
     }
     if muslim_share is not None:
         meta["muslimShare"] = round(float(muslim_share), 4)

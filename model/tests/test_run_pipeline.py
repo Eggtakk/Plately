@@ -3,6 +3,8 @@ from pathlib import Path
 from scripts.run_pipeline import run
 
 SAMPLES = Path(__file__).resolve().parents[1] / "data/samples"
+FIXTURES = Path(__file__).resolve().parent / "fixtures"
+GEOJSON = Path(__file__).resolve().parents[2] / "plately-web/public/sigungu.simplified.geojson"
 
 
 def test_run_produces_three_files(tmp_path):
@@ -63,6 +65,25 @@ def test_restaurants_json_is_valid_restaurant_shape(tmp_path):
         assert r["area"]["ko"] and not r["area"]["ko"].endswith(r["sigunguCode"])  # real district name, not raw code
 
 
+def test_api_mode_with_model_hints(tmp_path):
+    run(localdata=FIXTURES / "localdata-real-sample.csv", tourapi_dir=SAMPLES / "tourapi",
+        datalab=SAMPLES / "datalab-visitors.sample.csv", out_dir=tmp_path,
+        localdata_format="api", model_restaurant_csv=FIXTURES / "model-restaurant-mini.csv",
+        geojson=GEOJSON)
+    rs = json.loads((tmp_path / "restaurants.json").read_text())
+    meta = json.loads((tmp_path / "_meta.json").read_text())
+    assert meta["supplySource"] == "localdata-api"
+    assert meta["demandSource"] == "sample"
+    assert meta["sampleData"] is False
+    assert len(rs) >= 1
+    names = {r["name"]["ko"] for r in rs}
+    # "종로 곰탕집": name 만으로는 곰탕(beef) 후보지만 모범음식점 힌트 "삼겹살" → containsPork → 탈락
+    assert "종로 곰탕집" not in names
+    for r in rs:
+        assert r["attributes"]["containsPork"] is False
+        assert r["confidence"] in {"name", "menu", "phone"}
+
+
 def test_regional_mode_produces_250_regions_and_meta(tmp_path):
     fx = Path(__file__).resolve().parent / "fixtures"
     geo = Path(__file__).resolve().parents[2] / "plately-web/public/sigungu.simplified.geojson"
@@ -73,6 +94,7 @@ def test_regional_mode_produces_250_regions_and_meta(tmp_path):
     assert len(gap) == 250
     meta = json.loads((tmp_path / "_meta.json").read_text())
     assert meta["demandSource"] == "datalab-regional"
+    assert meta["supplySource"] == "sample"
     assert 0.0 < meta["muslimShare"] < 1.0
     assert meta["sampleData"] is True
     by = {g["code"]: g for g in gap}
@@ -88,5 +110,5 @@ def test_committed_snapshot_matches_fresh_run(tmp_path):
         assert json.loads((tmp_path / f).read_text()) == json.loads((committed / f).read_text()), f
     fresh_meta = json.loads((tmp_path / "_meta.json").read_text())
     old_meta = json.loads((committed / "_meta.json").read_text())
-    for k in ["sampleData", "restaurants", "regions", "note", "demandSource"]:
+    for k in ["sampleData", "restaurants", "regions", "note", "demandSource", "supplySource"]:
         assert fresh_meta[k] == old_meta[k]

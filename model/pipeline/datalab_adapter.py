@@ -11,98 +11,45 @@ n개 구에 **균등 분배**한다(사용자 확정). 구별 실제 편차는 �
 demand_score 는 muslim_share 를 곱한 raw 값의 **백분위 랭크**(0~100). 상수 곱이라
 시군구 간 순위는 바뀌지 않는다. 값이 없는(매칭 실패/스킵) 코드는 0.
 trend_vs_2019 는 이 export 에 없어 전부 0.
+
+지역명 → 코드 매칭은 pipeline.region_codes.RegionResolver 로 분리했다. 아래 상수
+(GWANGYEOK_PREFIX / NAME_ALIASES / VINTAGE_OVERRIDES / GWANGYEOK_EN / _city_key)는
+기존 import 호환을 위해 이 모듈에서 재노출한다.
 """
 from __future__ import annotations
 
 import csv
-import json
 import logging
-from collections import defaultdict
 from pathlib import Path
 
 import pandas as pd
 
+from pipeline.region_codes import (
+    GWANGYEOK_EN,
+    GWANGYEOK_PREFIX,
+    NAME_ALIASES,
+    RegionResolver,
+    VINTAGE_OVERRIDES,
+    _city_key,
+)
+
 log = logging.getLogger(__name__)
 
-# 광역지자체명 → code[:2] 2자리 접두. "특별자치" 등 개칭 형태도 함께 매핑.
-GWANGYEOK_PREFIX: dict[str, str] = {
-    "서울특별시": "11",
-    "부산광역시": "21",
-    "대구광역시": "22",
-    "인천광역시": "23",
-    "광주광역시": "24",
-    "대전광역시": "25",
-    "울산광역시": "26",
-    "세종특별자치시": "29",
-    "경기도": "31",
-    "강원도": "32",
-    "강원특별자치도": "32",
-    "충청북도": "33",
-    "충청남도": "34",
-    "전라북도": "35",
-    "전북특별자치도": "35",
-    "전라남도": "36",
-    "경상북도": "37",
-    "경상남도": "38",
-    "제주특별자치도": "39",
-}
+# 하위 호환: 예전 이름(_GWANGYEOK_EN)으로도 접근 가능하게 유지.
+_GWANGYEOK_EN = GWANGYEOK_EN
 
-# CSV 기초명 → geojson 기초명 (표기가 다를 때만).
-NAME_ALIASES: dict[str, str] = {
-    "세종특별자치시": "세종시",  # CSV: 세종특별자치시,세종특별자치시 / geojson: 29010 세종시
-}
-
-# 2018 geojson 이 예측 못한 행정구역 변경 → (광역명, 기초명) → 5자리 코드.
-# 군위군: 2023년 경북 → 대구 편입. 2018 geojson 은 접두 37(경북)로 유지하며
-# 군위군 코드는 37310 (spec 초안의 37430 은 울릉군 — 실제 geojson 확인 후 정정).
-# 이 목록은 검증 단계(A4)의 매칭 실패 로그에서 계속 채운다.
-VINTAGE_OVERRIDES: dict[tuple[str, str], str] = {
-    ("대구광역시", "군위군"): "37310",
-    # 인천 미추홀구: 2018년 남구 → 미추홀구 개칭. 2018 geojson 은 23030 "남구".
-    ("인천광역시", "미추홀구"): "23030",
-}
-
-# code[:2] → 영문 라벨. scripts/gen_datalab_sample.py 의 GWANGYEOK 과 동일.
-# scripts↔pipeline 결합을 피하려고 이 모듈에 로컬 복사.
-_GWANGYEOK_EN: dict[str, str] = {
-    "11": "Seoul", "21": "Busan", "22": "Daegu", "23": "Incheon", "24": "Gwangju",
-    "25": "Daejeon", "26": "Ulsan", "29": "Sejong", "31": "Gyeonggi", "32": "Gangwon",
-    "33": "Chungbuk", "34": "Chungnam", "35": "Jeonbuk", "36": "Jeonnam",
-    "37": "Gyeongbuk", "38": "Gyeongnam", "39": "Jeju",
-}
+__all__ = [
+    "GWANGYEOK_PREFIX",
+    "NAME_ALIASES",
+    "VINTAGE_OVERRIDES",
+    "GWANGYEOK_EN",
+    "RegionResolver",
+    "_city_key",
+    "resolve_matches",
+    "load_regional_demand",
+]
 
 _OUT_COLUMNS = ["sigungu_code", "sigungu_name", "gwangyeok", "demand_score", "trend_vs_2019"]
-
-
-def _city_key(name: str) -> str:
-    """일반구 접미(`[가-힣]+구`)를 떼되, 남는 부분이 `시` 로 끝날 때만.
-
-    수원시장안구 → 수원시,  용산구 → 용산구(불변),  중구 → 중구(불변).
-    """
-    if name.endswith("구") and "시" in name[:-1]:
-        return name[: name.rindex("시") + 1]
-    return name
-
-
-def _load_features(geojson: Path) -> list[tuple[str, str]]:
-    geo = json.loads(Path(geojson).read_text(encoding="utf-8-sig"))
-    out = []
-    for f in geo["features"]:
-        props = f["properties"]
-        out.append((str(props["code"]), str(props["name"])))
-    return out
-
-
-def _build_indices(
-    features: list[tuple[str, str]],
-) -> tuple[dict[tuple[str, str], str], dict[tuple[str, str], list[str]]]:
-    exact_index: dict[tuple[str, str], str] = {}
-    prefix_index: dict[tuple[str, str], list[str]] = defaultdict(list)
-    for code, name in features:
-        p = code[:2]
-        exact_index[(p, name)] = code
-        prefix_index[(p, _city_key(name))].append(code)
-    return exact_index, dict(prefix_index)
 
 
 def _read_rows(regional_csv: Path):
@@ -127,26 +74,22 @@ def resolve_matches(
     A4 검증과 테스트가 정규화 없이 매칭 품질만 볼 수 있도록 분리한 헬퍼.
     통합시 균등분배가 적용된 raw 값(muslim_share 미적용)을 반환한다.
     """
-    exact_index, prefix_index = _build_indices(_load_features(geojson))
+    resolver = RegionResolver(geojson)
     code_raw: dict[str, float] = {}
     unmatched: list[str] = []
 
     for gw, gu, raw in _read_rows(regional_csv):
-        prefix = GWANGYEOK_PREFIX.get(gw)
-        alias = NAME_ALIASES.get(gu, gu)
-
-        if prefix is not None and (prefix, alias) in exact_index:
-            code_raw[exact_index[(prefix, alias)]] = raw
-        elif prefix is not None and (prefix, gu) in prefix_index:
-            codes = prefix_index[(prefix, gu)]
-            k = len(codes)
-            for c in codes:
-                code_raw[c] = raw / k
-        elif (gw, gu) in VINTAGE_OVERRIDES:
-            code_raw[VINTAGE_OVERRIDES[(gw, gu)]] = raw
-        else:
+        codes = resolver.resolve_codes(gw, gu)
+        if not codes:
             unmatched.append(f"{gw} {gu}")
             log.warning("unmatched region: %s %s", gw, gu)
+            continue
+        k = len(codes)
+        if k == 1:
+            code_raw[codes[0]] = raw
+        else:
+            for c in codes:
+                code_raw[c] = raw / k
 
     return code_raw, unmatched
 
@@ -161,7 +104,7 @@ def load_regional_demand(
 
     geojson feature 하나당 정확히 한 행(250개 코드 전부).
     """
-    features = _load_features(geojson)
+    resolver = RegionResolver(geojson)
     code_raw, _ = resolve_matches(regional_csv, geojson)
 
     # 컬럼명 변경 등으로 방문자수가 전부 0/동일하면 rank(pct=True) 가 모두 100 을
@@ -183,11 +126,11 @@ def load_regional_demand(
     rows = [
         {
             "sigungu_code": code,
-            "sigungu_name": name,
-            "gwangyeok": _GWANGYEOK_EN.get(code[:2], "Other"),
+            "sigungu_name": resolver.name_of(code),
+            "gwangyeok": resolver.gwangyeok_en(code),
             "demand_score": score.get(code, 0),
             "trend_vs_2019": 0,
         }
-        for code, name in features
+        for code in resolver.all_codes()
     ]
     return pd.DataFrame(rows, columns=_OUT_COLUMNS)

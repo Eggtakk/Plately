@@ -32,13 +32,14 @@ def _found(text: str, needles) -> list[str]:
     return [n for n in needles if n.upper() in up]
 
 
-def _match_one(name: str) -> dict | None:
-    hits = _found(name, tokens.EXCLUDE_PORK)
+def _match_one(name: str, extra_text: str = "") -> dict | None:
+    hay = f"{name} {extra_text}".strip()
+    hits = _found(hay, tokens.EXCLUDE_PORK)
     contains_pork = len(hits) > 0
 
     axis_hits: dict[str, list[str]] = {}
     for axis, needles in tokens.INCLUDE_AXES.items():
-        found = _found(name, needles)
+        found = _found(hay, needles)
         if found:
             axis_hits[axis] = found
 
@@ -82,7 +83,8 @@ def _match_one(name: str) -> dict | None:
 def match_tokens(df: pd.DataFrame) -> pd.DataFrame:
     records = []
     for _, r in df.iterrows():
-        m = _match_one(str(r["name"]))
+        hint = str(r["menu_hint"]) if "menu_hint" in df.columns and pd.notna(r.get("menu_hint")) else ""
+        m = _match_one(str(r["name"]), hint)
         if m is None:
             continue
         records.append({**r.to_dict(), **m})
